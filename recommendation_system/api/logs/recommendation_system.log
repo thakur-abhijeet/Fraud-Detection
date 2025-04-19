@@ -1,0 +1,49 @@
+2025-04-16 13:17:49,513 - recommendation_system - WARNING - Products file not found: /home/masubhaat/ML/recommendations_system/data/sample_products.csv
+2025-04-16 13:17:49,513 - recommendation_system - WARNING - Ratings file not found: /home/masubhaat/ML/recommendations_system/data/sample_interactions.csv
+2025-04-16 13:17:49,513 - recommendation_system - WARNING - Reviews file not found: /home/masubhaat/ML/recommendations_system/data/sample_reviews.csv
+2025-04-16 13:17:49,514 - recommendation_system - WARNING - Users file not found: /home/masubhaat/ML/recommendations_system/data/sample_users.csv
+2025-04-16 13:17:50,790 - recommendation_system - ERROR - Error in fit method: No users with at least 5 interactions found.
+2025-04-16 13:17:50,790 - recommendation_system - ERROR - Error fitting recommenders: No users with at least 5 interactions found.
+2025-04-16 13:17:50,792 - recommendation_system - ERROR - Error in fit method: No users with at least 5 interactions found.
+2025-04-16 13:17:50,792 - recommendation_system - ERROR - Fallback initialization also failed: No users with at least 5 interactions found.
+2025-04-16 13:17:50,792 - recommendation_system - ERROR - Error loading data: Could not initialize recommenders: No users with at least 5 interactions found.
+2025-04-16 13:17:50,792 - recommendation_system - ERROR - Error occurred: Could not initialize recommenders: No users with at least 5 interactions found.
+2025-04-16 13:17:50,793 - recommendation_system - ERROR - Traceback (most recent call last):
+  File "/home/masubhaat/ML/recommendation_system/api/app.py", line 238, in load_data
+    collaborative_recommender.fit(ratings_df)
+  File "/home/masubhaat/ML/recommendation_system/src/collaborative_filtering.py", line 102, in fit
+    raise ValueError(f"No users with at least {min_interactions} interactions found.")
+ValueError: No users with at least 5 interactions found.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/masubhaat/ML/recommendation_system/api/app.py", line 253, in load_data
+    collaborative_recommender.fit(ratings_df)
+  File "/home/masubhaat/ML/recommendation_system/src/collaborative_filtering.py", line 102, in fit
+    raise ValueError(f"No users with at least {min_interactions} interactions found.")
+ValueError: No users with at least 5 interactions found.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/masubhaat/miniconda3/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/masubhaat/miniconda3/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/masubhaat/ML/recommendation_system/api/app.py", line 263, in load_data
+    raise ValueError(f"Could not initialize recommenders: {str(e2)}")
+ValueError: Could not initialize recommenders: No users with at least 5 interactions found.
+
+2025-04-16 13:19:41,360 - recommendation_system - WARNING - Products file not found: /home/masubhaat/ML/recommendations_system/data/sample_products.csv
+2025-04-16 13:19:41,361 - recommendation_system - WARNING - Ratings file not found: /home/masubhaat/ML/recommendations_system/data/sample_interactions.csv
+2025-04-16 13:19:41,361 - recommendation_system - WARNING - Reviews file not found: /home/masubhaat/ML/recommendations_system/data/sample_reviews.csv
+2025-04-16 13:19:41,361 - recommendation_system - WARNING - Users file not found: /home/masubhaat/ML/recommendations_system/data/sample_users.csv
+2025-04-16 13:19:42,859 - recommendation_system - WARNING - Dataset too small for item_based (users: 3, items: 3). Switching to item_based method.
+2025-04-16 17:26:29,999 - recommendation_system - WARNING - Products file not found: /home/masubhaat/ML/recommendations_system/data/sample_products.csv
+2025-04-16 17:26:30,002 - recommendation_system - WARNING - Ratings file not found: /home/masubhaat/ML/recommendations_system/data/sample_interactions.csv
+2025-04-16 17:26:30,002 - recommendation_system - WARNING - Reviews file not found: /home/masubhaat/ML/recommendations_system/data/sample_reviews.csv
+2025-04-16 17:26:30,003 - recommendation_system - WARNING - Users file not found: /home/masubhaat/ML/recommendations_system/data/sample_users.csv
+2025-04-16 17:26:31,414 - recommendation_system - WARNING - Dataset too small for item_based (users: 3, items: 3). Switching to item_based method.
