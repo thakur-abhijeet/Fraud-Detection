@@ -1,8 +1,14 @@
-# E-commerce Fraud Detection System
+# 🛡️ E-commerce Fraud Detection System
 
-A comprehensive fraud detection system for e-commerce platforms that identifies and prevents various types of fraud including credit card fraud, account takeovers, friendly fraud (chargeback fraud), promotion abuse, refund fraud, bot attacks, and synthetic identity fraud.
+[![Python Version](https://img.shields.io/badge/python-3.7%2B-blue.svg)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Documentation](https://img.shields.io/badge/docs-latest-brightgreen.svg)](documentation/SYSTEM_GUIDE.md)
+[![Tests](https://img.shields.io/badge/tests-passing-brightgreen.svg)](tests/)
+[![Code Style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-## Features
+A comprehensive fraud detection system for e-commerce platforms that identifies and prevents various types of fraud using advanced machine learning techniques.
+
+## 🌟 Features
 
 - **Multi-layered Fraud Detection**: Combines multiple approaches to provide comprehensive protection
 - **Credit Card Fraud Detection**: Identifies fraudulent credit card transactions using machine learning
@@ -18,7 +24,20 @@ A comprehensive fraud detection system for e-commerce platforms that identifies 
 - **Detailed Risk Analysis**: Provides detailed risk factors and explanations
 - **Historical Analysis**: Tracks and analyzes patterns over time
 
-## Project Structure
+## 📊 System Architecture
+
+```
+┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
+│  Data Input     │────▶│  Processing     │────▶│  Risk Scoring   │
+└─────────────────┘     └─────────────────┘     └─────────────────┘
+        │                       │                       │
+        ▼                       ▼                       ▼
+┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
+│  Data Storage   │◀───▶│  ML Models      │◀───▶│  API Layer      │
+└─────────────────┘     └─────────────────┘     └─────────────────┘
+```
+
+## 📁 Project Structure
 
 ```
 fraud_detection_system/
@@ -44,6 +63,8 @@ fraud_detection_system/
 ├── tests/               # Test suite
 │   ├── conftest.py     # Test configuration
 │   └── test_*.py       # Test modules
+├── documentation/       # System documentation
+│   └── SYSTEM_GUIDE.md # Comprehensive system guide
 ├── .env                # Environment variables (not in git)
 ├── .env.example        # Example environment variables
 ├── .gitignore         # Git ignore file
@@ -51,13 +72,15 @@ fraud_detection_system/
 └── README.md          # Project documentation
 ```
 
-## Requirements
+## 🚀 Quick Start
+
+### Prerequisites
 
 - Python 3.7+
 - PostgreSQL 12+
-- Dependencies listed in requirements.txt
+- Git
 
-## Installation
+### Installation
 
 1. Clone the repository:
 ```bash
@@ -87,7 +110,7 @@ cp .env.example .env
 python -c "from src.database.service import DatabaseService; DatabaseService().init_db()"
 ```
 
-## Usage
+## 💻 Usage
 
 ### Running the API
 
@@ -139,7 +162,7 @@ print(json.dumps(response.json(), indent=2))
 pytest tests/
 ```
 
-## Configuration
+## ⚙️ Configuration
 
 The system is configured through environment variables. See `.env.example` for available options:
 
@@ -149,14 +172,36 @@ The system is configured through environment variables. See `.env.example` for a
 - Fraud detection thresholds
 - Risk weights for different fraud types
 
-## Contributing
+## 📚 Documentation
+
+For detailed documentation, please refer to:
+- [System Guide](documentation/SYSTEM_GUIDE.md)
+- [API Documentation](api/README.md)
+- [Model Documentation](src/models/README.md)
+
+## 🤝 Contributing
 
 1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-## License
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📞 Support
+
+For support, please:
+- Open an issue
+- Contact: support@frauddetection.com
+- Visit: docs.frauddetection.com
+
+## 🙏 Acknowledgments
+
+- Thanks to all contributors
+- Inspired by various open-source fraud detection systems
+- Built with ❤️ by the fraud detection team

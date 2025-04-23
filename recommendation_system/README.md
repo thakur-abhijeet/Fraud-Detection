@@ -1,38 +1,83 @@
-# E-commerce Recommendation System
+# 🎯 Product Recommendation System
 
-A comprehensive recommendation system that combines content-based, collaborative, and sentiment-based filtering approaches to provide personalized product recommendations.
+[![Python Version](https://img.shields.io/badge/python-3.7%2B-blue.svg)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Documentation](https://img.shields.io/badge/docs-latest-brightgreen.svg)](documentation/SYSTEM_GUIDE.md)
+[![Tests](https://img.shields.io/badge/tests-passing-brightgreen.svg)](tests/)
+[![Code Style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-## Features
+A comprehensive recommendation system that combines multiple approaches to provide personalized product recommendations using advanced machine learning techniques.
 
-- **Content-Based Filtering**: Recommends products based on their features and attributes
-- **Collaborative Filtering**: Uses user-item interactions to find similar users/items
-- **Sentiment-Based Filtering**: Incorporates product reviews and sentiment analysis
-- **Hybrid Recommendations**: Combines multiple approaches for better recommendations
-- **RESTful API**: Easy integration with web applications
-- **Customizable Weights**: Adjust recommendation weights based on product categories
+## 🌟 Features
 
-## System Architecture
+- **Collaborative Filtering**: User-item interaction analysis for personalized recommendations
+- **Content-Based Filtering**: Product feature analysis for similar item recommendations
+- **Hybrid Recommender**: Combines multiple approaches for optimal results
+- **Sentiment Analysis**: Incorporates user reviews and feedback
+- **Real-time Updates**: Dynamic recommendation updates based on user behavior
+- **Cold-start Handling**: Special handling for new users and items
+- **Scalable Architecture**: Designed for high-performance and scalability
+- **API Integration**: RESTful API for easy integration
+- **Customizable Weights**: Adjustable weights for different recommendation methods
+- **Performance Monitoring**: Built-in performance tracking and analysis
 
-The system consists of the following components:
+## 📊 System Architecture
 
-1. **API Layer** (`api/app.py`):
-   - RESTful endpoints for recommendations
-   - Data loading and preprocessing
-   - Error handling and response formatting
+```
+┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
+│  Data Input     │────▶│  Processing     │────▶│  Recommendation │
+└─────────────────┘     └─────────────────┘     └─────────────────┘
+        │                       │                       │
+        ▼                       ▼                       ▼
+┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
+│  Data Storage   │◀───▶│  ML Models      │◀───▶│  API Layer      │
+└─────────────────┘     └─────────────────┘     └─────────────────┘
+```
 
-2. **Recommendation Engines**:
-   - Content-Based Recommender (`src/content_based_filtering.py`)
-   - Collaborative Filtering Recommender (`src/collaborative_filtering.py`)
-   - Sentiment-Based Recommender (`src/sentiment_based_filtering.py`)
-   - Hybrid Recommender (`src/hybrid_recommender.py`)
+## 📁 Project Structure
 
-3. **Data Processing** (`src/data_preprocessing.py`):
-   - Data loading and cleaning
-   - Feature extraction
-   - Text preprocessing
-   - Data splitting
+```
+recommendation_system/
+├── api/                    # API implementation
+│   ├── app.py             # Main API application
+│   ├── routes/            # API route handlers
+│   └── test_api.py        # API tests
+├── data/                  # Data storage
+│   ├── raw/              # Raw data files
+│   └── processed/        # Processed data files
+├── model/                # Trained models
+├── notebook/            # Jupyter notebooks
+├── src/                 # Source code
+│   ├── config.py        # Configuration management
+│   ├── database/        # Database models and services
+│   │   ├── models.py    # SQLAlchemy models
+│   │   └── service.py   # Database service
+│   └── models/          # Recommendation models
+│       ├── collaborative_filtering.py  # Collaborative filtering model
+│       ├── content_based_filtering.py  # Content-based filtering model
+│       ├── hybrid_recommender.py       # Hybrid recommender model
+│       └── sentiment_based_filtering.py # Sentiment-based filtering model
+├── tests/               # Test suite
+│   ├── conftest.py     # Test configuration
+│   └── test_*.py       # Test modules
+├── documentation/       # System documentation
+│   └── SYSTEM_GUIDE.md # Comprehensive system guide
+├── .env                # Environment variables (not in git)
+├── .env.example        # Example environment variables
+├── .gitignore         # Git ignore file
+├── requirements.txt    # Python dependencies
+└── README.md          # Project documentation
+```
 
-## Installation
+## 🚀 Quick Start
+
+### Prerequisites
+
+- Python 3.7+
+- PostgreSQL 12+
+- Git
+
+### Installation
 
 1. Clone the repository:
 ```bash
@@ -40,10 +85,10 @@ git clone https://github.com/yourusername/recommendation_system.git
 cd recommendation_system
 ```
 
-2. Create a virtual environment:
+2. Create and activate a virtual environment:
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate  # On Windows: venv\\Scripts\\activate
 ```
 
 3. Install dependencies:
@@ -51,104 +96,95 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-4. Download NLTK resources:
-```python
-import nltk
-nltk.download('stopwords')
-nltk.download('wordnet')
-nltk.download('punkt')
+4. Set up environment variables:
+```bash
+cp .env.example .env
+# Edit .env with your configuration
 ```
 
-## Usage
+5. Initialize the database:
+```bash
+python -c "from src.database.service import DatabaseService; DatabaseService().init_db()"
+```
 
-1. Start the API server:
+## 💻 Usage
+
+### Running the API
+
 ```bash
 python api/app.py
 ```
 
-2. Load data:
+The API will be available at http://localhost:5001.
+
+### Example API Usage
+
+```python
+import requests
+import json
+
+# Base URL for the API
+base_url = "http://localhost:5001"
+
+# Get recommendations for a user
+response = requests.post(
+    f"{base_url}/api/recommendations",
+    json={
+        "user_id": "U12345",
+        "n_recommendations": 5,
+        "method": "hybrid"  # Options: collaborative, content, hybrid, sentiment
+    }
+)
+
+print(json.dumps(response.json(), indent=2))
+```
+
+### Running Tests
+
 ```bash
-curl -X POST http://localhost:5000/api/load_data \
-  -H "Content-Type: application/json" \
-  -d '{
-    "products_file": "products.csv",
-    "ratings_file": "ratings.csv",
-    "reviews_file": "reviews.csv"
-  }'
+pytest tests/
 ```
 
-3. Get recommendations:
-```bash
-# Content-based recommendations
-curl -X POST http://localhost:5000/api/content_recommendations \
-  -H "Content-Type: application/json" \
-  -d '{"product_id": "123", "num_recommendations": 5}'
+## ⚙️ Configuration
 
-# Collaborative filtering recommendations
-curl -X POST http://localhost:5000/api/collaborative_recommendations \
-  -H "Content-Type: application/json" \
-  -d '{"user_id": "456", "num_recommendations": 5}'
+The system is configured through environment variables. See `.env.example` for available options:
 
-# Hybrid recommendations
-curl -X POST http://localhost:5000/api/hybrid_recommendations \
-  -H "Content-Type: application/json" \
-  -d '{
-    "user_id": "456",
-    "category": "electronics",
-    "num_recommendations": 5
-  }'
-```
+- Database configuration (host, port, credentials)
+- API settings (host, port, debug mode)
+- Model parameters (training samples, update interval)
+- Recommendation thresholds
+- Method weights for hybrid approach
 
-## Configuration
+## 📚 Documentation
 
-The system can be configured through the following files:
+For detailed documentation, please refer to:
+- [System Guide](documentation/SYSTEM_GUIDE.md)
+- [API Documentation](api/README.md)
+- [Model Documentation](src/models/README.md)
 
-- `config.py`: Global configuration settings
-- `weights.json`: Recommendation weights for different categories
-- `.env`: Environment variables
-
-## Data Format
-
-### Products Data
-```csv
-product_id,name,description,category,price,features
-1,Product A,Description A,Electronics,99.99,Feature A|Feature B
-```
-
-### Ratings Data
-```csv
-user_id,product_id,rating,timestamp
-101,1,5,2023-01-01
-```
-
-### Reviews Data
-```csv
-user_id,product_id,review_text,rating,timestamp
-101,1,Great product!,5,2023-01-01
-```
-
-## Evaluation Metrics
-
-The system uses the following metrics to evaluate recommendations:
-- Precision@K
-- Recall@K
-- NDCG@K
-- F1 Score
-
-## Contributing
+## 🤝 Contributing
 
 1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-## License
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+## 📝 License
 
-## Acknowledgments
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-- NLTK for text processing
-- scikit-learn for machine learning algorithms
-- Flask for the API framework 
+## 📞 Support
+
+For support, please:
+- Open an issue
+- Contact: support@recommendationsystem.com
+- Visit: docs.recommendationsystem.com
+
+## 🙏 Acknowledgments
+
+- Thanks to all contributors
+- Inspired by various open-source recommendation systems
+- Built with ❤️ by the recommendation system team 
