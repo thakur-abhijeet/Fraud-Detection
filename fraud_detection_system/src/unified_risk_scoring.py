@@ -16,7 +16,7 @@ from datetime import datetime, timedelta
 from collections import defaultdict
 
 # Import fraud detection modules
-from credit_card_fraud_detection import CreditCardFraudDetector
+from src.credit_card_fraud_detection import CreditCardFraudDetector
 from account_takeover_prevention import AccountTakeoverDetector
 from friendly_fraud_detection import FriendlyFraudDetector
 from additional_fraud_detection import AdditionalFraudDetector

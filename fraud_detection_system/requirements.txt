@@ -7,7 +7,7 @@ seaborn==0.11.2
 Flask==2.0.1
 python-dotenv==0.19.2
 pytest==6.2.5
-black==21.6b0
+black==25.1.0
 mypy==0.910
 pylint==2.9.6
 requests==2.26.0

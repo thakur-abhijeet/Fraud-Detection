@@ -5,7 +5,8 @@ Database models for the fraud detection system.
 from datetime import datetime
 from typing import Dict, Any
 from sqlalchemy import Column, Integer, Float, String, DateTime, Boolean, ForeignKey, JSON
-from sqlalchemy.ext.declarative import declarative_base
+# from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import declarative_base
 from sqlalchemy.orm import relationship
 
 Base = declarative_base()
@@ -32,7 +33,7 @@ class Transaction(Base):
     risk_score = Column(Float)
     risk_level = Column(String(20))
     is_fraud = Column(Boolean, default=False)
-    metadata = Column(JSON)
+    meta_info = Column('metadata', String, key='meta_info')
 
     user = relationship("User", back_populates="transactions")
     fraud_analysis = relationship("FraudAnalysis", back_populates="transaction", uselist=False)
@@ -49,7 +50,7 @@ class User(Base):
     country = Column(String(2))
     risk_score = Column(Float, default=0.0)
     is_blocked = Column(Boolean, default=False)
-    metadata = Column(JSON)
+    meta_info = Column('metadata', String, key='meta_info')
 
     transactions = relationship("Transaction", back_populates="user")
     devices = relationship("Device", back_populates="user")
@@ -70,7 +71,7 @@ class Device(Base):
     first_seen = Column(DateTime, nullable=False, default=datetime.utcnow)
     last_seen = Column(DateTime, nullable=False, default=datetime.utcnow)
     is_trusted = Column(Boolean, default=False)
-    metadata = Column(JSON)
+    meta_info = Column('metadata', String, key='meta_info')
 
     user = relationship("User", back_populates="devices")
 
@@ -86,7 +87,7 @@ class LoginAttempt(Base):
     timestamp = Column(DateTime, nullable=False, default=datetime.utcnow)
     success = Column(Boolean, default=True)
     risk_score = Column(Float)
-    metadata = Column(JSON)
+    meta_info = Column('metadata', String, key='meta_info')
 
     user = relationship("User", back_populates="login_attempts")
 
@@ -105,7 +106,7 @@ class FraudAnalysis(Base):
     final_action = Column(String(50))
     reviewed_by = Column(String(50))
     review_notes = Column(String(1000))
-    metadata = Column(JSON)
+    meta_info = Column('metadata', String, key='meta_info')
 
     transaction = relationship("Transaction", back_populates="fraud_analysis")
 
@@ -123,4 +124,4 @@ class RiskRule(Base):
     is_active = Column(Boolean, default=True)
     created_at = Column(DateTime, nullable=False, default=datetime.utcnow)
     updated_at = Column(DateTime, nullable=False, default=datetime.utcnow)
-    metadata = Column(JSON) 
+    meta_info = Column('metadata', String, key='meta_info')
