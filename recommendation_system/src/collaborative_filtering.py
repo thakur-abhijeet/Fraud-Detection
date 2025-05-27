@@ -14,7 +14,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import pickle
 import os
 from typing import List, Tuple, Dict, Optional, Union
-from src.utils.logging_config import logger
+#from recommendation_system.src.utils.logging_config import logger
 
 class CollaborativeFilteringRecommender:
     """
