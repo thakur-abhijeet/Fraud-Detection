@@ -24,6 +24,9 @@ def generate_transaction_data(n_samples=1000, fraud_rate=0.05):
     np.random.seed(42)
     random.seed(42)
     
+    # Calculate exact number of fraudulent transactions
+    n_fraud = int(n_samples * fraud_rate)
+    
     # Generate base data
     data = {
         'transaction_id': range(n_samples),
@@ -44,21 +47,32 @@ def generate_transaction_data(n_samples=1000, fraud_rate=0.05):
     }
     
     # Generate amounts with different distributions for fraud and non-fraud
-    fraud_mask = np.random.binomial(1, fraud_rate, n_samples)
+    # Create fraud mask with exact number of fraudulent transactions
+    fraud_indices = np.random.choice(n_samples, n_fraud, replace=False)
+    fraud_mask = np.zeros(n_samples, dtype=bool)
+    fraud_mask[fraud_indices] = True
     
     # Normal transactions: mostly small amounts
     normal_amounts = np.random.lognormal(mean=4, sigma=0.5, size=n_samples)
     normal_amounts = np.clip(normal_amounts, 10, 1000)
     
     # Fraudulent transactions: mix of very small and very large amounts
-    fraud_amounts = np.concatenate([
-        np.random.lognormal(mean=2, sigma=0.3, size=int(n_samples * fraud_rate * 0.7)),  # Small amounts
-        np.random.lognormal(mean=6, sigma=0.5, size=int(n_samples * fraud_rate * 0.3))   # Large amounts
-    ])
+    n_small_fraud = int(n_fraud * 0.7)
+    n_large_fraud = n_fraud - n_small_fraud
+    
+    small_fraud_amounts = np.random.lognormal(mean=2, sigma=0.3, size=n_small_fraud)
+    large_fraud_amounts = np.random.lognormal(mean=6, sigma=0.5, size=n_large_fraud)
+    fraud_amounts = np.concatenate([small_fraud_amounts, large_fraud_amounts])
     fraud_amounts = np.clip(fraud_amounts, 10, 5000)
     
-    # Combine amounts based on fraud mask
-    data['amount'] = np.where(fraud_mask, fraud_amounts, normal_amounts)
+    # Initialize amounts array
+    amounts = np.zeros(n_samples)
+    
+    # Fill in amounts based on fraud mask
+    amounts[fraud_indices] = fraud_amounts
+    amounts[~fraud_mask] = normal_amounts[~fraud_mask]
+    
+    data['amount'] = amounts
     
     # Add some patterns to make fraud detection more interesting
     # 1. Multiple transactions from same IP in short time
@@ -71,13 +85,13 @@ def generate_transaction_data(n_samples=1000, fraud_rate=0.05):
         if data['amount'][i] > 1000 and data['payment_method'][i] == 'paypal':
             data['payment_method'][i] = 'credit_card'
     
+    # Create DataFrame first
+    df = pd.DataFrame(data)
+    
     # 3. Add some missing values
     for col in ['shipping_address', 'ip_address', 'device_id']:
         mask = np.random.random(n_samples) < 0.05  # 5% missing values
-        data[col] = np.where(mask, np.nan, data[col])
-    
-    # Create DataFrame
-    df = pd.DataFrame(data)
+        df[col] = df[col].mask(mask)
     
     # Add is_fraud column
     df['is_fraud'] = fraud_mask
@@ -92,7 +106,7 @@ def main():
     df = generate_transaction_data(n_samples=1000, fraud_rate=0.05)
     
     # Save to CSV
-    output_path = '../data/sample_transactions.csv'
+    output_path = '/home/masubhaat/ML/fraud_detection_system_ml/data/sample_transactions.csv'
     df.to_csv(output_path, index=False)
     
     # Print summary

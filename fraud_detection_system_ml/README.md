@@ -9,17 +9,20 @@ fraud_detection_system_ml/
 ├── data/               # Directory for storing datasets
 ├── models/            # Directory for saved model files
 ├── src/              # Source code files
+│   ├── generate_sample_data.py  # Script to generate sample transaction data
+│   ├── train.py      # Script for model training
+│   └── predict.py    # Script for making predictions
 ├── notebooks/        # Jupyter notebooks for analysis and demos
 └── docs/             # Documentation files
 ```
 
 ## Features
 
-- Flexible data preprocessing pipeline that adapts to different CSV formats
+- Sample data generation for testing and development
 - Multiple ML models including XGBoost and LightGBM
 - Model evaluation and comparison tools
 - Easy-to-use prediction interface
-- Comprehensive documentation and demo notebooks
+- Comprehensive documentation
 
 ## Installation
 
@@ -31,16 +34,17 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. Place your transaction data CSV file in the `data` directory
-2. Run the preprocessing script:
+1. Generate sample data (optional):
 ```bash
-python src/preprocess.py --input data/your_data.csv
+python src/generate_sample_data.py --output data/sample_data.csv
 ```
-3. Train the model:
+
+2. Train the model:
 ```bash
 python src/train.py
 ```
-4. Make predictions:
+
+3. Make predictions:
 ```bash
 python src/predict.py --input data/new_transactions.csv
 ```

@@ -16,7 +16,7 @@ This guide provides detailed instructions for setting up, training, and using th
 The fraud detection system uses an ensemble of XGBoost and LightGBM models to identify potentially fraudulent transactions. The system is designed to be flexible and can handle various data formats.
 
 ### Key Components:
-- **Preprocessing Module**: Handles data cleaning and feature engineering
+- **Data Generation Module**: Creates sample transaction data for testing
 - **Training Module**: Implements model training and evaluation
 - **Prediction Module**: Makes predictions on new transactions
 
@@ -41,6 +41,13 @@ pip install -r requirements.txt
 
 ## Data Preparation
 
+### Sample Data Generation
+The system includes a script to generate sample transaction data for testing:
+
+```bash
+python src/generate_sample_data.py --output data/sample_data.csv
+```
+
 ### Required Data Format
 The system expects transaction data with the following features (column names can be different):
 
@@ -55,20 +62,6 @@ The system expects transaction data with the following features (column names ca
 | IP Address | ip_address, ip | Customer's IP address |
 | Device ID | device_id, device | Customer's device identifier |
 
-### Data Preprocessing Steps:
-1. Place your CSV file in the `data` directory
-2. Run the preprocessing script:
-```bash
-python src/preprocess.py --input data/your_data.csv --output data/processed_data.csv
-```
-
-The preprocessor will:
-- Map column names to standard format
-- Handle missing values
-- Encode categorical features
-- Scale numerical features
-- Extract time-based features
-
 ## Model Training
 
 ### Training Process:
@@ -81,7 +74,7 @@ The training process:
 - Splits data into training and validation sets
 - Trains XGBoost and LightGBM models
 - Evaluates model performance
-- Saves trained models and preprocessor state
+- Saves trained models
 
 ### Model Configuration:
 The current configuration uses the following parameters:
@@ -169,11 +162,6 @@ The prediction script generates a CSV file with the following additional columns
 4. Monitor system resources
 
 ## Additional Resources
-
-- Jupyter Notebooks:
-  - `notebooks/preprocessing_guide.ipynb`: Data preprocessing examples
-  - `notebooks/training_guide.ipynb`: Model training examples
-  - `notebooks/prediction_guide.ipynb`: Making predictions examples
 
 - Documentation:
   - `README.md`: Project overview
