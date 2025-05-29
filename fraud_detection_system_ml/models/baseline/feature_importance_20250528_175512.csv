@@ -1,0 +1,2239 @@
+,Feature,Importance,Cumulative Importance,Cumulative Percentage
+3,num__amount,0.9855970813358806,0.9855970813358806,98.55970813358806
+2,num__product_id,0.004996945320755918,0.9905940266566365,99.05940266566365
+1042,cat__ip_address_191.65.52.159,0.0008551538276636303,0.9914491804843002,99.14491804843001
+67,"cat__shipping_address_185 Broadway, Chicago",0.0007642855851583373,0.9922134660694585,99.22134660694584
+1998,cat__device_id_Windows_5168,0.0007497162725760504,0.9929631823420345,99.29631823420345
+1848,cat__device_id_Mac_4961,0.0007388011099461162,0.9937019834519806,99.37019834519806
+1514,cat__device_id_Android_3444,0.0007363115046646385,0.9944382949566453,99.44382949566453
+2161,cat__device_id_iPhone_6114,0.0007040000998474505,0.9951422950564928,99.51422950564928
+302,"cat__shipping_address_460 State St, New York",0.0006991509760793238,0.9958414460325721,99.5841446032572
+291,"cat__shipping_address_451 Main St, Houston",0.0006988853034566144,0.9965403313360287,99.65403313360287
+1140,cat__ip_address_219.39.36.255,0.0006735968123448815,0.9972139281483736,99.72139281483736
+1428,cat__ip_address_88.47.30.103,0.0006407891795640645,0.9978547173279377,99.78547173279378
+532,"cat__shipping_address_721 Broadway, New York",0.0006234954280016162,0.9984782127559394,99.84782127559394
+1046,cat__ip_address_192.213.177.24,0.000557601441395753,0.9990358141973351,99.90358141973351
+1,num__customer_id,0.0005500712475271698,0.9995858854448623,99.95858854448623
+269,"cat__shipping_address_427 State St, New York",0.0004141145551377457,1.0,100.0
+2236,cat__country_Phoenix,7.020211231648214e-18,1.0,100.0
+2235,cat__country_New York,6.118763734901422e-18,1.0,100.0
+0,num__transaction_id,3.437922669157232e-18,1.0,100.0
+1126,cat__ip_address_214.52.215.15,3.2700553513272892e-18,1.0,100.0
+2230,cat__city_Phoenix,3.0820439553577535e-18,1.0,100.0
+2144,cat__device_id_iPhone_5230,2.726165241558274e-18,1.0,100.0
+165,"cat__shipping_address_293 State St, New York",1.851576515664271e-18,1.0,100.0
+752,"cat__shipping_address_992 Broadway, Phoenix",1.5821494705472126e-18,1.0,100.0
+1469,cat__ip_address_nan,8.510873013978109e-19,1.0,100.0
+2225,cat__device_id_nan,3.928095237220666e-19,1.0,100.0
+2229,cat__city_New York,1.9052940573698526e-19,1.0,100.0
+1487,cat__device_id_Android_2121,0.0,1.0,100.0
+1532,cat__device_id_Android_4377,0.0,1.0,100.0
+1488,cat__device_id_Android_2161,0.0,1.0,100.0
+1489,cat__device_id_Android_2204,0.0,1.0,100.0
+1490,cat__device_id_Android_2276,0.0,1.0,100.0
+1491,cat__device_id_Android_2387,0.0,1.0,100.0
+1486,cat__device_id_Android_2083,0.0,1.0,100.0
+1492,cat__device_id_Android_2438,0.0,1.0,100.0
+1493,cat__device_id_Android_2460,0.0,1.0,100.0
+1494,cat__device_id_Android_2467,0.0,1.0,100.0
+1495,cat__device_id_Android_2477,0.0,1.0,100.0
+1496,cat__device_id_Android_2517,0.0,1.0,100.0
+1531,cat__device_id_Android_4369,0.0,1.0,100.0
+1485,cat__device_id_Android_1983,0.0,1.0,100.0
+1484,cat__device_id_Android_1953,0.0,1.0,100.0
+1497,cat__device_id_Android_2606,0.0,1.0,100.0
+1482,cat__device_id_Android_1840,0.0,1.0,100.0
+1481,cat__device_id_Android_1746,0.0,1.0,100.0
+1480,cat__device_id_Android_1691,0.0,1.0,100.0
+1479,cat__device_id_Android_1616,0.0,1.0,100.0
+1478,cat__device_id_Android_1598,0.0,1.0,100.0
+1477,cat__device_id_Android_1584,0.0,1.0,100.0
+1533,cat__device_id_Android_4387,0.0,1.0,100.0
+1535,cat__device_id_Android_4817,0.0,1.0,100.0
+1476,cat__device_id_Android_1578,0.0,1.0,100.0
+1475,cat__device_id_Android_1531,0.0,1.0,100.0
+1474,cat__device_id_Android_1528,0.0,1.0,100.0
+1473,cat__device_id_Android_1415,0.0,1.0,100.0
+1483,cat__device_id_Android_1902,0.0,1.0,100.0
+1524,cat__device_id_Android_4148,0.0,1.0,100.0
+1525,cat__device_id_Android_4154,0.0,1.0,100.0
+1526,cat__device_id_Android_4164,0.0,1.0,100.0
+1523,cat__device_id_Android_4044,0.0,1.0,100.0
+1522,cat__device_id_Android_3926,0.0,1.0,100.0
+1521,cat__device_id_Android_3841,0.0,1.0,100.0
+1520,cat__device_id_Android_3617,0.0,1.0,100.0
+1519,cat__device_id_Android_3589,0.0,1.0,100.0
+1518,cat__device_id_Android_3583,0.0,1.0,100.0
+1517,cat__device_id_Android_3509,0.0,1.0,100.0
+1516,cat__device_id_Android_3485,0.0,1.0,100.0
+1515,cat__device_id_Android_3450,0.0,1.0,100.0
+1513,cat__device_id_Android_3369,0.0,1.0,100.0
+1527,cat__device_id_Android_4166,0.0,1.0,100.0
+1512,cat__device_id_Android_3354,0.0,1.0,100.0
+1499,cat__device_id_Android_2617,0.0,1.0,100.0
+1511,cat__device_id_Android_3276,0.0,1.0,100.0
+1510,cat__device_id_Android_3267,0.0,1.0,100.0
+1509,cat__device_id_Android_3262,0.0,1.0,100.0
+1508,cat__device_id_Android_3238,0.0,1.0,100.0
+1507,cat__device_id_Android_3200,0.0,1.0,100.0
+1506,cat__device_id_Android_3138,0.0,1.0,100.0
+1505,cat__device_id_Android_2999,0.0,1.0,100.0
+1504,cat__device_id_Android_2925,0.0,1.0,100.0
+1503,cat__device_id_Android_2838,0.0,1.0,100.0
+1529,cat__device_id_Android_4271,0.0,1.0,100.0
+1530,cat__device_id_Android_4322,0.0,1.0,100.0
+1502,cat__device_id_Android_2749,0.0,1.0,100.0
+1501,cat__device_id_Android_2740,0.0,1.0,100.0
+1500,cat__device_id_Android_2637,0.0,1.0,100.0
+1498,cat__device_id_Android_2609,0.0,1.0,100.0
+1528,cat__device_id_Android_4178,0.0,1.0,100.0
+1421,cat__ip_address_85.248.204.111,0.0,1.0,100.0
+1422,cat__ip_address_85.249.72.13,0.0,1.0,100.0
+1423,cat__ip_address_85.92.229.113,0.0,1.0,100.0
+1424,cat__ip_address_87.153.253.158,0.0,1.0,100.0
+1425,cat__ip_address_87.254.71.164,0.0,1.0,100.0
+1426,cat__ip_address_88.184.46.236,0.0,1.0,100.0
+1427,cat__ip_address_88.44.228.97,0.0,1.0,100.0
+1534,cat__device_id_Android_4541,0.0,1.0,100.0
+1430,cat__ip_address_89.225.106.68,0.0,1.0,100.0
+1431,cat__ip_address_89.234.145.129,0.0,1.0,100.0
+1432,cat__ip_address_89.55.106.232,0.0,1.0,100.0
+1433,cat__ip_address_89.80.34.27,0.0,1.0,100.0
+1434,cat__ip_address_9.129.147.231,0.0,1.0,100.0
+1435,cat__ip_address_9.76.6.82,0.0,1.0,100.0
+1436,cat__ip_address_90.137.72.153,0.0,1.0,100.0
+1437,cat__ip_address_90.221.210.23,0.0,1.0,100.0
+1429,cat__ip_address_88.94.212.14,0.0,1.0,100.0
+1403,cat__ip_address_79.178.150.40,0.0,1.0,100.0
+1405,cat__ip_address_8.86.207.110,0.0,1.0,100.0
+1406,cat__ip_address_81.183.189.240,0.0,1.0,100.0
+1407,cat__ip_address_81.46.247.102,0.0,1.0,100.0
+1408,cat__ip_address_82.175.36.185,0.0,1.0,100.0
+1409,cat__ip_address_82.207.189.179,0.0,1.0,100.0
+1410,cat__ip_address_82.43.163.227,0.0,1.0,100.0
+1420,cat__ip_address_85.185.30.124,0.0,1.0,100.0
+1412,cat__ip_address_83.100.70.47,0.0,1.0,100.0
+1413,cat__ip_address_83.35.250.41,0.0,1.0,100.0
+1414,cat__ip_address_83.98.235.204,0.0,1.0,100.0
+1415,cat__ip_address_84.149.1.223,0.0,1.0,100.0
+1416,cat__ip_address_84.23.142.117,0.0,1.0,100.0
+1417,cat__ip_address_84.51.118.30,0.0,1.0,100.0
+1418,cat__ip_address_85.144.197.159,0.0,1.0,100.0
+1419,cat__ip_address_85.177.61.13,0.0,1.0,100.0
+1411,cat__ip_address_82.93.28.24,0.0,1.0,100.0
+1456,cat__ip_address_97.26.213.123,0.0,1.0,100.0
+1457,cat__ip_address_97.72.210.202,0.0,1.0,100.0
+1458,cat__ip_address_97.79.188.177,0.0,1.0,100.0
+1459,cat__ip_address_97.94.151.168,0.0,1.0,100.0
+1460,cat__ip_address_97.99.34.28,0.0,1.0,100.0
+1461,cat__ip_address_98.175.110.45,0.0,1.0,100.0
+1462,cat__ip_address_98.201.183.92,0.0,1.0,100.0
+1438,cat__ip_address_90.57.227.55,0.0,1.0,100.0
+1464,cat__ip_address_99.168.125.147,0.0,1.0,100.0
+1465,cat__ip_address_99.23.188.207,0.0,1.0,100.0
+1466,cat__ip_address_99.247.144.130,0.0,1.0,100.0
+1467,cat__ip_address_99.36.108.52,0.0,1.0,100.0
+1468,cat__ip_address_99.4.75.106,0.0,1.0,100.0
+1470,cat__device_id_Android_1057,0.0,1.0,100.0
+1471,cat__device_id_Android_1256,0.0,1.0,100.0
+1472,cat__device_id_Android_1306,0.0,1.0,100.0
+1463,cat__ip_address_99.129.151.79,0.0,1.0,100.0
+1439,cat__ip_address_90.66.202.28,0.0,1.0,100.0
+1440,cat__ip_address_90.89.247.209,0.0,1.0,100.0
+1441,cat__ip_address_91.142.24.153,0.0,1.0,100.0
+1442,cat__ip_address_92.199.79.125,0.0,1.0,100.0
+1443,cat__ip_address_92.234.152.8,0.0,1.0,100.0
+1444,cat__ip_address_93.15.128.220,0.0,1.0,100.0
+1445,cat__ip_address_93.195.70.27,0.0,1.0,100.0
+1455,cat__ip_address_97.225.164.66,0.0,1.0,100.0
+1447,cat__ip_address_94.184.116.30,0.0,1.0,100.0
+1448,cat__ip_address_94.246.19.96,0.0,1.0,100.0
+1449,cat__ip_address_95.117.244.125,0.0,1.0,100.0
+1450,cat__ip_address_95.194.151.140,0.0,1.0,100.0
+1451,cat__ip_address_96.126.153.115,0.0,1.0,100.0
+1452,cat__ip_address_96.176.162.241,0.0,1.0,100.0
+1453,cat__ip_address_96.246.104.118,0.0,1.0,100.0
+1454,cat__ip_address_96.246.244.3,0.0,1.0,100.0
+1446,cat__ip_address_94.129.3.170,0.0,1.0,100.0
+1624,cat__device_id_Linux_1750,0.0,1.0,100.0
+1625,cat__device_id_Linux_1807,0.0,1.0,100.0
+1626,cat__device_id_Linux_1845,0.0,1.0,100.0
+1627,cat__device_id_Linux_1864,0.0,1.0,100.0
+1628,cat__device_id_Linux_1881,0.0,1.0,100.0
+1629,cat__device_id_Linux_1893,0.0,1.0,100.0
+1630,cat__device_id_Linux_1977,0.0,1.0,100.0
+1404,cat__ip_address_8.230.208.200,0.0,1.0,100.0
+1632,cat__device_id_Linux_2449,0.0,1.0,100.0
+1633,cat__device_id_Linux_2467,0.0,1.0,100.0
+1634,cat__device_id_Linux_2567,0.0,1.0,100.0
+1635,cat__device_id_Linux_2591,0.0,1.0,100.0
+1636,cat__device_id_Linux_2686,0.0,1.0,100.0
+1637,cat__device_id_Linux_2759,0.0,1.0,100.0
+1638,cat__device_id_Linux_2791,0.0,1.0,100.0
+1639,cat__device_id_Linux_2897,0.0,1.0,100.0
+1631,cat__device_id_Linux_2259,0.0,1.0,100.0
+1606,cat__device_id_Android_9747,0.0,1.0,100.0
+1607,cat__device_id_Android_9869,0.0,1.0,100.0
+1608,cat__device_id_Android_9987,0.0,1.0,100.0
+1609,cat__device_id_Linux_1003,0.0,1.0,100.0
+1610,cat__device_id_Linux_1083,0.0,1.0,100.0
+1611,cat__device_id_Linux_1094,0.0,1.0,100.0
+1612,cat__device_id_Linux_1136,0.0,1.0,100.0
+1613,cat__device_id_Linux_1173,0.0,1.0,100.0
+1623,cat__device_id_Linux_1692,0.0,1.0,100.0
+1615,cat__device_id_Linux_1399,0.0,1.0,100.0
+1616,cat__device_id_Linux_1448,0.0,1.0,100.0
+1617,cat__device_id_Linux_1550,0.0,1.0,100.0
+1618,cat__device_id_Linux_1630,0.0,1.0,100.0
+1619,cat__device_id_Linux_1644,0.0,1.0,100.0
+1620,cat__device_id_Linux_1666,0.0,1.0,100.0
+1621,cat__device_id_Linux_1669,0.0,1.0,100.0
+1622,cat__device_id_Linux_1672,0.0,1.0,100.0
+1614,cat__device_id_Linux_1187,0.0,1.0,100.0
+1659,cat__device_id_Linux_3568,0.0,1.0,100.0
+1660,cat__device_id_Linux_3605,0.0,1.0,100.0
+1661,cat__device_id_Linux_3619,0.0,1.0,100.0
+1662,cat__device_id_Linux_3703,0.0,1.0,100.0
+1663,cat__device_id_Linux_3770,0.0,1.0,100.0
+1664,cat__device_id_Linux_3784,0.0,1.0,100.0
+1665,cat__device_id_Linux_3860,0.0,1.0,100.0
+1640,cat__device_id_Linux_2901,0.0,1.0,100.0
+1667,cat__device_id_Linux_3906,0.0,1.0,100.0
+1668,cat__device_id_Linux_3924,0.0,1.0,100.0
+1669,cat__device_id_Linux_3945,0.0,1.0,100.0
+1670,cat__device_id_Linux_4193,0.0,1.0,100.0
+1671,cat__device_id_Linux_4212,0.0,1.0,100.0
+1672,cat__device_id_Linux_4245,0.0,1.0,100.0
+1673,cat__device_id_Linux_4308,0.0,1.0,100.0
+1675,cat__device_id_Linux_4393,0.0,1.0,100.0
+1666,cat__device_id_Linux_3900,0.0,1.0,100.0
+1641,cat__device_id_Linux_3010,0.0,1.0,100.0
+1642,cat__device_id_Linux_3101,0.0,1.0,100.0
+1643,cat__device_id_Linux_3128,0.0,1.0,100.0
+1644,cat__device_id_Linux_3148,0.0,1.0,100.0
+1645,cat__device_id_Linux_3159,0.0,1.0,100.0
+1646,cat__device_id_Linux_3174,0.0,1.0,100.0
+1647,cat__device_id_Linux_3213,0.0,1.0,100.0
+1648,cat__device_id_Linux_3315,0.0,1.0,100.0
+1658,cat__device_id_Linux_3544,0.0,1.0,100.0
+1650,cat__device_id_Linux_3389,0.0,1.0,100.0
+1651,cat__device_id_Linux_3419,0.0,1.0,100.0
+1652,cat__device_id_Linux_3440,0.0,1.0,100.0
+1653,cat__device_id_Linux_3476,0.0,1.0,100.0
+1654,cat__device_id_Linux_3502,0.0,1.0,100.0
+1655,cat__device_id_Linux_3524,0.0,1.0,100.0
+1656,cat__device_id_Linux_3534,0.0,1.0,100.0
+1657,cat__device_id_Linux_3539,0.0,1.0,100.0
+1649,cat__device_id_Linux_3330,0.0,1.0,100.0
+1554,cat__device_id_Android_6189,0.0,1.0,100.0
+1555,cat__device_id_Android_6250,0.0,1.0,100.0
+1556,cat__device_id_Android_6253,0.0,1.0,100.0
+1557,cat__device_id_Android_6257,0.0,1.0,100.0
+1558,cat__device_id_Android_6403,0.0,1.0,100.0
+1559,cat__device_id_Android_6412,0.0,1.0,100.0
+1560,cat__device_id_Android_6487,0.0,1.0,100.0
+1605,cat__device_id_Android_9690,0.0,1.0,100.0
+1562,cat__device_id_Android_6507,0.0,1.0,100.0
+1563,cat__device_id_Android_6527,0.0,1.0,100.0
+1564,cat__device_id_Android_6572,0.0,1.0,100.0
+1565,cat__device_id_Android_6629,0.0,1.0,100.0
+1566,cat__device_id_Android_6634,0.0,1.0,100.0
+1567,cat__device_id_Android_6653,0.0,1.0,100.0
+1568,cat__device_id_Android_6872,0.0,1.0,100.0
+1569,cat__device_id_Android_6905,0.0,1.0,100.0
+1561,cat__device_id_Android_6503,0.0,1.0,100.0
+1536,cat__device_id_Android_4965,0.0,1.0,100.0
+1537,cat__device_id_Android_4992,0.0,1.0,100.0
+1538,cat__device_id_Android_5060,0.0,1.0,100.0
+1539,cat__device_id_Android_5122,0.0,1.0,100.0
+1540,cat__device_id_Android_5166,0.0,1.0,100.0
+1541,cat__device_id_Android_5198,0.0,1.0,100.0
+1542,cat__device_id_Android_5439,0.0,1.0,100.0
+1543,cat__device_id_Android_5483,0.0,1.0,100.0
+1553,cat__device_id_Android_6159,0.0,1.0,100.0
+1545,cat__device_id_Android_5528,0.0,1.0,100.0
+1546,cat__device_id_Android_5624,0.0,1.0,100.0
+1547,cat__device_id_Android_5659,0.0,1.0,100.0
+1548,cat__device_id_Android_5706,0.0,1.0,100.0
+1549,cat__device_id_Android_5724,0.0,1.0,100.0
+1550,cat__device_id_Android_5726,0.0,1.0,100.0
+1551,cat__device_id_Android_5770,0.0,1.0,100.0
+1552,cat__device_id_Android_6132,0.0,1.0,100.0
+1544,cat__device_id_Android_5521,0.0,1.0,100.0
+1589,cat__device_id_Android_8524,0.0,1.0,100.0
+1590,cat__device_id_Android_8602,0.0,1.0,100.0
+1591,cat__device_id_Android_8605,0.0,1.0,100.0
+1592,cat__device_id_Android_8740,0.0,1.0,100.0
+1593,cat__device_id_Android_8757,0.0,1.0,100.0
+1594,cat__device_id_Android_8879,0.0,1.0,100.0
+1595,cat__device_id_Android_8944,0.0,1.0,100.0
+1570,cat__device_id_Android_7068,0.0,1.0,100.0
+1597,cat__device_id_Android_9061,0.0,1.0,100.0
+1598,cat__device_id_Android_9132,0.0,1.0,100.0
+1599,cat__device_id_Android_9202,0.0,1.0,100.0
+1600,cat__device_id_Android_9220,0.0,1.0,100.0
+1601,cat__device_id_Android_9530,0.0,1.0,100.0
+1602,cat__device_id_Android_9570,0.0,1.0,100.0
+1603,cat__device_id_Android_9586,0.0,1.0,100.0
+1604,cat__device_id_Android_9640,0.0,1.0,100.0
+1596,cat__device_id_Android_9010,0.0,1.0,100.0
+1571,cat__device_id_Android_7145,0.0,1.0,100.0
+1572,cat__device_id_Android_7152,0.0,1.0,100.0
+1573,cat__device_id_Android_7346,0.0,1.0,100.0
+1574,cat__device_id_Android_7382,0.0,1.0,100.0
+1575,cat__device_id_Android_7440,0.0,1.0,100.0
+1576,cat__device_id_Android_7505,0.0,1.0,100.0
+1577,cat__device_id_Android_7579,0.0,1.0,100.0
+1578,cat__device_id_Android_7801,0.0,1.0,100.0
+1588,cat__device_id_Android_8433,0.0,1.0,100.0
+1580,cat__device_id_Android_7866,0.0,1.0,100.0
+1581,cat__device_id_Android_7906,0.0,1.0,100.0
+1582,cat__device_id_Android_8005,0.0,1.0,100.0
+1583,cat__device_id_Android_8046,0.0,1.0,100.0
+1584,cat__device_id_Android_8063,0.0,1.0,100.0
+1585,cat__device_id_Android_8081,0.0,1.0,100.0
+1586,cat__device_id_Android_8121,0.0,1.0,100.0
+1587,cat__device_id_Android_8197,0.0,1.0,100.0
+1579,cat__device_id_Android_7813,0.0,1.0,100.0
+1214,cat__ip_address_248.138.176.222,0.0,1.0,100.0
+1215,cat__ip_address_248.142.14.4,0.0,1.0,100.0
+1216,cat__ip_address_248.82.75.189,0.0,1.0,100.0
+1217,cat__ip_address_248.93.180.230,0.0,1.0,100.0
+1218,cat__ip_address_249.145.164.5,0.0,1.0,100.0
+1219,cat__ip_address_249.37.183.72,0.0,1.0,100.0
+1220,cat__ip_address_25.121.33.190,0.0,1.0,100.0
+1674,cat__device_id_Linux_4354,0.0,1.0,100.0
+1222,cat__ip_address_25.195.169.57,0.0,1.0,100.0
+1223,cat__ip_address_25.35.247.193,0.0,1.0,100.0
+1224,cat__ip_address_250.192.22.149,0.0,1.0,100.0
+1225,cat__ip_address_251.21.122.217,0.0,1.0,100.0
+1226,cat__ip_address_251.63.147.134,0.0,1.0,100.0
+1227,cat__ip_address_252.12.245.103,0.0,1.0,100.0
+1228,cat__ip_address_252.128.191.168,0.0,1.0,100.0
+1229,cat__ip_address_252.190.63.133,0.0,1.0,100.0
+1221,cat__ip_address_25.130.35.164,0.0,1.0,100.0
+1197,cat__ip_address_242.30.99.66,0.0,1.0,100.0
+1198,cat__ip_address_243.178.52.123,0.0,1.0,100.0
+1199,cat__ip_address_243.252.43.249,0.0,1.0,100.0
+1200,cat__ip_address_243.49.215.253,0.0,1.0,100.0
+1201,cat__ip_address_243.57.148.217,0.0,1.0,100.0
+1202,cat__ip_address_244.194.115.45,0.0,1.0,100.0
+1203,cat__ip_address_244.24.200.131,0.0,1.0,100.0
+1213,cat__ip_address_247.34.61.75,0.0,1.0,100.0
+1205,cat__ip_address_245.172.224.87,0.0,1.0,100.0
+1206,cat__ip_address_245.253.198.19,0.0,1.0,100.0
+1207,cat__ip_address_245.66.225.138,0.0,1.0,100.0
+1208,cat__ip_address_246.11.175.227,0.0,1.0,100.0
+1209,cat__ip_address_246.163.37.77,0.0,1.0,100.0
+1210,cat__ip_address_247.110.81.203,0.0,1.0,100.0
+1211,cat__ip_address_247.159.164.78,0.0,1.0,100.0
+1212,cat__ip_address_247.23.211.182,0.0,1.0,100.0
+1204,cat__ip_address_244.89.134.133,0.0,1.0,100.0
+1249,cat__ip_address_28.168.215.6,0.0,1.0,100.0
+1250,cat__ip_address_28.236.25.135,0.0,1.0,100.0
+1251,cat__ip_address_28.3.26.67,0.0,1.0,100.0
+1252,cat__ip_address_28.7.98.38,0.0,1.0,100.0
+1253,cat__ip_address_3.157.167.43,0.0,1.0,100.0
+1254,cat__ip_address_3.165.240.41,0.0,1.0,100.0
+1255,cat__ip_address_3.180.44.22,0.0,1.0,100.0
+1230,cat__ip_address_252.205.100.91,0.0,1.0,100.0
+1257,cat__ip_address_3.78.108.170,0.0,1.0,100.0
+1258,cat__ip_address_3.95.52.75,0.0,1.0,100.0
+1259,cat__ip_address_30.79.201.102,0.0,1.0,100.0
+1260,cat__ip_address_31.192.59.115,0.0,1.0,100.0
+1261,cat__ip_address_32.11.2.147,0.0,1.0,100.0
+1262,cat__ip_address_32.175.8.62,0.0,1.0,100.0
+1263,cat__ip_address_32.198.229.116,0.0,1.0,100.0
+1264,cat__ip_address_33.147.152.42,0.0,1.0,100.0
+1256,cat__ip_address_3.30.172.89,0.0,1.0,100.0
+1231,cat__ip_address_252.242.217.41,0.0,1.0,100.0
+1232,cat__ip_address_252.74.175.65,0.0,1.0,100.0
+1233,cat__ip_address_253.231.174.209,0.0,1.0,100.0
+1234,cat__ip_address_253.93.240.82,0.0,1.0,100.0
+1235,cat__ip_address_254.175.102.194,0.0,1.0,100.0
+1236,cat__ip_address_254.177.186.21,0.0,1.0,100.0
+1237,cat__ip_address_254.45.8.244,0.0,1.0,100.0
+1238,cat__ip_address_254.94.139.211,0.0,1.0,100.0
+1248,cat__ip_address_28.12.230.43,0.0,1.0,100.0
+1240,cat__ip_address_255.71.222.168,0.0,1.0,100.0
+1241,cat__ip_address_26.36.193.32,0.0,1.0,100.0
+1242,cat__ip_address_26.51.186.149,0.0,1.0,100.0
+1243,cat__ip_address_26.55.131.103,0.0,1.0,100.0
+1244,cat__ip_address_26.64.169.62,0.0,1.0,100.0
+1245,cat__ip_address_27.107.234.152,0.0,1.0,100.0
+1246,cat__ip_address_27.181.248.134,0.0,1.0,100.0
+1247,cat__ip_address_27.27.81.95,0.0,1.0,100.0
+1239,cat__ip_address_255.116.126.59,0.0,1.0,100.0
+1145,cat__ip_address_220.167.195.9,0.0,1.0,100.0
+1146,cat__ip_address_220.41.113.117,0.0,1.0,100.0
+1147,cat__ip_address_220.75.35.119,0.0,1.0,100.0
+1148,cat__ip_address_221.167.250.153,0.0,1.0,100.0
+1149,cat__ip_address_221.176.226.215,0.0,1.0,100.0
+1150,cat__ip_address_222.92.244.3,0.0,1.0,100.0
+1151,cat__ip_address_223.175.98.136,0.0,1.0,100.0
+1196,cat__ip_address_242.182.54.113,0.0,1.0,100.0
+1153,cat__ip_address_223.59.35.77,0.0,1.0,100.0
+1154,cat__ip_address_225.143.47.76,0.0,1.0,100.0
+1155,cat__ip_address_225.185.187.170,0.0,1.0,100.0
+1156,cat__ip_address_226.77.36.98,0.0,1.0,100.0
+1157,cat__ip_address_227.161.20.187,0.0,1.0,100.0
+1158,cat__ip_address_227.192.132.77,0.0,1.0,100.0
+1159,cat__ip_address_227.205.43.29,0.0,1.0,100.0
+1160,cat__ip_address_227.31.198.231,0.0,1.0,100.0
+1152,cat__ip_address_223.200.221.223,0.0,1.0,100.0
+1127,cat__ip_address_214.99.177.218,0.0,1.0,100.0
+1128,cat__ip_address_215.179.148.26,0.0,1.0,100.0
+1129,cat__ip_address_215.20.88.155,0.0,1.0,100.0
+1130,cat__ip_address_215.96.144.166,0.0,1.0,100.0
+1131,cat__ip_address_216.180.141.221,0.0,1.0,100.0
+1132,cat__ip_address_217.118.159.45,0.0,1.0,100.0
+1133,cat__ip_address_217.44.216.169,0.0,1.0,100.0
+1144,cat__ip_address_22.73.154.225,0.0,1.0,100.0
+1135,cat__ip_address_218.135.226.146,0.0,1.0,100.0
+1136,cat__ip_address_218.217.169.225,0.0,1.0,100.0
+1137,cat__ip_address_218.31.121.14,0.0,1.0,100.0
+1138,cat__ip_address_218.88.166.28,0.0,1.0,100.0
+1139,cat__ip_address_219.14.218.193,0.0,1.0,100.0
+1141,cat__ip_address_219.75.93.206,0.0,1.0,100.0
+1142,cat__ip_address_22.173.35.81,0.0,1.0,100.0
+1143,cat__ip_address_22.64.142.154,0.0,1.0,100.0
+1134,cat__ip_address_217.66.2.85,0.0,1.0,100.0
+1180,cat__ip_address_235.207.18.23,0.0,1.0,100.0
+1181,cat__ip_address_235.22.28.197,0.0,1.0,100.0
+1182,cat__ip_address_237.147.111.211,0.0,1.0,100.0
+1183,cat__ip_address_237.72.231.140,0.0,1.0,100.0
+1184,cat__ip_address_239.253.103.158,0.0,1.0,100.0
+1185,cat__ip_address_239.254.255.141,0.0,1.0,100.0
+1186,cat__ip_address_24.12.236.60,0.0,1.0,100.0
+1161,cat__ip_address_228.106.113.12,0.0,1.0,100.0
+1188,cat__ip_address_24.141.73.186,0.0,1.0,100.0
+1189,cat__ip_address_24.183.64.248,0.0,1.0,100.0
+1190,cat__ip_address_24.232.217.213,0.0,1.0,100.0
+1191,cat__ip_address_240.122.147.226,0.0,1.0,100.0
+1192,cat__ip_address_240.215.254.217,0.0,1.0,100.0
+1193,cat__ip_address_241.26.237.28,0.0,1.0,100.0
+1194,cat__ip_address_242.119.13.44,0.0,1.0,100.0
+1195,cat__ip_address_242.159.19.121,0.0,1.0,100.0
+1187,cat__ip_address_24.124.169.34,0.0,1.0,100.0
+1162,cat__ip_address_228.131.144.53,0.0,1.0,100.0
+1163,cat__ip_address_228.146.122.70,0.0,1.0,100.0
+1164,cat__ip_address_228.50.129.31,0.0,1.0,100.0
+1165,cat__ip_address_229.147.38.15,0.0,1.0,100.0
+1166,cat__ip_address_23.19.14.46,0.0,1.0,100.0
+1167,cat__ip_address_23.233.29.214,0.0,1.0,100.0
+1168,cat__ip_address_23.57.91.58,0.0,1.0,100.0
+1169,cat__ip_address_23.71.200.103,0.0,1.0,100.0
+1179,cat__ip_address_234.34.166.45,0.0,1.0,100.0
+1171,cat__ip_address_230.167.50.83,0.0,1.0,100.0
+1172,cat__ip_address_230.204.245.62,0.0,1.0,100.0
+1173,cat__ip_address_230.214.20.133,0.0,1.0,100.0
+1174,cat__ip_address_230.217.134.106,0.0,1.0,100.0
+1175,cat__ip_address_231.155.139.212,0.0,1.0,100.0
+1176,cat__ip_address_232.66.165.60,0.0,1.0,100.0
+1177,cat__ip_address_233.130.176.108,0.0,1.0,100.0
+1178,cat__ip_address_234.133.211.198,0.0,1.0,100.0
+1170,cat__ip_address_230.139.85.99,0.0,1.0,100.0
+1352,cat__ip_address_64.38.183.83,0.0,1.0,100.0
+1353,cat__ip_address_64.58.178.225,0.0,1.0,100.0
+1354,cat__ip_address_64.9.117.13,0.0,1.0,100.0
+1355,cat__ip_address_65.122.180.40,0.0,1.0,100.0
+1356,cat__ip_address_65.156.207.242,0.0,1.0,100.0
+1357,cat__ip_address_65.169.40.184,0.0,1.0,100.0
+1358,cat__ip_address_65.22.96.171,0.0,1.0,100.0
+1265,cat__ip_address_33.172.168.61,0.0,1.0,100.0
+1360,cat__ip_address_65.97.250.233,0.0,1.0,100.0
+1361,cat__ip_address_66.157.51.49,0.0,1.0,100.0
+1362,cat__ip_address_66.198.27.229,0.0,1.0,100.0
+1363,cat__ip_address_67.105.100.116,0.0,1.0,100.0
+1364,cat__ip_address_67.150.76.119,0.0,1.0,100.0
+1365,cat__ip_address_67.186.207.144,0.0,1.0,100.0
+1366,cat__ip_address_67.218.81.238,0.0,1.0,100.0
+1367,cat__ip_address_67.219.138.109,0.0,1.0,100.0
+1359,cat__ip_address_65.56.120.78,0.0,1.0,100.0
+1335,cat__ip_address_56.248.110.212,0.0,1.0,100.0
+1336,cat__ip_address_57.131.192.133,0.0,1.0,100.0
+1337,cat__ip_address_57.176.137.164,0.0,1.0,100.0
+1338,cat__ip_address_57.183.190.165,0.0,1.0,100.0
+1339,cat__ip_address_57.213.106.154,0.0,1.0,100.0
+1340,cat__ip_address_57.75.9.71,0.0,1.0,100.0
+1341,cat__ip_address_58.138.74.44,0.0,1.0,100.0
+1351,cat__ip_address_64.169.171.91,0.0,1.0,100.0
+1343,cat__ip_address_58.191.166.144,0.0,1.0,100.0
+1344,cat__ip_address_58.77.176.212,0.0,1.0,100.0
+1345,cat__ip_address_59.142.16.216,0.0,1.0,100.0
+1346,cat__ip_address_59.190.131.1,0.0,1.0,100.0
+1347,cat__ip_address_60.205.104.162,0.0,1.0,100.0
+1348,cat__ip_address_61.1.4.172,0.0,1.0,100.0
+1349,cat__ip_address_63.12.121.94,0.0,1.0,100.0
+1350,cat__ip_address_64.162.255.206,0.0,1.0,100.0
+1342,cat__ip_address_58.187.253.34,0.0,1.0,100.0
+1387,cat__ip_address_71.58.156.247,0.0,1.0,100.0
+1388,cat__ip_address_72.15.208.254,0.0,1.0,100.0
+1389,cat__ip_address_72.216.126.220,0.0,1.0,100.0
+1390,cat__ip_address_73.199.217.80,0.0,1.0,100.0
+1391,cat__ip_address_73.30.201.28,0.0,1.0,100.0
+1392,cat__ip_address_74.36.48.81,0.0,1.0,100.0
+1393,cat__ip_address_75.172.18.65,0.0,1.0,100.0
+1368,cat__ip_address_67.235.209.20,0.0,1.0,100.0
+1395,cat__ip_address_76.166.14.201,0.0,1.0,100.0
+1396,cat__ip_address_76.56.244.193,0.0,1.0,100.0
+1397,cat__ip_address_77.106.14.223,0.0,1.0,100.0
+1398,cat__ip_address_78.126.203.147,0.0,1.0,100.0
+1399,cat__ip_address_78.156.23.73,0.0,1.0,100.0
+1400,cat__ip_address_78.2.243.102,0.0,1.0,100.0
+1401,cat__ip_address_78.53.133.156,0.0,1.0,100.0
+1402,cat__ip_address_79.119.68.219,0.0,1.0,100.0
+1394,cat__ip_address_76.116.207.35,0.0,1.0,100.0
+1369,cat__ip_address_67.244.27.19,0.0,1.0,100.0
+1370,cat__ip_address_68.172.221.126,0.0,1.0,100.0
+1371,cat__ip_address_68.56.11.237,0.0,1.0,100.0
+1372,cat__ip_address_68.57.95.21,0.0,1.0,100.0
+1373,cat__ip_address_68.58.215.69,0.0,1.0,100.0
+1374,cat__ip_address_68.95.60.11,0.0,1.0,100.0
+1375,cat__ip_address_69.137.209.203,0.0,1.0,100.0
+1376,cat__ip_address_69.167.105.132,0.0,1.0,100.0
+1386,cat__ip_address_71.24.168.93,0.0,1.0,100.0
+1378,cat__ip_address_69.199.140.211,0.0,1.0,100.0
+1379,cat__ip_address_69.244.220.132,0.0,1.0,100.0
+1380,cat__ip_address_7.124.27.76,0.0,1.0,100.0
+1381,cat__ip_address_7.168.128.76,0.0,1.0,100.0
+1382,cat__ip_address_7.60.139.89,0.0,1.0,100.0
+1383,cat__ip_address_7.82.153.57,0.0,1.0,100.0
+1384,cat__ip_address_70.135.17.68,0.0,1.0,100.0
+1385,cat__ip_address_71.104.37.159,0.0,1.0,100.0
+1377,cat__ip_address_69.193.202.42,0.0,1.0,100.0
+1283,cat__ip_address_37.90.80.88,0.0,1.0,100.0
+1284,cat__ip_address_38.189.188.124,0.0,1.0,100.0
+1285,cat__ip_address_38.215.16.177,0.0,1.0,100.0
+1286,cat__ip_address_39.215.212.143,0.0,1.0,100.0
+1287,cat__ip_address_39.48.41.93,0.0,1.0,100.0
+1288,cat__ip_address_39.62.50.159,0.0,1.0,100.0
+1289,cat__ip_address_39.9.158.159,0.0,1.0,100.0
+1334,cat__ip_address_56.118.212.201,0.0,1.0,100.0
+1291,cat__ip_address_41.17.80.182,0.0,1.0,100.0
+1292,cat__ip_address_41.224.239.225,0.0,1.0,100.0
+1293,cat__ip_address_42.145.62.146,0.0,1.0,100.0
+1294,cat__ip_address_42.188.20.141,0.0,1.0,100.0
+1295,cat__ip_address_42.219.147.200,0.0,1.0,100.0
+1296,cat__ip_address_42.48.57.158,0.0,1.0,100.0
+1297,cat__ip_address_43.116.120.81,0.0,1.0,100.0
+1298,cat__ip_address_43.17.211.12,0.0,1.0,100.0
+1290,cat__ip_address_39.94.101.58,0.0,1.0,100.0
+1266,cat__ip_address_34.100.221.215,0.0,1.0,100.0
+1267,cat__ip_address_34.123.19.59,0.0,1.0,100.0
+1268,cat__ip_address_34.152.58.133,0.0,1.0,100.0
+1269,cat__ip_address_34.179.186.16,0.0,1.0,100.0
+1270,cat__ip_address_34.226.167.78,0.0,1.0,100.0
+1271,cat__ip_address_34.51.211.103,0.0,1.0,100.0
+1272,cat__ip_address_35.162.132.11,0.0,1.0,100.0
+1282,cat__ip_address_37.18.136.145,0.0,1.0,100.0
+1274,cat__ip_address_35.77.83.155,0.0,1.0,100.0
+1275,cat__ip_address_36.106.155.180,0.0,1.0,100.0
+1276,cat__ip_address_36.148.99.109,0.0,1.0,100.0
+1277,cat__ip_address_36.201.53.209,0.0,1.0,100.0
+1278,cat__ip_address_36.219.222.169,0.0,1.0,100.0
+1279,cat__ip_address_36.32.4.16,0.0,1.0,100.0
+1280,cat__ip_address_36.64.71.166,0.0,1.0,100.0
+1281,cat__ip_address_36.69.78.69,0.0,1.0,100.0
+1273,cat__ip_address_35.174.188.85,0.0,1.0,100.0
+1318,cat__ip_address_51.118.28.35,0.0,1.0,100.0
+1319,cat__ip_address_52.255.177.233,0.0,1.0,100.0
+1320,cat__ip_address_52.35.200.198,0.0,1.0,100.0
+1321,cat__ip_address_52.88.105.253,0.0,1.0,100.0
+1322,cat__ip_address_53.106.142.201,0.0,1.0,100.0
+1323,cat__ip_address_53.136.252.61,0.0,1.0,100.0
+1324,cat__ip_address_53.177.206.81,0.0,1.0,100.0
+1299,cat__ip_address_43.227.106.127,0.0,1.0,100.0
+1326,cat__ip_address_53.207.16.146,0.0,1.0,100.0
+1327,cat__ip_address_53.44.164.75,0.0,1.0,100.0
+1328,cat__ip_address_54.160.183.75,0.0,1.0,100.0
+1329,cat__ip_address_54.64.178.18,0.0,1.0,100.0
+1330,cat__ip_address_55.127.69.83,0.0,1.0,100.0
+1331,cat__ip_address_55.207.50.33,0.0,1.0,100.0
+1332,cat__ip_address_55.231.223.178,0.0,1.0,100.0
+1333,cat__ip_address_56.115.156.255,0.0,1.0,100.0
+1325,cat__ip_address_53.178.176.162,0.0,1.0,100.0
+1300,cat__ip_address_43.249.245.198,0.0,1.0,100.0
+1301,cat__ip_address_43.67.237.47,0.0,1.0,100.0
+1302,cat__ip_address_45.142.41.85,0.0,1.0,100.0
+1303,cat__ip_address_45.143.43.126,0.0,1.0,100.0
+1304,cat__ip_address_45.46.61.152,0.0,1.0,100.0
+1305,cat__ip_address_46.122.231.158,0.0,1.0,100.0
+1306,cat__ip_address_46.246.223.122,0.0,1.0,100.0
+1307,cat__ip_address_46.58.206.133,0.0,1.0,100.0
+1317,cat__ip_address_50.117.239.104,0.0,1.0,100.0
+1309,cat__ip_address_47.155.82.236,0.0,1.0,100.0
+1310,cat__ip_address_47.172.205.146,0.0,1.0,100.0
+1311,cat__ip_address_48.48.164.169,0.0,1.0,100.0
+1312,cat__ip_address_49.114.55.234,0.0,1.0,100.0
+1313,cat__ip_address_49.184.87.28,0.0,1.0,100.0
+1314,cat__ip_address_49.88.186.183,0.0,1.0,100.0
+1315,cat__ip_address_5.151.18.4,0.0,1.0,100.0
+1316,cat__ip_address_5.27.104.106,0.0,1.0,100.0
+1308,cat__ip_address_46.81.163.15,0.0,1.0,100.0
+2041,cat__device_id_Windows_8373,0.0,1.0,100.0
+2042,cat__device_id_Windows_8404,0.0,1.0,100.0
+2043,cat__device_id_Windows_8412,0.0,1.0,100.0
+2044,cat__device_id_Windows_8426,0.0,1.0,100.0
+2045,cat__device_id_Windows_8496,0.0,1.0,100.0
+2046,cat__device_id_Windows_8577,0.0,1.0,100.0
+2047,cat__device_id_Windows_8597,0.0,1.0,100.0
+1684,cat__device_id_Linux_4763,0.0,1.0,100.0
+2049,cat__device_id_Windows_8649,0.0,1.0,100.0
+2050,cat__device_id_Windows_8674,0.0,1.0,100.0
+2051,cat__device_id_Windows_8687,0.0,1.0,100.0
+2052,cat__device_id_Windows_8713,0.0,1.0,100.0
+2053,cat__device_id_Windows_8722,0.0,1.0,100.0
+2054,cat__device_id_Windows_8801,0.0,1.0,100.0
+2055,cat__device_id_Windows_8803,0.0,1.0,100.0
+2056,cat__device_id_Windows_9027,0.0,1.0,100.0
+2048,cat__device_id_Windows_8624,0.0,1.0,100.0
+2024,cat__device_id_Windows_7271,0.0,1.0,100.0
+2025,cat__device_id_Windows_7408,0.0,1.0,100.0
+2026,cat__device_id_Windows_7436,0.0,1.0,100.0
+2027,cat__device_id_Windows_7457,0.0,1.0,100.0
+2028,cat__device_id_Windows_7731,0.0,1.0,100.0
+2029,cat__device_id_Windows_7753,0.0,1.0,100.0
+2030,cat__device_id_Windows_7755,0.0,1.0,100.0
+2040,cat__device_id_Windows_8353,0.0,1.0,100.0
+2032,cat__device_id_Windows_7814,0.0,1.0,100.0
+2033,cat__device_id_Windows_7835,0.0,1.0,100.0
+2034,cat__device_id_Windows_7885,0.0,1.0,100.0
+2035,cat__device_id_Windows_8074,0.0,1.0,100.0
+2036,cat__device_id_Windows_8245,0.0,1.0,100.0
+2037,cat__device_id_Windows_8258,0.0,1.0,100.0
+2038,cat__device_id_Windows_8289,0.0,1.0,100.0
+2039,cat__device_id_Windows_8311,0.0,1.0,100.0
+2031,cat__device_id_Windows_7767,0.0,1.0,100.0
+2076,cat__device_id_iPhone_1571,0.0,1.0,100.0
+2077,cat__device_id_iPhone_1604,0.0,1.0,100.0
+2078,cat__device_id_iPhone_1606,0.0,1.0,100.0
+2079,cat__device_id_iPhone_1618,0.0,1.0,100.0
+2080,cat__device_id_iPhone_1619,0.0,1.0,100.0
+2081,cat__device_id_iPhone_1620,0.0,1.0,100.0
+2082,cat__device_id_iPhone_1688,0.0,1.0,100.0
+2057,cat__device_id_Windows_9060,0.0,1.0,100.0
+2084,cat__device_id_iPhone_1860,0.0,1.0,100.0
+2085,cat__device_id_iPhone_1885,0.0,1.0,100.0
+2086,cat__device_id_iPhone_1916,0.0,1.0,100.0
+2087,cat__device_id_iPhone_1979,0.0,1.0,100.0
+2088,cat__device_id_iPhone_2091,0.0,1.0,100.0
+2089,cat__device_id_iPhone_2153,0.0,1.0,100.0
+2090,cat__device_id_iPhone_2285,0.0,1.0,100.0
+2091,cat__device_id_iPhone_2296,0.0,1.0,100.0
+2083,cat__device_id_iPhone_1717,0.0,1.0,100.0
+2058,cat__device_id_Windows_9098,0.0,1.0,100.0
+2059,cat__device_id_Windows_9186,0.0,1.0,100.0
+2060,cat__device_id_Windows_9231,0.0,1.0,100.0
+2061,cat__device_id_Windows_9535,0.0,1.0,100.0
+2062,cat__device_id_Windows_9582,0.0,1.0,100.0
+2063,cat__device_id_Windows_9591,0.0,1.0,100.0
+2064,cat__device_id_Windows_9608,0.0,1.0,100.0
+2065,cat__device_id_Windows_9698,0.0,1.0,100.0
+2075,cat__device_id_iPhone_1567,0.0,1.0,100.0
+2067,cat__device_id_Windows_9728,0.0,1.0,100.0
+2068,cat__device_id_Windows_9759,0.0,1.0,100.0
+2069,cat__device_id_Windows_9987,0.0,1.0,100.0
+2070,cat__device_id_Windows_9992,0.0,1.0,100.0
+2071,cat__device_id_iPhone_1118,0.0,1.0,100.0
+2072,cat__device_id_iPhone_1133,0.0,1.0,100.0
+2073,cat__device_id_iPhone_1203,0.0,1.0,100.0
+2074,cat__device_id_iPhone_1260,0.0,1.0,100.0
+2066,cat__device_id_Windows_9715,0.0,1.0,100.0
+1971,cat__device_id_Windows_3087,0.0,1.0,100.0
+1972,cat__device_id_Windows_3207,0.0,1.0,100.0
+1973,cat__device_id_Windows_3234,0.0,1.0,100.0
+1974,cat__device_id_Windows_3384,0.0,1.0,100.0
+1975,cat__device_id_Windows_3459,0.0,1.0,100.0
+1976,cat__device_id_Windows_3555,0.0,1.0,100.0
+1977,cat__device_id_Windows_3627,0.0,1.0,100.0
+2023,cat__device_id_Windows_7251,0.0,1.0,100.0
+1979,cat__device_id_Windows_3773,0.0,1.0,100.0
+1980,cat__device_id_Windows_3915,0.0,1.0,100.0
+1981,cat__device_id_Windows_3960,0.0,1.0,100.0
+1982,cat__device_id_Windows_4014,0.0,1.0,100.0
+1983,cat__device_id_Windows_4089,0.0,1.0,100.0
+1984,cat__device_id_Windows_4120,0.0,1.0,100.0
+1985,cat__device_id_Windows_4171,0.0,1.0,100.0
+1986,cat__device_id_Windows_4259,0.0,1.0,100.0
+1978,cat__device_id_Windows_3653,0.0,1.0,100.0
+1954,cat__device_id_Windows_1955,0.0,1.0,100.0
+1955,cat__device_id_Windows_2022,0.0,1.0,100.0
+1956,cat__device_id_Windows_2037,0.0,1.0,100.0
+1957,cat__device_id_Windows_2084,0.0,1.0,100.0
+1958,cat__device_id_Windows_2106,0.0,1.0,100.0
+1959,cat__device_id_Windows_2162,0.0,1.0,100.0
+1960,cat__device_id_Windows_2245,0.0,1.0,100.0
+1970,cat__device_id_Windows_3048,0.0,1.0,100.0
+1962,cat__device_id_Windows_2318,0.0,1.0,100.0
+1963,cat__device_id_Windows_2393,0.0,1.0,100.0
+1964,cat__device_id_Windows_2466,0.0,1.0,100.0
+1965,cat__device_id_Windows_2505,0.0,1.0,100.0
+1966,cat__device_id_Windows_2599,0.0,1.0,100.0
+1967,cat__device_id_Windows_2610,0.0,1.0,100.0
+1968,cat__device_id_Windows_2823,0.0,1.0,100.0
+1969,cat__device_id_Windows_2854,0.0,1.0,100.0
+1961,cat__device_id_Windows_2297,0.0,1.0,100.0
+2007,cat__device_id_Windows_6163,0.0,1.0,100.0
+2008,cat__device_id_Windows_6289,0.0,1.0,100.0
+2009,cat__device_id_Windows_6293,0.0,1.0,100.0
+2010,cat__device_id_Windows_6309,0.0,1.0,100.0
+2011,cat__device_id_Windows_6326,0.0,1.0,100.0
+2012,cat__device_id_Windows_6393,0.0,1.0,100.0
+2013,cat__device_id_Windows_6463,0.0,1.0,100.0
+1987,cat__device_id_Windows_4288,0.0,1.0,100.0
+2015,cat__device_id_Windows_6699,0.0,1.0,100.0
+2016,cat__device_id_Windows_6700,0.0,1.0,100.0
+2017,cat__device_id_Windows_6728,0.0,1.0,100.0
+2018,cat__device_id_Windows_6822,0.0,1.0,100.0
+2019,cat__device_id_Windows_6914,0.0,1.0,100.0
+2020,cat__device_id_Windows_6924,0.0,1.0,100.0
+2021,cat__device_id_Windows_6981,0.0,1.0,100.0
+2022,cat__device_id_Windows_7003,0.0,1.0,100.0
+2014,cat__device_id_Windows_6592,0.0,1.0,100.0
+1988,cat__device_id_Windows_4387,0.0,1.0,100.0
+1989,cat__device_id_Windows_4541,0.0,1.0,100.0
+1990,cat__device_id_Windows_4594,0.0,1.0,100.0
+1991,cat__device_id_Windows_4635,0.0,1.0,100.0
+1992,cat__device_id_Windows_4757,0.0,1.0,100.0
+1993,cat__device_id_Windows_4769,0.0,1.0,100.0
+1994,cat__device_id_Windows_4869,0.0,1.0,100.0
+1995,cat__device_id_Windows_4916,0.0,1.0,100.0
+2006,cat__device_id_Windows_6152,0.0,1.0,100.0
+1997,cat__device_id_Windows_5129,0.0,1.0,100.0
+1999,cat__device_id_Windows_5209,0.0,1.0,100.0
+2000,cat__device_id_Windows_5314,0.0,1.0,100.0
+2001,cat__device_id_Windows_5684,0.0,1.0,100.0
+2002,cat__device_id_Windows_5738,0.0,1.0,100.0
+2003,cat__device_id_Windows_5773,0.0,1.0,100.0
+2004,cat__device_id_Windows_5826,0.0,1.0,100.0
+2005,cat__device_id_Windows_5910,0.0,1.0,100.0
+1996,cat__device_id_Windows_5111,0.0,1.0,100.0
+2181,cat__device_id_iPhone_7298,0.0,1.0,100.0
+2182,cat__device_id_iPhone_7305,0.0,1.0,100.0
+2183,cat__device_id_iPhone_7366,0.0,1.0,100.0
+2184,cat__device_id_iPhone_7436,0.0,1.0,100.0
+2185,cat__device_id_iPhone_7536,0.0,1.0,100.0
+2186,cat__device_id_iPhone_7745,0.0,1.0,100.0
+2187,cat__device_id_iPhone_7776,0.0,1.0,100.0
+2092,cat__device_id_iPhone_2415,0.0,1.0,100.0
+2189,cat__device_id_iPhone_8014,0.0,1.0,100.0
+2190,cat__device_id_iPhone_8141,0.0,1.0,100.0
+2191,cat__device_id_iPhone_8412,0.0,1.0,100.0
+2192,cat__device_id_iPhone_8464,0.0,1.0,100.0
+2193,cat__device_id_iPhone_8474,0.0,1.0,100.0
+2194,cat__device_id_iPhone_8514,0.0,1.0,100.0
+2195,cat__device_id_iPhone_8584,0.0,1.0,100.0
+2196,cat__device_id_iPhone_8616,0.0,1.0,100.0
+2188,cat__device_id_iPhone_7987,0.0,1.0,100.0
+2164,cat__device_id_iPhone_6231,0.0,1.0,100.0
+2165,cat__device_id_iPhone_6319,0.0,1.0,100.0
+2166,cat__device_id_iPhone_6410,0.0,1.0,100.0
+2167,cat__device_id_iPhone_6500,0.0,1.0,100.0
+2168,cat__device_id_iPhone_6556,0.0,1.0,100.0
+2169,cat__device_id_iPhone_6582,0.0,1.0,100.0
+2170,cat__device_id_iPhone_6681,0.0,1.0,100.0
+2180,cat__device_id_iPhone_7274,0.0,1.0,100.0
+2172,cat__device_id_iPhone_6846,0.0,1.0,100.0
+2173,cat__device_id_iPhone_6886,0.0,1.0,100.0
+2174,cat__device_id_iPhone_7002,0.0,1.0,100.0
+2175,cat__device_id_iPhone_7108,0.0,1.0,100.0
+2176,cat__device_id_iPhone_7170,0.0,1.0,100.0
+2177,cat__device_id_iPhone_7189,0.0,1.0,100.0
+2178,cat__device_id_iPhone_7251,0.0,1.0,100.0
+2179,cat__device_id_iPhone_7271,0.0,1.0,100.0
+2171,cat__device_id_iPhone_6758,0.0,1.0,100.0
+29,"cat__shipping_address_129 State St, Los Angeles",0.0,1.0,100.0
+2206,cat__device_id_iPhone_8787,0.0,1.0,100.0
+15,"cat__shipping_address_111 Park Ave, Houston",0.0,1.0,100.0
+16,"cat__shipping_address_114 Broadway, Phoenix",0.0,1.0,100.0
+17,"cat__shipping_address_117 Broadway, Houston",0.0,1.0,100.0
+18,"cat__shipping_address_118 Broadway, Phoenix",0.0,1.0,100.0
+19,"cat__shipping_address_118 Market St, New York",0.0,1.0,100.0
+2197,cat__device_id_iPhone_8617,0.0,1.0,100.0
+21,"cat__shipping_address_12 Broadway, Chicago",0.0,1.0,100.0
+22,"cat__shipping_address_120 Park Ave, New York",0.0,1.0,100.0
+23,"cat__shipping_address_120 Park Ave, Phoenix",0.0,1.0,100.0
+24,"cat__shipping_address_121 Broadway, Chicago",0.0,1.0,100.0
+25,"cat__shipping_address_122 Park Ave, New York",0.0,1.0,100.0
+26,"cat__shipping_address_124 Park Ave, Los Angeles",0.0,1.0,100.0
+27,"cat__shipping_address_128 Broadway, Houston",0.0,1.0,100.0
+28,"cat__shipping_address_129 Broadway, Phoenix",0.0,1.0,100.0
+20,"cat__shipping_address_119 Market St, Phoenix",0.0,1.0,100.0
+2198,cat__device_id_iPhone_8627,0.0,1.0,100.0
+2199,cat__device_id_iPhone_8629,0.0,1.0,100.0
+2200,cat__device_id_iPhone_8672,0.0,1.0,100.0
+2201,cat__device_id_iPhone_8681,0.0,1.0,100.0
+2202,cat__device_id_iPhone_8711,0.0,1.0,100.0
+2203,cat__device_id_iPhone_8712,0.0,1.0,100.0
+2204,cat__device_id_iPhone_8720,0.0,1.0,100.0
+2205,cat__device_id_iPhone_8752,0.0,1.0,100.0
+2234,cat__country_Los Angeles,0.0,1.0,100.0
+2223,cat__device_id_iPhone_9856,0.0,1.0,100.0
+2224,cat__device_id_iPhone_9943,0.0,1.0,100.0
+2226,cat__city_Chicago,0.0,1.0,100.0
+2227,cat__city_Houston,0.0,1.0,100.0
+2228,cat__city_Los Angeles,0.0,1.0,100.0
+2231,cat__city_nan,0.0,1.0,100.0
+2232,cat__country_Chicago,0.0,1.0,100.0
+2233,cat__country_Houston,0.0,1.0,100.0
+12,"cat__shipping_address_106 Main St, Phoenix",0.0,1.0,100.0
+2110,cat__device_id_iPhone_3357,0.0,1.0,100.0
+2111,cat__device_id_iPhone_3492,0.0,1.0,100.0
+2112,cat__device_id_iPhone_3733,0.0,1.0,100.0
+2113,cat__device_id_iPhone_3742,0.0,1.0,100.0
+2114,cat__device_id_iPhone_3799,0.0,1.0,100.0
+2115,cat__device_id_iPhone_3822,0.0,1.0,100.0
+2116,cat__device_id_iPhone_3945,0.0,1.0,100.0
+2163,cat__device_id_iPhone_6221,0.0,1.0,100.0
+2118,cat__device_id_iPhone_4018,0.0,1.0,100.0
+2119,cat__device_id_iPhone_4046,0.0,1.0,100.0
+2120,cat__device_id_iPhone_4054,0.0,1.0,100.0
+2121,cat__device_id_iPhone_4085,0.0,1.0,100.0
+2122,cat__device_id_iPhone_4173,0.0,1.0,100.0
+2123,cat__device_id_iPhone_4263,0.0,1.0,100.0
+2124,cat__device_id_iPhone_4296,0.0,1.0,100.0
+2125,cat__device_id_iPhone_4320,0.0,1.0,100.0
+2117,cat__device_id_iPhone_4016,0.0,1.0,100.0
+2093,cat__device_id_iPhone_2426,0.0,1.0,100.0
+2094,cat__device_id_iPhone_2483,0.0,1.0,100.0
+2095,cat__device_id_iPhone_2506,0.0,1.0,100.0
+2096,cat__device_id_iPhone_2525,0.0,1.0,100.0
+2097,cat__device_id_iPhone_2689,0.0,1.0,100.0
+2098,cat__device_id_iPhone_2735,0.0,1.0,100.0
+2099,cat__device_id_iPhone_2781,0.0,1.0,100.0
+2109,cat__device_id_iPhone_3327,0.0,1.0,100.0
+2101,cat__device_id_iPhone_2791,0.0,1.0,100.0
+2102,cat__device_id_iPhone_2827,0.0,1.0,100.0
+2103,cat__device_id_iPhone_2841,0.0,1.0,100.0
+2104,cat__device_id_iPhone_2870,0.0,1.0,100.0
+2105,cat__device_id_iPhone_2998,0.0,1.0,100.0
+2106,cat__device_id_iPhone_3077,0.0,1.0,100.0
+2107,cat__device_id_iPhone_3131,0.0,1.0,100.0
+2108,cat__device_id_iPhone_3155,0.0,1.0,100.0
+2100,cat__device_id_iPhone_2784,0.0,1.0,100.0
+2146,cat__device_id_iPhone_5331,0.0,1.0,100.0
+2147,cat__device_id_iPhone_5362,0.0,1.0,100.0
+2148,cat__device_id_iPhone_5372,0.0,1.0,100.0
+2149,cat__device_id_iPhone_5422,0.0,1.0,100.0
+2150,cat__device_id_iPhone_5448,0.0,1.0,100.0
+2151,cat__device_id_iPhone_5487,0.0,1.0,100.0
+2152,cat__device_id_iPhone_5521,0.0,1.0,100.0
+2126,cat__device_id_iPhone_4396,0.0,1.0,100.0
+2154,cat__device_id_iPhone_5623,0.0,1.0,100.0
+2155,cat__device_id_iPhone_5792,0.0,1.0,100.0
+2156,cat__device_id_iPhone_5803,0.0,1.0,100.0
+2157,cat__device_id_iPhone_5859,0.0,1.0,100.0
+2158,cat__device_id_iPhone_5979,0.0,1.0,100.0
+2159,cat__device_id_iPhone_6035,0.0,1.0,100.0
+2160,cat__device_id_iPhone_6042,0.0,1.0,100.0
+2162,cat__device_id_iPhone_6168,0.0,1.0,100.0
+2153,cat__device_id_iPhone_5622,0.0,1.0,100.0
+2127,cat__device_id_iPhone_4412,0.0,1.0,100.0
+2128,cat__device_id_iPhone_4419,0.0,1.0,100.0
+2129,cat__device_id_iPhone_4450,0.0,1.0,100.0
+2130,cat__device_id_iPhone_4452,0.0,1.0,100.0
+2131,cat__device_id_iPhone_4552,0.0,1.0,100.0
+2132,cat__device_id_iPhone_4568,0.0,1.0,100.0
+2133,cat__device_id_iPhone_4638,0.0,1.0,100.0
+2134,cat__device_id_iPhone_4714,0.0,1.0,100.0
+2145,cat__device_id_iPhone_5314,0.0,1.0,100.0
+2136,cat__device_id_iPhone_4854,0.0,1.0,100.0
+2137,cat__device_id_iPhone_4866,0.0,1.0,100.0
+2138,cat__device_id_iPhone_4982,0.0,1.0,100.0
+2139,cat__device_id_iPhone_5025,0.0,1.0,100.0
+2140,cat__device_id_iPhone_5053,0.0,1.0,100.0
+2141,cat__device_id_iPhone_5150,0.0,1.0,100.0
+2142,cat__device_id_iPhone_5185,0.0,1.0,100.0
+2143,cat__device_id_iPhone_5221,0.0,1.0,100.0
+2135,cat__device_id_iPhone_4784,0.0,1.0,100.0
+1762,cat__device_id_Linux_9362,0.0,1.0,100.0
+1763,cat__device_id_Linux_9376,0.0,1.0,100.0
+1764,cat__device_id_Linux_9422,0.0,1.0,100.0
+1765,cat__device_id_Linux_9534,0.0,1.0,100.0
+1766,cat__device_id_Linux_9589,0.0,1.0,100.0
+1767,cat__device_id_Linux_9631,0.0,1.0,100.0
+1768,cat__device_id_Linux_9745,0.0,1.0,100.0
+1953,cat__device_id_Windows_1892,0.0,1.0,100.0
+1770,cat__device_id_Linux_9776,0.0,1.0,100.0
+1771,cat__device_id_Linux_9779,0.0,1.0,100.0
+1772,cat__device_id_Linux_9784,0.0,1.0,100.0
+1773,cat__device_id_Linux_9821,0.0,1.0,100.0
+1774,cat__device_id_Linux_9887,0.0,1.0,100.0
+1775,cat__device_id_Linux_9939,0.0,1.0,100.0
+1776,cat__device_id_Mac_1011,0.0,1.0,100.0
+1777,cat__device_id_Mac_1022,0.0,1.0,100.0
+1769,cat__device_id_Linux_9748,0.0,1.0,100.0
+1745,cat__device_id_Linux_8326,0.0,1.0,100.0
+1746,cat__device_id_Linux_8361,0.0,1.0,100.0
+1747,cat__device_id_Linux_8379,0.0,1.0,100.0
+1748,cat__device_id_Linux_8424,0.0,1.0,100.0
+1749,cat__device_id_Linux_8454,0.0,1.0,100.0
+1750,cat__device_id_Linux_8480,0.0,1.0,100.0
+1751,cat__device_id_Linux_8680,0.0,1.0,100.0
+1761,cat__device_id_Linux_9084,0.0,1.0,100.0
+1753,cat__device_id_Linux_8786,0.0,1.0,100.0
+1754,cat__device_id_Linux_8889,0.0,1.0,100.0
+1755,cat__device_id_Linux_8913,0.0,1.0,100.0
+1756,cat__device_id_Linux_8972,0.0,1.0,100.0
+1757,cat__device_id_Linux_8987,0.0,1.0,100.0
+1758,cat__device_id_Linux_9015,0.0,1.0,100.0
+1759,cat__device_id_Linux_9027,0.0,1.0,100.0
+1760,cat__device_id_Linux_9029,0.0,1.0,100.0
+1752,cat__device_id_Linux_8702,0.0,1.0,100.0
+1797,cat__device_id_Mac_2148,0.0,1.0,100.0
+1798,cat__device_id_Mac_2284,0.0,1.0,100.0
+1799,cat__device_id_Mac_2300,0.0,1.0,100.0
+1800,cat__device_id_Mac_2310,0.0,1.0,100.0
+1801,cat__device_id_Mac_2322,0.0,1.0,100.0
+1802,cat__device_id_Mac_2390,0.0,1.0,100.0
+1803,cat__device_id_Mac_2422,0.0,1.0,100.0
+1778,cat__device_id_Mac_1060,0.0,1.0,100.0
+1805,cat__device_id_Mac_2442,0.0,1.0,100.0
+1806,cat__device_id_Mac_2477,0.0,1.0,100.0
+1807,cat__device_id_Mac_2539,0.0,1.0,100.0
+1808,cat__device_id_Mac_2562,0.0,1.0,100.0
+1809,cat__device_id_Mac_2577,0.0,1.0,100.0
+1810,cat__device_id_Mac_2621,0.0,1.0,100.0
+1811,cat__device_id_Mac_2752,0.0,1.0,100.0
+1812,cat__device_id_Mac_2936,0.0,1.0,100.0
+1804,cat__device_id_Mac_2430,0.0,1.0,100.0
+1779,cat__device_id_Mac_1108,0.0,1.0,100.0
+1780,cat__device_id_Mac_1121,0.0,1.0,100.0
+1781,cat__device_id_Mac_1134,0.0,1.0,100.0
+1782,cat__device_id_Mac_1245,0.0,1.0,100.0
+1783,cat__device_id_Mac_1307,0.0,1.0,100.0
+1784,cat__device_id_Mac_1352,0.0,1.0,100.0
+1785,cat__device_id_Mac_1372,0.0,1.0,100.0
+1786,cat__device_id_Mac_1408,0.0,1.0,100.0
+1796,cat__device_id_Mac_1917,0.0,1.0,100.0
+1788,cat__device_id_Mac_1482,0.0,1.0,100.0
+1789,cat__device_id_Mac_1495,0.0,1.0,100.0
+1790,cat__device_id_Mac_1643,0.0,1.0,100.0
+1791,cat__device_id_Mac_1724,0.0,1.0,100.0
+1792,cat__device_id_Mac_1735,0.0,1.0,100.0
+1793,cat__device_id_Mac_1745,0.0,1.0,100.0
+1794,cat__device_id_Mac_1881,0.0,1.0,100.0
+1795,cat__device_id_Mac_1886,0.0,1.0,100.0
+1787,cat__device_id_Mac_1477,0.0,1.0,100.0
+1693,cat__device_id_Linux_5162,0.0,1.0,100.0
+1694,cat__device_id_Linux_5193,0.0,1.0,100.0
+1695,cat__device_id_Linux_5227,0.0,1.0,100.0
+1696,cat__device_id_Linux_5237,0.0,1.0,100.0
+1697,cat__device_id_Linux_5254,0.0,1.0,100.0
+1698,cat__device_id_Linux_5267,0.0,1.0,100.0
+1699,cat__device_id_Linux_5355,0.0,1.0,100.0
+1744,cat__device_id_Linux_8268,0.0,1.0,100.0
+1701,cat__device_id_Linux_5519,0.0,1.0,100.0
+1702,cat__device_id_Linux_5578,0.0,1.0,100.0
+1703,cat__device_id_Linux_5590,0.0,1.0,100.0
+1704,cat__device_id_Linux_5591,0.0,1.0,100.0
+1705,cat__device_id_Linux_5638,0.0,1.0,100.0
+1706,cat__device_id_Linux_5788,0.0,1.0,100.0
+1707,cat__device_id_Linux_5828,0.0,1.0,100.0
+1708,cat__device_id_Linux_5889,0.0,1.0,100.0
+1700,cat__device_id_Linux_5466,0.0,1.0,100.0
+1676,cat__device_id_Linux_4415,0.0,1.0,100.0
+1677,cat__device_id_Linux_4437,0.0,1.0,100.0
+1678,cat__device_id_Linux_4438,0.0,1.0,100.0
+1679,cat__device_id_Linux_4471,0.0,1.0,100.0
+1680,cat__device_id_Linux_4562,0.0,1.0,100.0
+1681,cat__device_id_Linux_4643,0.0,1.0,100.0
+1682,cat__device_id_Linux_4726,0.0,1.0,100.0
+1692,cat__device_id_Linux_5105,0.0,1.0,100.0
+1125,cat__ip_address_214.220.84.38,0.0,1.0,100.0
+1685,cat__device_id_Linux_4788,0.0,1.0,100.0
+1686,cat__device_id_Linux_4804,0.0,1.0,100.0
+1687,cat__device_id_Linux_4828,0.0,1.0,100.0
+1688,cat__device_id_Linux_4860,0.0,1.0,100.0
+1689,cat__device_id_Linux_4869,0.0,1.0,100.0
+1690,cat__device_id_Linux_4907,0.0,1.0,100.0
+1691,cat__device_id_Linux_4912,0.0,1.0,100.0
+1683,cat__device_id_Linux_4744,0.0,1.0,100.0
+1728,cat__device_id_Linux_6965,0.0,1.0,100.0
+1729,cat__device_id_Linux_7162,0.0,1.0,100.0
+1730,cat__device_id_Linux_7210,0.0,1.0,100.0
+1731,cat__device_id_Linux_7232,0.0,1.0,100.0
+1732,cat__device_id_Linux_7313,0.0,1.0,100.0
+1733,cat__device_id_Linux_7347,0.0,1.0,100.0
+1734,cat__device_id_Linux_7348,0.0,1.0,100.0
+1709,cat__device_id_Linux_5904,0.0,1.0,100.0
+1736,cat__device_id_Linux_7540,0.0,1.0,100.0
+1737,cat__device_id_Linux_7779,0.0,1.0,100.0
+1738,cat__device_id_Linux_7793,0.0,1.0,100.0
+1739,cat__device_id_Linux_7802,0.0,1.0,100.0
+1740,cat__device_id_Linux_7929,0.0,1.0,100.0
+1741,cat__device_id_Linux_8065,0.0,1.0,100.0
+1742,cat__device_id_Linux_8126,0.0,1.0,100.0
+1743,cat__device_id_Linux_8258,0.0,1.0,100.0
+1735,cat__device_id_Linux_7432,0.0,1.0,100.0
+1710,cat__device_id_Linux_5921,0.0,1.0,100.0
+1711,cat__device_id_Linux_5989,0.0,1.0,100.0
+1712,cat__device_id_Linux_5995,0.0,1.0,100.0
+1713,cat__device_id_Linux_6119,0.0,1.0,100.0
+1714,cat__device_id_Linux_6167,0.0,1.0,100.0
+1715,cat__device_id_Linux_6169,0.0,1.0,100.0
+1716,cat__device_id_Linux_6307,0.0,1.0,100.0
+1717,cat__device_id_Linux_6319,0.0,1.0,100.0
+1727,cat__device_id_Linux_6929,0.0,1.0,100.0
+1719,cat__device_id_Linux_6434,0.0,1.0,100.0
+1720,cat__device_id_Linux_6529,0.0,1.0,100.0
+1721,cat__device_id_Linux_6621,0.0,1.0,100.0
+1722,cat__device_id_Linux_6689,0.0,1.0,100.0
+1723,cat__device_id_Linux_6690,0.0,1.0,100.0
+1724,cat__device_id_Linux_6797,0.0,1.0,100.0
+1725,cat__device_id_Linux_6826,0.0,1.0,100.0
+1726,cat__device_id_Linux_6885,0.0,1.0,100.0
+1718,cat__device_id_Linux_6395,0.0,1.0,100.0
+1902,cat__device_id_Mac_7782,0.0,1.0,100.0
+1903,cat__device_id_Mac_7824,0.0,1.0,100.0
+1904,cat__device_id_Mac_7945,0.0,1.0,100.0
+1905,cat__device_id_Mac_7974,0.0,1.0,100.0
+1906,cat__device_id_Mac_8144,0.0,1.0,100.0
+1907,cat__device_id_Mac_8155,0.0,1.0,100.0
+1908,cat__device_id_Mac_8161,0.0,1.0,100.0
+1813,cat__device_id_Mac_2972,0.0,1.0,100.0
+1910,cat__device_id_Mac_8400,0.0,1.0,100.0
+1911,cat__device_id_Mac_8418,0.0,1.0,100.0
+1912,cat__device_id_Mac_8485,0.0,1.0,100.0
+1913,cat__device_id_Mac_8548,0.0,1.0,100.0
+1914,cat__device_id_Mac_8598,0.0,1.0,100.0
+1915,cat__device_id_Mac_8774,0.0,1.0,100.0
+1916,cat__device_id_Mac_8802,0.0,1.0,100.0
+1917,cat__device_id_Mac_8816,0.0,1.0,100.0
+1909,cat__device_id_Mac_8168,0.0,1.0,100.0
+1885,cat__device_id_Mac_6946,0.0,1.0,100.0
+1886,cat__device_id_Mac_7031,0.0,1.0,100.0
+1887,cat__device_id_Mac_7058,0.0,1.0,100.0
+1888,cat__device_id_Mac_7081,0.0,1.0,100.0
+1889,cat__device_id_Mac_7235,0.0,1.0,100.0
+1890,cat__device_id_Mac_7251,0.0,1.0,100.0
+1891,cat__device_id_Mac_7288,0.0,1.0,100.0
+1901,cat__device_id_Mac_7737,0.0,1.0,100.0
+1893,cat__device_id_Mac_7369,0.0,1.0,100.0
+1894,cat__device_id_Mac_7390,0.0,1.0,100.0
+1895,cat__device_id_Mac_7459,0.0,1.0,100.0
+1896,cat__device_id_Mac_7476,0.0,1.0,100.0
+1897,cat__device_id_Mac_7505,0.0,1.0,100.0
+1898,cat__device_id_Mac_7566,0.0,1.0,100.0
+1899,cat__device_id_Mac_7631,0.0,1.0,100.0
+1900,cat__device_id_Mac_7719,0.0,1.0,100.0
+1892,cat__device_id_Mac_7350,0.0,1.0,100.0
+1937,cat__device_id_Mac_9753,0.0,1.0,100.0
+1938,cat__device_id_Mac_9791,0.0,1.0,100.0
+1939,cat__device_id_Mac_9797,0.0,1.0,100.0
+1940,cat__device_id_Mac_9841,0.0,1.0,100.0
+1941,cat__device_id_Mac_9856,0.0,1.0,100.0
+1942,cat__device_id_Windows_1107,0.0,1.0,100.0
+1943,cat__device_id_Windows_1137,0.0,1.0,100.0
+1918,cat__device_id_Mac_8836,0.0,1.0,100.0
+1945,cat__device_id_Windows_1172,0.0,1.0,100.0
+1946,cat__device_id_Windows_1225,0.0,1.0,100.0
+1947,cat__device_id_Windows_1324,0.0,1.0,100.0
+1948,cat__device_id_Windows_1447,0.0,1.0,100.0
+1949,cat__device_id_Windows_1601,0.0,1.0,100.0
+1950,cat__device_id_Windows_1612,0.0,1.0,100.0
+1951,cat__device_id_Windows_1646,0.0,1.0,100.0
+1952,cat__device_id_Windows_1701,0.0,1.0,100.0
+1944,cat__device_id_Windows_1149,0.0,1.0,100.0
+1919,cat__device_id_Mac_8852,0.0,1.0,100.0
+1920,cat__device_id_Mac_8936,0.0,1.0,100.0
+1921,cat__device_id_Mac_9151,0.0,1.0,100.0
+1922,cat__device_id_Mac_9169,0.0,1.0,100.0
+1923,cat__device_id_Mac_9215,0.0,1.0,100.0
+1924,cat__device_id_Mac_9221,0.0,1.0,100.0
+1925,cat__device_id_Mac_9269,0.0,1.0,100.0
+1926,cat__device_id_Mac_9290,0.0,1.0,100.0
+1936,cat__device_id_Mac_9714,0.0,1.0,100.0
+1928,cat__device_id_Mac_9346,0.0,1.0,100.0
+1929,cat__device_id_Mac_9383,0.0,1.0,100.0
+1930,cat__device_id_Mac_9399,0.0,1.0,100.0
+1931,cat__device_id_Mac_9469,0.0,1.0,100.0
+1932,cat__device_id_Mac_9579,0.0,1.0,100.0
+1933,cat__device_id_Mac_9615,0.0,1.0,100.0
+1934,cat__device_id_Mac_9704,0.0,1.0,100.0
+1935,cat__device_id_Mac_9709,0.0,1.0,100.0
+1927,cat__device_id_Mac_9331,0.0,1.0,100.0
+1832,cat__device_id_Mac_4161,0.0,1.0,100.0
+1833,cat__device_id_Mac_4181,0.0,1.0,100.0
+1834,cat__device_id_Mac_4212,0.0,1.0,100.0
+1835,cat__device_id_Mac_4256,0.0,1.0,100.0
+1836,cat__device_id_Mac_4271,0.0,1.0,100.0
+1837,cat__device_id_Mac_4558,0.0,1.0,100.0
+1838,cat__device_id_Mac_4571,0.0,1.0,100.0
+1884,cat__device_id_Mac_6827,0.0,1.0,100.0
+1840,cat__device_id_Mac_4613,0.0,1.0,100.0
+1841,cat__device_id_Mac_4614,0.0,1.0,100.0
+1842,cat__device_id_Mac_4638,0.0,1.0,100.0
+1843,cat__device_id_Mac_4796,0.0,1.0,100.0
+1844,cat__device_id_Mac_4893,0.0,1.0,100.0
+1845,cat__device_id_Mac_4924,0.0,1.0,100.0
+1846,cat__device_id_Mac_4938,0.0,1.0,100.0
+1847,cat__device_id_Mac_4940,0.0,1.0,100.0
+1839,cat__device_id_Mac_4610,0.0,1.0,100.0
+1814,cat__device_id_Mac_2986,0.0,1.0,100.0
+1815,cat__device_id_Mac_3071,0.0,1.0,100.0
+1816,cat__device_id_Mac_3089,0.0,1.0,100.0
+1817,cat__device_id_Mac_3136,0.0,1.0,100.0
+1818,cat__device_id_Mac_3196,0.0,1.0,100.0
+1819,cat__device_id_Mac_3203,0.0,1.0,100.0
+1820,cat__device_id_Mac_3213,0.0,1.0,100.0
+1821,cat__device_id_Mac_3278,0.0,1.0,100.0
+1831,cat__device_id_Mac_4129,0.0,1.0,100.0
+1823,cat__device_id_Mac_3465,0.0,1.0,100.0
+1824,cat__device_id_Mac_3545,0.0,1.0,100.0
+1825,cat__device_id_Mac_3572,0.0,1.0,100.0
+1826,cat__device_id_Mac_3727,0.0,1.0,100.0
+1827,cat__device_id_Mac_3740,0.0,1.0,100.0
+1828,cat__device_id_Mac_3920,0.0,1.0,100.0
+1829,cat__device_id_Mac_3996,0.0,1.0,100.0
+1830,cat__device_id_Mac_4027,0.0,1.0,100.0
+1822,cat__device_id_Mac_3438,0.0,1.0,100.0
+1868,cat__device_id_Mac_6142,0.0,1.0,100.0
+1869,cat__device_id_Mac_6172,0.0,1.0,100.0
+1870,cat__device_id_Mac_6185,0.0,1.0,100.0
+1871,cat__device_id_Mac_6298,0.0,1.0,100.0
+1872,cat__device_id_Mac_6299,0.0,1.0,100.0
+1873,cat__device_id_Mac_6312,0.0,1.0,100.0
+1874,cat__device_id_Mac_6316,0.0,1.0,100.0
+1849,cat__device_id_Mac_4982,0.0,1.0,100.0
+1876,cat__device_id_Mac_6431,0.0,1.0,100.0
+1877,cat__device_id_Mac_6450,0.0,1.0,100.0
+1878,cat__device_id_Mac_6483,0.0,1.0,100.0
+1879,cat__device_id_Mac_6527,0.0,1.0,100.0
+1880,cat__device_id_Mac_6606,0.0,1.0,100.0
+1881,cat__device_id_Mac_6640,0.0,1.0,100.0
+1882,cat__device_id_Mac_6785,0.0,1.0,100.0
+1883,cat__device_id_Mac_6821,0.0,1.0,100.0
+1875,cat__device_id_Mac_6340,0.0,1.0,100.0
+1850,cat__device_id_Mac_4991,0.0,1.0,100.0
+1851,cat__device_id_Mac_5049,0.0,1.0,100.0
+1852,cat__device_id_Mac_5094,0.0,1.0,100.0
+1853,cat__device_id_Mac_5243,0.0,1.0,100.0
+1854,cat__device_id_Mac_5302,0.0,1.0,100.0
+1855,cat__device_id_Mac_5365,0.0,1.0,100.0
+1856,cat__device_id_Mac_5420,0.0,1.0,100.0
+1857,cat__device_id_Mac_5445,0.0,1.0,100.0
+1867,cat__device_id_Mac_6118,0.0,1.0,100.0
+1859,cat__device_id_Mac_5573,0.0,1.0,100.0
+1860,cat__device_id_Mac_5581,0.0,1.0,100.0
+1861,cat__device_id_Mac_5694,0.0,1.0,100.0
+1862,cat__device_id_Mac_5747,0.0,1.0,100.0
+1863,cat__device_id_Mac_5823,0.0,1.0,100.0
+1864,cat__device_id_Mac_5895,0.0,1.0,100.0
+1865,cat__device_id_Mac_5994,0.0,1.0,100.0
+1866,cat__device_id_Mac_6044,0.0,1.0,100.0
+1858,cat__device_id_Mac_5528,0.0,1.0,100.0
+374,"cat__shipping_address_539 Market St, Phoenix",0.0,1.0,100.0
+375,"cat__shipping_address_54 Broadway, New York",0.0,1.0,100.0
+376,"cat__shipping_address_542 Broadway, Phoenix",0.0,1.0,100.0
+377,"cat__shipping_address_543 Broadway, Phoenix",0.0,1.0,100.0
+378,"cat__shipping_address_543 Park Ave, Houston",0.0,1.0,100.0
+379,"cat__shipping_address_544 State St, Los Angeles",0.0,1.0,100.0
+380,"cat__shipping_address_546 Market St, Phoenix",0.0,1.0,100.0
+1118,cat__ip_address_212.39.156.25,0.0,1.0,100.0
+382,"cat__shipping_address_547 Park Ave, Chicago",0.0,1.0,100.0
+383,"cat__shipping_address_550 Main St, Houston",0.0,1.0,100.0
+384,"cat__shipping_address_552 State St, Phoenix",0.0,1.0,100.0
+385,"cat__shipping_address_553 Market St, Houston",0.0,1.0,100.0
+386,"cat__shipping_address_555 Main St, New York",0.0,1.0,100.0
+387,"cat__shipping_address_556 Broadway, Chicago",0.0,1.0,100.0
+388,"cat__shipping_address_560 Broadway, Chicago",0.0,1.0,100.0
+389,"cat__shipping_address_562 State St, Phoenix",0.0,1.0,100.0
+381,"cat__shipping_address_547 Main St, Phoenix",0.0,1.0,100.0
+357,"cat__shipping_address_516 Park Ave, Phoenix",0.0,1.0,100.0
+358,"cat__shipping_address_518 Market St, Los Angeles",0.0,1.0,100.0
+359,"cat__shipping_address_52 Broadway, Houston",0.0,1.0,100.0
+360,"cat__shipping_address_520 State St, Phoenix",0.0,1.0,100.0
+361,"cat__shipping_address_524 Market St, Los Angeles",0.0,1.0,100.0
+362,"cat__shipping_address_526 Market St, Houston",0.0,1.0,100.0
+363,"cat__shipping_address_526 Park Ave, New York",0.0,1.0,100.0
+373,"cat__shipping_address_537 State St, Phoenix",0.0,1.0,100.0
+365,"cat__shipping_address_528 State St, Chicago",0.0,1.0,100.0
+366,"cat__shipping_address_531 Market St, Phoenix",0.0,1.0,100.0
+367,"cat__shipping_address_531 Park Ave, Chicago",0.0,1.0,100.0
+368,"cat__shipping_address_532 Market St, Los Angeles",0.0,1.0,100.0
+369,"cat__shipping_address_536 Broadway, Chicago",0.0,1.0,100.0
+370,"cat__shipping_address_537 Broadway, New York",0.0,1.0,100.0
+371,"cat__shipping_address_537 Main St, Houston",0.0,1.0,100.0
+372,"cat__shipping_address_537 Market St, Los Angeles",0.0,1.0,100.0
+364,"cat__shipping_address_528 Broadway, New York",0.0,1.0,100.0
+409,"cat__shipping_address_591 Market St, Los Angeles",0.0,1.0,100.0
+410,"cat__shipping_address_592 Park Ave, New York",0.0,1.0,100.0
+411,"cat__shipping_address_592 State St, Chicago",0.0,1.0,100.0
+412,"cat__shipping_address_592 State St, Los Angeles",0.0,1.0,100.0
+413,"cat__shipping_address_593 Main St, Chicago",0.0,1.0,100.0
+414,"cat__shipping_address_593 Main St, New York",0.0,1.0,100.0
+415,"cat__shipping_address_594 Broadway, Los Angeles",0.0,1.0,100.0
+390,"cat__shipping_address_564 Broadway, Chicago",0.0,1.0,100.0
+417,"cat__shipping_address_595 Broadway, New York",0.0,1.0,100.0
+418,"cat__shipping_address_598 Market St, Los Angeles",0.0,1.0,100.0
+419,"cat__shipping_address_599 Market St, Chicago",0.0,1.0,100.0
+420,"cat__shipping_address_60 Park Ave, Phoenix",0.0,1.0,100.0
+421,"cat__shipping_address_600 Market St, Houston",0.0,1.0,100.0
+422,"cat__shipping_address_601 Park Ave, Los Angeles",0.0,1.0,100.0
+423,"cat__shipping_address_602 Main St, Chicago",0.0,1.0,100.0
+424,"cat__shipping_address_602 Park Ave, Houston",0.0,1.0,100.0
+416,"cat__shipping_address_594 Market St, Los Angeles",0.0,1.0,100.0
+391,"cat__shipping_address_565 Main St, Phoenix",0.0,1.0,100.0
+392,"cat__shipping_address_568 Main St, Phoenix",0.0,1.0,100.0
+393,"cat__shipping_address_569 Park Ave, Houston",0.0,1.0,100.0
+394,"cat__shipping_address_570 Main St, Phoenix",0.0,1.0,100.0
+395,"cat__shipping_address_570 Market St, New York",0.0,1.0,100.0
+396,"cat__shipping_address_572 Broadway, Los Angeles",0.0,1.0,100.0
+397,"cat__shipping_address_572 Market St, Phoenix",0.0,1.0,100.0
+398,"cat__shipping_address_573 Broadway, New York",0.0,1.0,100.0
+408,"cat__shipping_address_591 Main St, Los Angeles",0.0,1.0,100.0
+400,"cat__shipping_address_573 State St, Chicago",0.0,1.0,100.0
+401,"cat__shipping_address_576 Main St, Chicago",0.0,1.0,100.0
+402,"cat__shipping_address_577 Park Ave, Los Angeles",0.0,1.0,100.0
+403,"cat__shipping_address_578 Main St, New York",0.0,1.0,100.0
+404,"cat__shipping_address_580 Market St, New York",0.0,1.0,100.0
+405,"cat__shipping_address_584 State St, Los Angeles",0.0,1.0,100.0
+406,"cat__shipping_address_587 Main St, Los Angeles",0.0,1.0,100.0
+407,"cat__shipping_address_590 Market St, Houston",0.0,1.0,100.0
+399,"cat__shipping_address_573 Market St, Chicago",0.0,1.0,100.0
+305,"cat__shipping_address_461 State St, Los Angeles",0.0,1.0,100.0
+306,"cat__shipping_address_462 Market St, Chicago",0.0,1.0,100.0
+307,"cat__shipping_address_462 State St, Chicago",0.0,1.0,100.0
+308,"cat__shipping_address_465 Main St, Chicago",0.0,1.0,100.0
+309,"cat__shipping_address_466 Broadway, Chicago",0.0,1.0,100.0
+310,"cat__shipping_address_467 Broadway, Los Angeles",0.0,1.0,100.0
+311,"cat__shipping_address_467 Market St, Phoenix",0.0,1.0,100.0
+356,"cat__shipping_address_516 Broadway, Los Angeles",0.0,1.0,100.0
+313,"cat__shipping_address_47 Main St, Los Angeles",0.0,1.0,100.0
+314,"cat__shipping_address_47 Market St, New York",0.0,1.0,100.0
+315,"cat__shipping_address_47 Park Ave, Houston",0.0,1.0,100.0
+316,"cat__shipping_address_47 State St, Chicago",0.0,1.0,100.0
+317,"cat__shipping_address_470 Main St, New York",0.0,1.0,100.0
+318,"cat__shipping_address_470 State St, Phoenix",0.0,1.0,100.0
+319,"cat__shipping_address_471 Broadway, New York",0.0,1.0,100.0
+320,"cat__shipping_address_471 State St, Chicago",0.0,1.0,100.0
+312,"cat__shipping_address_468 State St, New York",0.0,1.0,100.0
+285,"cat__shipping_address_447 State St, Houston",0.0,1.0,100.0
+286,"cat__shipping_address_448 Main St, Los Angeles",0.0,1.0,100.0
+287,"cat__shipping_address_45 Market St, Chicago",0.0,1.0,100.0
+288,"cat__shipping_address_45 State St, Chicago",0.0,1.0,100.0
+289,"cat__shipping_address_450 Park Ave, Phoenix",0.0,1.0,100.0
+290,"cat__shipping_address_451 Main St, Chicago",0.0,1.0,100.0
+292,"cat__shipping_address_452 Broadway, Los Angeles",0.0,1.0,100.0
+293,"cat__shipping_address_453 Broadway, Chicago",0.0,1.0,100.0
+304,"cat__shipping_address_461 Broadway, Los Angeles",0.0,1.0,100.0
+295,"cat__shipping_address_454 Market St, Houston",0.0,1.0,100.0
+296,"cat__shipping_address_455 Main St, Phoenix",0.0,1.0,100.0
+297,"cat__shipping_address_455 Market St, Los Angeles",0.0,1.0,100.0
+298,"cat__shipping_address_458 Main St, Chicago",0.0,1.0,100.0
+299,"cat__shipping_address_458 State St, Houston",0.0,1.0,100.0
+300,"cat__shipping_address_46 Broadway, Phoenix",0.0,1.0,100.0
+301,"cat__shipping_address_46 Main St, Chicago",0.0,1.0,100.0
+303,"cat__shipping_address_460 State St, Phoenix",0.0,1.0,100.0
+294,"cat__shipping_address_453 Market St, Los Angeles",0.0,1.0,100.0
+340,"cat__shipping_address_499 State St, Chicago",0.0,1.0,100.0
+341,"cat__shipping_address_50 Main St, Chicago",0.0,1.0,100.0
+342,"cat__shipping_address_501 Broadway, New York",0.0,1.0,100.0
+343,"cat__shipping_address_501 Main St, Phoenix",0.0,1.0,100.0
+344,"cat__shipping_address_501 Park Ave, Phoenix",0.0,1.0,100.0
+345,"cat__shipping_address_504 Main St, Phoenix",0.0,1.0,100.0
+346,"cat__shipping_address_505 Main St, New York",0.0,1.0,100.0
+321,"cat__shipping_address_472 Broadway, Los Angeles",0.0,1.0,100.0
+348,"cat__shipping_address_51 Main St, Chicago",0.0,1.0,100.0
+349,"cat__shipping_address_510 State St, Chicago",0.0,1.0,100.0
+350,"cat__shipping_address_511 Broadway, Phoenix",0.0,1.0,100.0
+351,"cat__shipping_address_514 Broadway, Los Angeles",0.0,1.0,100.0
+352,"cat__shipping_address_514 State St, Houston",0.0,1.0,100.0
+353,"cat__shipping_address_515 Main St, New York",0.0,1.0,100.0
+354,"cat__shipping_address_515 State St, Chicago",0.0,1.0,100.0
+355,"cat__shipping_address_515 State St, Los Angeles",0.0,1.0,100.0
+347,"cat__shipping_address_507 State St, Houston",0.0,1.0,100.0
+322,"cat__shipping_address_472 Park Ave, Chicago",0.0,1.0,100.0
+323,"cat__shipping_address_473 Broadway, Houston",0.0,1.0,100.0
+324,"cat__shipping_address_473 Market St, New York",0.0,1.0,100.0
+325,"cat__shipping_address_474 Market St, Chicago",0.0,1.0,100.0
+326,"cat__shipping_address_474 Market St, New York",0.0,1.0,100.0
+327,"cat__shipping_address_474 State St, Phoenix",0.0,1.0,100.0
+328,"cat__shipping_address_477 Market St, Phoenix",0.0,1.0,100.0
+329,"cat__shipping_address_478 State St, Chicago",0.0,1.0,100.0
+339,"cat__shipping_address_493 Park Ave, Houston",0.0,1.0,100.0
+331,"cat__shipping_address_481 Broadway, Chicago",0.0,1.0,100.0
+332,"cat__shipping_address_482 Broadway, New York",0.0,1.0,100.0
+333,"cat__shipping_address_482 State St, Houston",0.0,1.0,100.0
+334,"cat__shipping_address_485 Main St, Phoenix",0.0,1.0,100.0
+335,"cat__shipping_address_485 State St, Phoenix",0.0,1.0,100.0
+336,"cat__shipping_address_487 State St, New York",0.0,1.0,100.0
+337,"cat__shipping_address_489 Main St, Chicago",0.0,1.0,100.0
+338,"cat__shipping_address_49 Park Ave, Houston",0.0,1.0,100.0
+330,"cat__shipping_address_480 Main St, Los Angeles",0.0,1.0,100.0
+513,"cat__shipping_address_702 Broadway, New York",0.0,1.0,100.0
+514,"cat__shipping_address_703 Broadway, Phoenix",0.0,1.0,100.0
+515,"cat__shipping_address_703 Main St, Houston",0.0,1.0,100.0
+516,"cat__shipping_address_703 State St, Chicago",0.0,1.0,100.0
+517,"cat__shipping_address_704 Park Ave, Chicago",0.0,1.0,100.0
+518,"cat__shipping_address_707 Broadway, Houston",0.0,1.0,100.0
+519,"cat__shipping_address_707 Main St, Chicago",0.0,1.0,100.0
+425,"cat__shipping_address_603 Broadway, New York",0.0,1.0,100.0
+521,"cat__shipping_address_708 Park Ave, Houston",0.0,1.0,100.0
+522,"cat__shipping_address_709 Market St, Chicago",0.0,1.0,100.0
+523,"cat__shipping_address_709 Park Ave, Chicago",0.0,1.0,100.0
+524,"cat__shipping_address_713 Market St, Los Angeles",0.0,1.0,100.0
+525,"cat__shipping_address_713 Park Ave, Houston",0.0,1.0,100.0
+526,"cat__shipping_address_714 Market St, Houston",0.0,1.0,100.0
+527,"cat__shipping_address_715 Market St, Chicago",0.0,1.0,100.0
+528,"cat__shipping_address_715 Park Ave, Phoenix",0.0,1.0,100.0
+520,"cat__shipping_address_707 Market St, Chicago",0.0,1.0,100.0
+496,"cat__shipping_address_681 Market St, Los Angeles",0.0,1.0,100.0
+497,"cat__shipping_address_682 Broadway, Chicago",0.0,1.0,100.0
+498,"cat__shipping_address_684 Main St, Houston",0.0,1.0,100.0
+499,"cat__shipping_address_684 State St, Chicago",0.0,1.0,100.0
+500,"cat__shipping_address_687 Broadway, New York",0.0,1.0,100.0
+501,"cat__shipping_address_687 State St, Houston",0.0,1.0,100.0
+502,"cat__shipping_address_688 Broadway, Houston",0.0,1.0,100.0
+512,"cat__shipping_address_70 Main St, Chicago",0.0,1.0,100.0
+504,"cat__shipping_address_69 Main St, New York",0.0,1.0,100.0
+505,"cat__shipping_address_693 State St, New York",0.0,1.0,100.0
+506,"cat__shipping_address_694 State St, Los Angeles",0.0,1.0,100.0
+507,"cat__shipping_address_696 State St, Chicago",0.0,1.0,100.0
+508,"cat__shipping_address_697 State St, New York",0.0,1.0,100.0
+509,"cat__shipping_address_698 Park Ave, New York",0.0,1.0,100.0
+510,"cat__shipping_address_699 Park Ave, Los Angeles",0.0,1.0,100.0
+511,"cat__shipping_address_7 State St, Phoenix",0.0,1.0,100.0
+503,"cat__shipping_address_688 Market St, Chicago",0.0,1.0,100.0
+549,"cat__shipping_address_739 Broadway, Los Angeles",0.0,1.0,100.0
+550,"cat__shipping_address_741 Main St, Houston",0.0,1.0,100.0
+551,"cat__shipping_address_742 State St, Phoenix",0.0,1.0,100.0
+552,"cat__shipping_address_744 Broadway, Phoenix",0.0,1.0,100.0
+553,"cat__shipping_address_745 Park Ave, Los Angeles",0.0,1.0,100.0
+554,"cat__shipping_address_750 Market St, New York",0.0,1.0,100.0
+555,"cat__shipping_address_754 State St, New York",0.0,1.0,100.0
+529,"cat__shipping_address_717 Broadway, Chicago",0.0,1.0,100.0
+557,"cat__shipping_address_759 Main St, Houston",0.0,1.0,100.0
+558,"cat__shipping_address_759 State St, Los Angeles",0.0,1.0,100.0
+559,"cat__shipping_address_76 Market St, Phoenix",0.0,1.0,100.0
+560,"cat__shipping_address_76 Park Ave, Chicago",0.0,1.0,100.0
+561,"cat__shipping_address_760 Broadway, Los Angeles",0.0,1.0,100.0
+562,"cat__shipping_address_761 State St, Los Angeles",0.0,1.0,100.0
+563,"cat__shipping_address_763 Broadway, Los Angeles",0.0,1.0,100.0
+564,"cat__shipping_address_763 State St, Phoenix",0.0,1.0,100.0
+556,"cat__shipping_address_758 Broadway, Phoenix",0.0,1.0,100.0
+530,"cat__shipping_address_717 Broadway, New York",0.0,1.0,100.0
+531,"cat__shipping_address_720 Market St, New York",0.0,1.0,100.0
+533,"cat__shipping_address_721 Market St, Los Angeles",0.0,1.0,100.0
+534,"cat__shipping_address_722 Park Ave, Houston",0.0,1.0,100.0
+535,"cat__shipping_address_723 Broadway, Houston",0.0,1.0,100.0
+536,"cat__shipping_address_723 Market St, Houston",0.0,1.0,100.0
+537,"cat__shipping_address_725 Park Ave, New York",0.0,1.0,100.0
+538,"cat__shipping_address_727 Main St, Phoenix",0.0,1.0,100.0
+548,"cat__shipping_address_738 Market St, Chicago",0.0,1.0,100.0
+540,"cat__shipping_address_73 Main St, Los Angeles",0.0,1.0,100.0
+541,"cat__shipping_address_730 Broadway, Houston",0.0,1.0,100.0
+542,"cat__shipping_address_730 Market St, New York",0.0,1.0,100.0
+543,"cat__shipping_address_731 Broadway, Houston",0.0,1.0,100.0
+544,"cat__shipping_address_734 State St, Houston",0.0,1.0,100.0
+545,"cat__shipping_address_735 Market St, Los Angeles",0.0,1.0,100.0
+546,"cat__shipping_address_735 Market St, New York",0.0,1.0,100.0
+547,"cat__shipping_address_738 Broadway, Phoenix",0.0,1.0,100.0
+539,"cat__shipping_address_727 Market St, Chicago",0.0,1.0,100.0
+444,"cat__shipping_address_620 Park Ave, Houston",0.0,1.0,100.0
+445,"cat__shipping_address_621 State St, Los Angeles",0.0,1.0,100.0
+446,"cat__shipping_address_622 Broadway, Los Angeles",0.0,1.0,100.0
+447,"cat__shipping_address_622 Market St, Houston",0.0,1.0,100.0
+448,"cat__shipping_address_623 Park Ave, New York",0.0,1.0,100.0
+449,"cat__shipping_address_624 Broadway, New York",0.0,1.0,100.0
+450,"cat__shipping_address_624 Park Ave, Phoenix",0.0,1.0,100.0
+495,"cat__shipping_address_680 State St, Chicago",0.0,1.0,100.0
+452,"cat__shipping_address_625 Market St, Los Angeles",0.0,1.0,100.0
+453,"cat__shipping_address_627 State St, New York",0.0,1.0,100.0
+454,"cat__shipping_address_63 Market St, Chicago",0.0,1.0,100.0
+455,"cat__shipping_address_63 State St, Phoenix",0.0,1.0,100.0
+456,"cat__shipping_address_630 Market St, Chicago",0.0,1.0,100.0
+457,"cat__shipping_address_631 Market St, Chicago",0.0,1.0,100.0
+458,"cat__shipping_address_631 State St, Chicago",0.0,1.0,100.0
+459,"cat__shipping_address_633 Main St, Los Angeles",0.0,1.0,100.0
+451,"cat__shipping_address_625 Market St, Chicago",0.0,1.0,100.0
+426,"cat__shipping_address_603 Park Ave, New York",0.0,1.0,100.0
+427,"cat__shipping_address_605 Market St, New York",0.0,1.0,100.0
+428,"cat__shipping_address_606 Main St, Chicago",0.0,1.0,100.0
+429,"cat__shipping_address_607 Park Ave, New York",0.0,1.0,100.0
+430,"cat__shipping_address_608 Main St, Houston",0.0,1.0,100.0
+431,"cat__shipping_address_609 Main St, Houston",0.0,1.0,100.0
+432,"cat__shipping_address_610 Main St, Chicago",0.0,1.0,100.0
+433,"cat__shipping_address_610 State St, Chicago",0.0,1.0,100.0
+443,"cat__shipping_address_62 State St, New York",0.0,1.0,100.0
+435,"cat__shipping_address_611 Main St, New York",0.0,1.0,100.0
+436,"cat__shipping_address_611 State St, Los Angeles",0.0,1.0,100.0
+437,"cat__shipping_address_612 State St, New York",0.0,1.0,100.0
+438,"cat__shipping_address_613 Main St, Los Angeles",0.0,1.0,100.0
+439,"cat__shipping_address_614 Broadway, Houston",0.0,1.0,100.0
+440,"cat__shipping_address_614 Main St, New York",0.0,1.0,100.0
+441,"cat__shipping_address_618 Main St, Chicago",0.0,1.0,100.0
+442,"cat__shipping_address_618 Main St, New York",0.0,1.0,100.0
+434,"cat__shipping_address_611 Main St, Houston",0.0,1.0,100.0
+479,"cat__shipping_address_659 Market St, Los Angeles",0.0,1.0,100.0
+480,"cat__shipping_address_66 Market St, Houston",0.0,1.0,100.0
+481,"cat__shipping_address_662 Market St, Houston",0.0,1.0,100.0
+482,"cat__shipping_address_664 Broadway, Los Angeles",0.0,1.0,100.0
+483,"cat__shipping_address_664 Main St, Houston",0.0,1.0,100.0
+484,"cat__shipping_address_666 Main St, New York",0.0,1.0,100.0
+485,"cat__shipping_address_667 Park Ave, Chicago",0.0,1.0,100.0
+460,"cat__shipping_address_639 Broadway, New York",0.0,1.0,100.0
+487,"cat__shipping_address_671 Broadway, Houston",0.0,1.0,100.0
+488,"cat__shipping_address_671 Main St, Houston",0.0,1.0,100.0
+489,"cat__shipping_address_672 Main St, New York",0.0,1.0,100.0
+490,"cat__shipping_address_675 Main St, Chicago",0.0,1.0,100.0
+491,"cat__shipping_address_675 Market St, Chicago",0.0,1.0,100.0
+492,"cat__shipping_address_676 Market St, New York",0.0,1.0,100.0
+493,"cat__shipping_address_677 State St, Los Angeles",0.0,1.0,100.0
+494,"cat__shipping_address_680 Park Ave, Chicago",0.0,1.0,100.0
+486,"cat__shipping_address_670 Broadway, New York",0.0,1.0,100.0
+461,"cat__shipping_address_639 Market St, New York",0.0,1.0,100.0
+462,"cat__shipping_address_64 State St, Phoenix",0.0,1.0,100.0
+463,"cat__shipping_address_645 Main St, Los Angeles",0.0,1.0,100.0
+464,"cat__shipping_address_647 Broadway, Los Angeles",0.0,1.0,100.0
+465,"cat__shipping_address_648 State St, Phoenix",0.0,1.0,100.0
+466,"cat__shipping_address_649 State St, Phoenix",0.0,1.0,100.0
+467,"cat__shipping_address_65 Main St, Houston",0.0,1.0,100.0
+468,"cat__shipping_address_651 Broadway, Los Angeles",0.0,1.0,100.0
+478,"cat__shipping_address_658 Main St, Phoenix",0.0,1.0,100.0
+470,"cat__shipping_address_652 Park Ave, Phoenix",0.0,1.0,100.0
+471,"cat__shipping_address_654 State St, Houston",0.0,1.0,100.0
+472,"cat__shipping_address_655 Main St, New York",0.0,1.0,100.0
+473,"cat__shipping_address_655 State St, Houston",0.0,1.0,100.0
+474,"cat__shipping_address_657 Market St, Chicago",0.0,1.0,100.0
+475,"cat__shipping_address_657 Park Ave, Phoenix",0.0,1.0,100.0
+476,"cat__shipping_address_658 Broadway, Houston",0.0,1.0,100.0
+477,"cat__shipping_address_658 Main St, Houston",0.0,1.0,100.0
+469,"cat__shipping_address_651 Market St, Los Angeles",0.0,1.0,100.0
+92,"cat__shipping_address_216 Broadway, Los Angeles",0.0,1.0,100.0
+93,"cat__shipping_address_216 Park Ave, New York",0.0,1.0,100.0
+94,"cat__shipping_address_217 State St, Chicago",0.0,1.0,100.0
+95,"cat__shipping_address_219 State St, Chicago",0.0,1.0,100.0
+96,"cat__shipping_address_222 Market St, Chicago",0.0,1.0,100.0
+97,"cat__shipping_address_223 Main St, Los Angeles",0.0,1.0,100.0
+98,"cat__shipping_address_223 Market St, Los Angeles",0.0,1.0,100.0
+284,"cat__shipping_address_446 Park Ave, Phoenix",0.0,1.0,100.0
+100,"cat__shipping_address_225 Broadway, Houston",0.0,1.0,100.0
+101,"cat__shipping_address_225 Park Ave, Houston",0.0,1.0,100.0
+102,"cat__shipping_address_226 Market St, Phoenix",0.0,1.0,100.0
+103,"cat__shipping_address_227 Broadway, Los Angeles",0.0,1.0,100.0
+104,"cat__shipping_address_228 Park Ave, Houston",0.0,1.0,100.0
+105,"cat__shipping_address_229 Main St, Los Angeles",0.0,1.0,100.0
+106,"cat__shipping_address_231 Park Ave, Chicago",0.0,1.0,100.0
+107,"cat__shipping_address_231 Park Ave, Los Angeles",0.0,1.0,100.0
+99,"cat__shipping_address_224 State St, Houston",0.0,1.0,100.0
+75,"cat__shipping_address_20 Main St, Chicago",0.0,1.0,100.0
+76,"cat__shipping_address_20 Market St, Chicago",0.0,1.0,100.0
+77,"cat__shipping_address_20 Market St, New York",0.0,1.0,100.0
+78,"cat__shipping_address_20 State St, New York",0.0,1.0,100.0
+79,"cat__shipping_address_200 Market St, Houston",0.0,1.0,100.0
+80,"cat__shipping_address_202 State St, Chicago",0.0,1.0,100.0
+81,"cat__shipping_address_203 Park Ave, Phoenix",0.0,1.0,100.0
+91,"cat__shipping_address_212 Main St, New York",0.0,1.0,100.0
+83,"cat__shipping_address_204 State St, Phoenix",0.0,1.0,100.0
+84,"cat__shipping_address_205 Main St, Los Angeles",0.0,1.0,100.0
+85,"cat__shipping_address_205 Main St, Phoenix",0.0,1.0,100.0
+86,"cat__shipping_address_206 Park Ave, Phoenix",0.0,1.0,100.0
+87,"cat__shipping_address_207 State St, Chicago",0.0,1.0,100.0
+88,"cat__shipping_address_208 State St, Phoenix",0.0,1.0,100.0
+89,"cat__shipping_address_21 Market St, Houston",0.0,1.0,100.0
+90,"cat__shipping_address_210 Broadway, Los Angeles",0.0,1.0,100.0
+82,"cat__shipping_address_204 Park Ave, Chicago",0.0,1.0,100.0
+127,"cat__shipping_address_249 Broadway, Los Angeles",0.0,1.0,100.0
+128,"cat__shipping_address_250 Market St, Phoenix",0.0,1.0,100.0
+129,"cat__shipping_address_251 Market St, Chicago",0.0,1.0,100.0
+130,"cat__shipping_address_253 State St, Phoenix",0.0,1.0,100.0
+131,"cat__shipping_address_256 Main St, Houston",0.0,1.0,100.0
+132,"cat__shipping_address_256 Main St, New York",0.0,1.0,100.0
+133,"cat__shipping_address_257 Park Ave, New York",0.0,1.0,100.0
+108,"cat__shipping_address_232 Market St, Phoenix",0.0,1.0,100.0
+135,"cat__shipping_address_26 Park Ave, Chicago",0.0,1.0,100.0
+136,"cat__shipping_address_260 Main St, Chicago",0.0,1.0,100.0
+137,"cat__shipping_address_260 Main St, Los Angeles",0.0,1.0,100.0
+138,"cat__shipping_address_263 Park Ave, Los Angeles",0.0,1.0,100.0
+139,"cat__shipping_address_264 Market St, Chicago",0.0,1.0,100.0
+140,"cat__shipping_address_268 Market St, Los Angeles",0.0,1.0,100.0
+141,"cat__shipping_address_270 State St, Houston",0.0,1.0,100.0
+142,"cat__shipping_address_271 Main St, Houston",0.0,1.0,100.0
+134,"cat__shipping_address_26 Main St, Los Angeles",0.0,1.0,100.0
+109,"cat__shipping_address_232 Park Ave, Los Angeles",0.0,1.0,100.0
+110,"cat__shipping_address_233 Broadway, Los Angeles",0.0,1.0,100.0
+111,"cat__shipping_address_235 Main St, Chicago",0.0,1.0,100.0
+112,"cat__shipping_address_236 Market St, Phoenix",0.0,1.0,100.0
+113,"cat__shipping_address_237 Main St, Los Angeles",0.0,1.0,100.0
+114,"cat__shipping_address_238 Broadway, Chicago",0.0,1.0,100.0
+115,"cat__shipping_address_238 Market St, Chicago",0.0,1.0,100.0
+116,"cat__shipping_address_239 State St, Phoenix",0.0,1.0,100.0
+126,"cat__shipping_address_248 Park Ave, Chicago",0.0,1.0,100.0
+118,"cat__shipping_address_241 State St, Los Angeles",0.0,1.0,100.0
+119,"cat__shipping_address_242 Broadway, Chicago",0.0,1.0,100.0
+120,"cat__shipping_address_244 Broadway, New York",0.0,1.0,100.0
+121,"cat__shipping_address_246 Park Ave, Phoenix",0.0,1.0,100.0
+122,"cat__shipping_address_247 Main St, Phoenix",0.0,1.0,100.0
+123,"cat__shipping_address_247 Park Ave, Chicago",0.0,1.0,100.0
+124,"cat__shipping_address_248 Market St, Houston",0.0,1.0,100.0
+125,"cat__shipping_address_248 Market St, New York",0.0,1.0,100.0
+117,"cat__shipping_address_24 Main St, Houston",0.0,1.0,100.0
+2214,cat__device_id_iPhone_9572,0.0,1.0,100.0
+2215,cat__device_id_iPhone_9574,0.0,1.0,100.0
+2216,cat__device_id_iPhone_9582,0.0,1.0,100.0
+2217,cat__device_id_iPhone_9666,0.0,1.0,100.0
+2218,cat__device_id_iPhone_9702,0.0,1.0,100.0
+2219,cat__device_id_iPhone_9704,0.0,1.0,100.0
+2220,cat__device_id_iPhone_9764,0.0,1.0,100.0
+74,"cat__shipping_address_2 State St, Phoenix",0.0,1.0,100.0
+30,"cat__shipping_address_13 Market St, Houston",0.0,1.0,100.0
+31,"cat__shipping_address_130 Broadway, New York",0.0,1.0,100.0
+32,"cat__shipping_address_131 Main St, Chicago",0.0,1.0,100.0
+33,"cat__shipping_address_132 Market St, Phoenix",0.0,1.0,100.0
+34,"cat__shipping_address_132 State St, Phoenix",0.0,1.0,100.0
+35,"cat__shipping_address_134 State St, Chicago",0.0,1.0,100.0
+36,"cat__shipping_address_135 State St, Houston",0.0,1.0,100.0
+37,"cat__shipping_address_136 Broadway, New York",0.0,1.0,100.0
+13,"cat__shipping_address_106 Park Ave, Chicago",0.0,1.0,100.0
+14,"cat__shipping_address_109 Market St, Chicago",0.0,1.0,100.0
+2237,cat__country_nan,0.0,1.0,100.0
+4,cat__payment_method_credit_card,0.0,1.0,100.0
+5,cat__payment_method_debit_card,0.0,1.0,100.0
+6,cat__payment_method_paypal,0.0,1.0,100.0
+7,"cat__shipping_address_10 Broadway, Phoenix",0.0,1.0,100.0
+8,"cat__shipping_address_10 Main St, New York",0.0,1.0,100.0
+9,"cat__shipping_address_101 Main St, Houston",0.0,1.0,100.0
+2213,cat__device_id_iPhone_9433,0.0,1.0,100.0
+11,"cat__shipping_address_103 Main St, Phoenix",0.0,1.0,100.0
+2222,cat__device_id_iPhone_9834,0.0,1.0,100.0
+2207,cat__device_id_iPhone_8796,0.0,1.0,100.0
+2208,cat__device_id_iPhone_8839,0.0,1.0,100.0
+2209,cat__device_id_iPhone_8924,0.0,1.0,100.0
+2210,cat__device_id_iPhone_8947,0.0,1.0,100.0
+2211,cat__device_id_iPhone_8952,0.0,1.0,100.0
+2212,cat__device_id_iPhone_9202,0.0,1.0,100.0
+10,"cat__shipping_address_101 Market St, Chicago",0.0,1.0,100.0
+57,"cat__shipping_address_169 Park Ave, Chicago",0.0,1.0,100.0
+58,"cat__shipping_address_17 Broadway, Phoenix",0.0,1.0,100.0
+59,"cat__shipping_address_171 Broadway, New York",0.0,1.0,100.0
+60,"cat__shipping_address_171 Market St, Houston",0.0,1.0,100.0
+61,"cat__shipping_address_172 State St, Phoenix",0.0,1.0,100.0
+62,"cat__shipping_address_174 Park Ave, Phoenix",0.0,1.0,100.0
+63,"cat__shipping_address_177 Market St, New York",0.0,1.0,100.0
+38,"cat__shipping_address_141 Main St, Phoenix",0.0,1.0,100.0
+65,"cat__shipping_address_181 State St, Houston",0.0,1.0,100.0
+66,"cat__shipping_address_183 State St, Houston",0.0,1.0,100.0
+68,"cat__shipping_address_187 Park Ave, Houston",0.0,1.0,100.0
+69,"cat__shipping_address_188 Broadway, Houston",0.0,1.0,100.0
+70,"cat__shipping_address_189 State St, Houston",0.0,1.0,100.0
+71,"cat__shipping_address_193 State St, Chicago",0.0,1.0,100.0
+72,"cat__shipping_address_193 State St, Phoenix",0.0,1.0,100.0
+73,"cat__shipping_address_197 Park Ave, Phoenix",0.0,1.0,100.0
+64,"cat__shipping_address_180 Park Ave, Houston",0.0,1.0,100.0
+39,"cat__shipping_address_141 Park Ave, New York",0.0,1.0,100.0
+40,"cat__shipping_address_141 State St, Chicago",0.0,1.0,100.0
+41,"cat__shipping_address_142 Park Ave, Los Angeles",0.0,1.0,100.0
+42,"cat__shipping_address_144 Market St, Chicago",0.0,1.0,100.0
+43,"cat__shipping_address_147 State St, Houston",0.0,1.0,100.0
+44,"cat__shipping_address_149 Market St, Los Angeles",0.0,1.0,100.0
+45,"cat__shipping_address_15 Broadway, Chicago",0.0,1.0,100.0
+46,"cat__shipping_address_153 Broadway, Houston",0.0,1.0,100.0
+56,"cat__shipping_address_167 Market St, Phoenix",0.0,1.0,100.0
+48,"cat__shipping_address_157 Market St, Phoenix",0.0,1.0,100.0
+49,"cat__shipping_address_157 Park Ave, Chicago",0.0,1.0,100.0
+50,"cat__shipping_address_157 Park Ave, Houston",0.0,1.0,100.0
+51,"cat__shipping_address_158 Park Ave, Los Angeles",0.0,1.0,100.0
+52,"cat__shipping_address_16 Broadway, Los Angeles",0.0,1.0,100.0
+53,"cat__shipping_address_16 Park Ave, Houston",0.0,1.0,100.0
+54,"cat__shipping_address_163 Broadway, Chicago",0.0,1.0,100.0
+55,"cat__shipping_address_166 Market St, Phoenix",0.0,1.0,100.0
+47,"cat__shipping_address_153 State St, Chicago",0.0,1.0,100.0
+232,"cat__shipping_address_383 Market St, Phoenix",0.0,1.0,100.0
+233,"cat__shipping_address_384 Market St, Houston",0.0,1.0,100.0
+234,"cat__shipping_address_386 Broadway, Los Angeles",0.0,1.0,100.0
+235,"cat__shipping_address_386 Market St, Houston",0.0,1.0,100.0
+236,"cat__shipping_address_389 Market St, Chicago",0.0,1.0,100.0
+237,"cat__shipping_address_39 Broadway, Phoenix",0.0,1.0,100.0
+238,"cat__shipping_address_390 Broadway, Houston",0.0,1.0,100.0
+143,"cat__shipping_address_271 Main St, Los Angeles",0.0,1.0,100.0
+240,"cat__shipping_address_392 Main St, Houston",0.0,1.0,100.0
+241,"cat__shipping_address_393 Park Ave, Houston",0.0,1.0,100.0
+242,"cat__shipping_address_393 State St, New York",0.0,1.0,100.0
+243,"cat__shipping_address_394 Market St, New York",0.0,1.0,100.0
+244,"cat__shipping_address_395 State St, Los Angeles",0.0,1.0,100.0
+245,"cat__shipping_address_396 Main St, Chicago",0.0,1.0,100.0
+246,"cat__shipping_address_40 Broadway, Houston",0.0,1.0,100.0
+247,"cat__shipping_address_407 Main St, Houston",0.0,1.0,100.0
+239,"cat__shipping_address_391 State St, Houston",0.0,1.0,100.0
+215,"cat__shipping_address_355 Market St, Chicago",0.0,1.0,100.0
+216,"cat__shipping_address_357 Market St, Chicago",0.0,1.0,100.0
+217,"cat__shipping_address_359 Broadway, Los Angeles",0.0,1.0,100.0
+218,"cat__shipping_address_360 State St, Houston",0.0,1.0,100.0
+219,"cat__shipping_address_362 Park Ave, Phoenix",0.0,1.0,100.0
+220,"cat__shipping_address_363 State St, Houston",0.0,1.0,100.0
+221,"cat__shipping_address_364 Broadway, Chicago",0.0,1.0,100.0
+231,"cat__shipping_address_380 Broadway, Los Angeles",0.0,1.0,100.0
+223,"cat__shipping_address_37 Broadway, Phoenix",0.0,1.0,100.0
+224,"cat__shipping_address_370 State St, Phoenix",0.0,1.0,100.0
+225,"cat__shipping_address_371 Main St, Chicago",0.0,1.0,100.0
+226,"cat__shipping_address_371 Park Ave, Los Angeles",0.0,1.0,100.0
+227,"cat__shipping_address_372 State St, Chicago",0.0,1.0,100.0
+228,"cat__shipping_address_374 Main St, Chicago",0.0,1.0,100.0
+229,"cat__shipping_address_377 State St, Houston",0.0,1.0,100.0
+230,"cat__shipping_address_38 Market St, New York",0.0,1.0,100.0
+222,"cat__shipping_address_368 State St, Chicago",0.0,1.0,100.0
+267,"cat__shipping_address_427 Park Ave, New York",0.0,1.0,100.0
+268,"cat__shipping_address_427 State St, Chicago",0.0,1.0,100.0
+270,"cat__shipping_address_429 Park Ave, Los Angeles",0.0,1.0,100.0
+271,"cat__shipping_address_430 State St, Phoenix",0.0,1.0,100.0
+272,"cat__shipping_address_434 Broadway, New York",0.0,1.0,100.0
+273,"cat__shipping_address_434 Main St, Chicago",0.0,1.0,100.0
+274,"cat__shipping_address_434 Market St, Houston",0.0,1.0,100.0
+248,"cat__shipping_address_407 Park Ave, Phoenix",0.0,1.0,100.0
+276,"cat__shipping_address_435 State St, Houston",0.0,1.0,100.0
+277,"cat__shipping_address_436 Main St, Phoenix",0.0,1.0,100.0
+278,"cat__shipping_address_44 Broadway, New York",0.0,1.0,100.0
+279,"cat__shipping_address_440 Main St, Phoenix",0.0,1.0,100.0
+280,"cat__shipping_address_440 State St, Houston",0.0,1.0,100.0
+281,"cat__shipping_address_441 Market St, Los Angeles",0.0,1.0,100.0
+282,"cat__shipping_address_441 State St, Phoenix",0.0,1.0,100.0
+283,"cat__shipping_address_442 Park Ave, Los Angeles",0.0,1.0,100.0
+275,"cat__shipping_address_434 State St, Houston",0.0,1.0,100.0
+249,"cat__shipping_address_408 Broadway, Los Angeles",0.0,1.0,100.0
+250,"cat__shipping_address_408 State St, Houston",0.0,1.0,100.0
+251,"cat__shipping_address_409 Broadway, Chicago",0.0,1.0,100.0
+252,"cat__shipping_address_409 Broadway, Houston",0.0,1.0,100.0
+253,"cat__shipping_address_41 State St, New York",0.0,1.0,100.0
+254,"cat__shipping_address_410 Park Ave, Los Angeles",0.0,1.0,100.0
+255,"cat__shipping_address_411 Main St, Los Angeles",0.0,1.0,100.0
+256,"cat__shipping_address_412 State St, New York",0.0,1.0,100.0
+266,"cat__shipping_address_426 Main St, Los Angeles",0.0,1.0,100.0
+258,"cat__shipping_address_416 State St, New York",0.0,1.0,100.0
+259,"cat__shipping_address_417 Market St, Houston",0.0,1.0,100.0
+260,"cat__shipping_address_419 Broadway, Phoenix",0.0,1.0,100.0
+261,"cat__shipping_address_419 Market St, Phoenix",0.0,1.0,100.0
+262,"cat__shipping_address_421 Broadway, Los Angeles",0.0,1.0,100.0
+263,"cat__shipping_address_423 Market St, Phoenix",0.0,1.0,100.0
+264,"cat__shipping_address_424 Broadway, Chicago",0.0,1.0,100.0
+265,"cat__shipping_address_424 Broadway, Houston",0.0,1.0,100.0
+257,"cat__shipping_address_413 Broadway, Phoenix",0.0,1.0,100.0
+162,"cat__shipping_address_292 Market St, Los Angeles",0.0,1.0,100.0
+163,"cat__shipping_address_292 Park Ave, Houston",0.0,1.0,100.0
+164,"cat__shipping_address_293 Broadway, New York",0.0,1.0,100.0
+166,"cat__shipping_address_294 Main St, Phoenix",0.0,1.0,100.0
+167,"cat__shipping_address_294 Market St, Los Angeles",0.0,1.0,100.0
+168,"cat__shipping_address_297 Broadway, New York",0.0,1.0,100.0
+169,"cat__shipping_address_298 Market St, Phoenix",0.0,1.0,100.0
+214,"cat__shipping_address_354 Broadway, Phoenix",0.0,1.0,100.0
+171,"cat__shipping_address_30 Market St, Chicago",0.0,1.0,100.0
+172,"cat__shipping_address_30 State St, Los Angeles",0.0,1.0,100.0
+173,"cat__shipping_address_300 Park Ave, Houston",0.0,1.0,100.0
+174,"cat__shipping_address_301 Broadway, New York",0.0,1.0,100.0
+175,"cat__shipping_address_302 Park Ave, Houston",0.0,1.0,100.0
+176,"cat__shipping_address_306 Market St, Houston",0.0,1.0,100.0
+177,"cat__shipping_address_306 Market St, Phoenix",0.0,1.0,100.0
+178,"cat__shipping_address_310 Main St, Phoenix",0.0,1.0,100.0
+170,"cat__shipping_address_3 Broadway, Los Angeles",0.0,1.0,100.0
+144,"cat__shipping_address_271 Main St, New York",0.0,1.0,100.0
+145,"cat__shipping_address_271 State St, New York",0.0,1.0,100.0
+146,"cat__shipping_address_272 Market St, Chicago",0.0,1.0,100.0
+147,"cat__shipping_address_272 Market St, Los Angeles",0.0,1.0,100.0
+148,"cat__shipping_address_274 Market St, Los Angeles",0.0,1.0,100.0
+149,"cat__shipping_address_274 Park Ave, New York",0.0,1.0,100.0
+150,"cat__shipping_address_275 Broadway, Los Angeles",0.0,1.0,100.0
+151,"cat__shipping_address_279 Broadway, Phoenix",0.0,1.0,100.0
+161,"cat__shipping_address_292 Market St, Houston",0.0,1.0,100.0
+153,"cat__shipping_address_280 Park Ave, New York",0.0,1.0,100.0
+154,"cat__shipping_address_280 Park Ave, Phoenix",0.0,1.0,100.0
+155,"cat__shipping_address_283 Market St, Chicago",0.0,1.0,100.0
+156,"cat__shipping_address_285 Main St, Los Angeles",0.0,1.0,100.0
+157,"cat__shipping_address_285 Market St, Chicago",0.0,1.0,100.0
+158,"cat__shipping_address_285 Park Ave, Los Angeles",0.0,1.0,100.0
+159,"cat__shipping_address_286 Market St, Los Angeles",0.0,1.0,100.0
+160,"cat__shipping_address_287 State St, Chicago",0.0,1.0,100.0
+152,"cat__shipping_address_28 State St, Los Angeles",0.0,1.0,100.0
+198,"cat__shipping_address_336 Park Ave, Houston",0.0,1.0,100.0
+199,"cat__shipping_address_336 State St, Los Angeles",0.0,1.0,100.0
+200,"cat__shipping_address_337 Park Ave, Phoenix",0.0,1.0,100.0
+201,"cat__shipping_address_338 Main St, Houston",0.0,1.0,100.0
+202,"cat__shipping_address_338 Main St, Phoenix",0.0,1.0,100.0
+203,"cat__shipping_address_338 Market St, Houston",0.0,1.0,100.0
+204,"cat__shipping_address_339 Main St, Houston",0.0,1.0,100.0
+179,"cat__shipping_address_310 State St, Phoenix",0.0,1.0,100.0
+206,"cat__shipping_address_34 Broadway, Los Angeles",0.0,1.0,100.0
+207,"cat__shipping_address_342 Main St, Phoenix",0.0,1.0,100.0
+208,"cat__shipping_address_346 State St, New York",0.0,1.0,100.0
+209,"cat__shipping_address_347 Park Ave, Houston",0.0,1.0,100.0
+210,"cat__shipping_address_35 Main St, New York",0.0,1.0,100.0
+211,"cat__shipping_address_350 Market St, Los Angeles",0.0,1.0,100.0
+212,"cat__shipping_address_350 Park Ave, Chicago",0.0,1.0,100.0
+213,"cat__shipping_address_353 Market St, Phoenix",0.0,1.0,100.0
+205,"cat__shipping_address_339 Park Ave, Houston",0.0,1.0,100.0
+180,"cat__shipping_address_313 State St, Phoenix",0.0,1.0,100.0
+181,"cat__shipping_address_314 Market St, Phoenix",0.0,1.0,100.0
+182,"cat__shipping_address_315 Park Ave, Houston",0.0,1.0,100.0
+183,"cat__shipping_address_316 Broadway, Chicago",0.0,1.0,100.0
+184,"cat__shipping_address_317 Market St, Chicago",0.0,1.0,100.0
+185,"cat__shipping_address_317 Park Ave, Los Angeles",0.0,1.0,100.0
+186,"cat__shipping_address_321 Market St, Chicago",0.0,1.0,100.0
+187,"cat__shipping_address_323 Broadway, Chicago",0.0,1.0,100.0
+197,"cat__shipping_address_335 Broadway, Houston",0.0,1.0,100.0
+189,"cat__shipping_address_324 Main St, New York",0.0,1.0,100.0
+190,"cat__shipping_address_324 Main St, Phoenix",0.0,1.0,100.0
+191,"cat__shipping_address_325 Market St, Chicago",0.0,1.0,100.0
+192,"cat__shipping_address_329 Main St, Los Angeles",0.0,1.0,100.0
+193,"cat__shipping_address_33 Market St, Phoenix",0.0,1.0,100.0
+194,"cat__shipping_address_330 Broadway, Houston",0.0,1.0,100.0
+195,"cat__shipping_address_331 Broadway, Los Angeles",0.0,1.0,100.0
+196,"cat__shipping_address_333 Market St, Phoenix",0.0,1.0,100.0
+188,"cat__shipping_address_324 Broadway, Phoenix",0.0,1.0,100.0
+933,cat__ip_address_154.122.184.169,0.0,1.0,100.0
+934,cat__ip_address_154.185.156.73,0.0,1.0,100.0
+935,cat__ip_address_154.201.84.222,0.0,1.0,100.0
+936,cat__ip_address_155.184.210.31,0.0,1.0,100.0
+937,cat__ip_address_156.122.10.45,0.0,1.0,100.0
+938,cat__ip_address_156.21.216.72,0.0,1.0,100.0
+939,cat__ip_address_158.179.176.181,0.0,1.0,100.0
+565,"cat__shipping_address_765 Main St, Houston",0.0,1.0,100.0
+941,cat__ip_address_158.52.207.34,0.0,1.0,100.0
+942,cat__ip_address_158.63.166.76,0.0,1.0,100.0
+943,cat__ip_address_159.136.122.144,0.0,1.0,100.0
+944,cat__ip_address_159.17.194.191,0.0,1.0,100.0
+945,cat__ip_address_159.76.205.64,0.0,1.0,100.0
+946,cat__ip_address_16.243.203.102,0.0,1.0,100.0
+947,cat__ip_address_16.6.38.151,0.0,1.0,100.0
+948,cat__ip_address_160.156.180.36,0.0,1.0,100.0
+940,cat__ip_address_158.227.51.116,0.0,1.0,100.0
+916,cat__ip_address_150.28.40.28,0.0,1.0,100.0
+917,cat__ip_address_150.60.250.41,0.0,1.0,100.0
+918,cat__ip_address_151.150.195.247,0.0,1.0,100.0
+919,cat__ip_address_151.187.99.90,0.0,1.0,100.0
+920,cat__ip_address_151.26.87.78,0.0,1.0,100.0
+921,cat__ip_address_151.52.133.4,0.0,1.0,100.0
+922,cat__ip_address_152.110.100.2,0.0,1.0,100.0
+932,cat__ip_address_154.112.23.17,0.0,1.0,100.0
+924,cat__ip_address_152.42.166.214,0.0,1.0,100.0
+925,cat__ip_address_152.55.233.10,0.0,1.0,100.0
+926,cat__ip_address_153.100.157.101,0.0,1.0,100.0
+927,cat__ip_address_153.101.138.141,0.0,1.0,100.0
+928,cat__ip_address_153.14.199.239,0.0,1.0,100.0
+929,cat__ip_address_153.156.73.77,0.0,1.0,100.0
+930,cat__ip_address_153.255.13.170,0.0,1.0,100.0
+931,cat__ip_address_154.10.225.201,0.0,1.0,100.0
+923,cat__ip_address_152.249.127.198,0.0,1.0,100.0
+968,cat__ip_address_167.77.49.39,0.0,1.0,100.0
+969,cat__ip_address_168.1.250.41,0.0,1.0,100.0
+970,cat__ip_address_168.127.105.176,0.0,1.0,100.0
+971,cat__ip_address_168.134.74.183,0.0,1.0,100.0
+972,cat__ip_address_168.183.244.229,0.0,1.0,100.0
+973,cat__ip_address_168.193.64.77,0.0,1.0,100.0
+974,cat__ip_address_168.24.181.25,0.0,1.0,100.0
+949,cat__ip_address_161.127.153.158,0.0,1.0,100.0
+976,cat__ip_address_17.148.27.205,0.0,1.0,100.0
+977,cat__ip_address_17.204.137.102,0.0,1.0,100.0
+978,cat__ip_address_17.67.168.81,0.0,1.0,100.0
+979,cat__ip_address_170.98.22.198,0.0,1.0,100.0
+980,cat__ip_address_171.151.209.45,0.0,1.0,100.0
+981,cat__ip_address_171.179.92.218,0.0,1.0,100.0
+982,cat__ip_address_172.164.187.227,0.0,1.0,100.0
+983,cat__ip_address_172.53.133.233,0.0,1.0,100.0
+975,cat__ip_address_169.154.156.226,0.0,1.0,100.0
+950,cat__ip_address_161.158.216.170,0.0,1.0,100.0
+951,cat__ip_address_162.110.43.158,0.0,1.0,100.0
+952,cat__ip_address_163.181.182.166,0.0,1.0,100.0
+953,cat__ip_address_163.2.206.24,0.0,1.0,100.0
+954,cat__ip_address_163.204.226.197,0.0,1.0,100.0
+955,cat__ip_address_163.213.71.214,0.0,1.0,100.0
+956,cat__ip_address_163.215.178.225,0.0,1.0,100.0
+957,cat__ip_address_163.247.205.75,0.0,1.0,100.0
+967,cat__ip_address_166.58.174.53,0.0,1.0,100.0
+959,cat__ip_address_164.145.27.240,0.0,1.0,100.0
+960,cat__ip_address_164.246.125.167,0.0,1.0,100.0
+961,cat__ip_address_165.71.109.230,0.0,1.0,100.0
+962,cat__ip_address_166.103.248.193,0.0,1.0,100.0
+963,cat__ip_address_166.114.208.33,0.0,1.0,100.0
+964,cat__ip_address_166.210.241.19,0.0,1.0,100.0
+965,cat__ip_address_166.218.132.37,0.0,1.0,100.0
+966,cat__ip_address_166.22.150.151,0.0,1.0,100.0
+958,cat__ip_address_163.40.190.100,0.0,1.0,100.0
+864,cat__ip_address_133.74.50.9,0.0,1.0,100.0
+865,cat__ip_address_134.2.97.168,0.0,1.0,100.0
+866,cat__ip_address_136.248.164.81,0.0,1.0,100.0
+867,cat__ip_address_137.129.193.31,0.0,1.0,100.0
+868,cat__ip_address_137.2.165.185,0.0,1.0,100.0
+869,cat__ip_address_137.74.225.217,0.0,1.0,100.0
+870,cat__ip_address_138.137.2.161,0.0,1.0,100.0
+915,cat__ip_address_150.124.237.131,0.0,1.0,100.0
+872,cat__ip_address_138.51.68.188,0.0,1.0,100.0
+873,cat__ip_address_139.121.168.199,0.0,1.0,100.0
+874,cat__ip_address_139.186.73.7,0.0,1.0,100.0
+875,cat__ip_address_139.68.170.73,0.0,1.0,100.0
+876,cat__ip_address_139.80.45.126,0.0,1.0,100.0
+877,cat__ip_address_139.9.92.209,0.0,1.0,100.0
+878,cat__ip_address_14.26.112.60,0.0,1.0,100.0
+879,cat__ip_address_14.26.85.53,0.0,1.0,100.0
+871,cat__ip_address_138.213.180.225,0.0,1.0,100.0
+846,cat__ip_address_128.217.112.166,0.0,1.0,100.0
+847,cat__ip_address_128.51.156.52,0.0,1.0,100.0
+848,cat__ip_address_129.191.250.89,0.0,1.0,100.0
+849,cat__ip_address_129.197.107.109,0.0,1.0,100.0
+850,cat__ip_address_13.177.30.107,0.0,1.0,100.0
+851,cat__ip_address_130.104.35.200,0.0,1.0,100.0
+852,cat__ip_address_130.162.8.209,0.0,1.0,100.0
+853,cat__ip_address_130.44.32.94,0.0,1.0,100.0
+863,cat__ip_address_133.205.147.174,0.0,1.0,100.0
+855,cat__ip_address_131.100.108.153,0.0,1.0,100.0
+856,cat__ip_address_131.170.248.216,0.0,1.0,100.0
+857,cat__ip_address_131.185.159.31,0.0,1.0,100.0
+858,cat__ip_address_131.29.147.30,0.0,1.0,100.0
+859,cat__ip_address_131.49.192.101,0.0,1.0,100.0
+860,cat__ip_address_131.68.43.186,0.0,1.0,100.0
+861,cat__ip_address_133.134.177.180,0.0,1.0,100.0
+862,cat__ip_address_133.196.62.231,0.0,1.0,100.0
+854,cat__ip_address_130.58.141.165,0.0,1.0,100.0
+899,cat__ip_address_145.200.26.202,0.0,1.0,100.0
+900,cat__ip_address_145.52.152.140,0.0,1.0,100.0
+901,cat__ip_address_145.8.204.195,0.0,1.0,100.0
+902,cat__ip_address_145.94.157.71,0.0,1.0,100.0
+903,cat__ip_address_146.108.94.140,0.0,1.0,100.0
+904,cat__ip_address_146.16.112.170,0.0,1.0,100.0
+905,cat__ip_address_146.229.233.253,0.0,1.0,100.0
+880,cat__ip_address_14.42.100.247,0.0,1.0,100.0
+907,cat__ip_address_147.115.23.220,0.0,1.0,100.0
+908,cat__ip_address_147.172.127.39,0.0,1.0,100.0
+909,cat__ip_address_147.173.186.30,0.0,1.0,100.0
+910,cat__ip_address_148.2.67.45,0.0,1.0,100.0
+911,cat__ip_address_148.34.145.219,0.0,1.0,100.0
+912,cat__ip_address_149.149.104.197,0.0,1.0,100.0
+913,cat__ip_address_15.63.23.237,0.0,1.0,100.0
+914,cat__ip_address_150.103.137.130,0.0,1.0,100.0
+906,cat__ip_address_146.45.97.168,0.0,1.0,100.0
+881,cat__ip_address_140.138.104.24,0.0,1.0,100.0
+882,cat__ip_address_140.195.204.63,0.0,1.0,100.0
+883,cat__ip_address_140.204.5.254,0.0,1.0,100.0
+884,cat__ip_address_141.128.234.54,0.0,1.0,100.0
+885,cat__ip_address_141.134.96.180,0.0,1.0,100.0
+886,cat__ip_address_141.92.19.201,0.0,1.0,100.0
+887,cat__ip_address_142.185.237.187,0.0,1.0,100.0
+888,cat__ip_address_142.206.234.183,0.0,1.0,100.0
+898,cat__ip_address_145.169.9.46,0.0,1.0,100.0
+890,cat__ip_address_142.67.140.229,0.0,1.0,100.0
+891,cat__ip_address_144.110.246.119,0.0,1.0,100.0
+892,cat__ip_address_144.143.124.65,0.0,1.0,100.0
+893,cat__ip_address_144.178.228.238,0.0,1.0,100.0
+894,cat__ip_address_145.124.198.63,0.0,1.0,100.0
+895,cat__ip_address_145.146.94.207,0.0,1.0,100.0
+896,cat__ip_address_145.16.39.193,0.0,1.0,100.0
+897,cat__ip_address_145.169.224.248,0.0,1.0,100.0
+889,cat__ip_address_142.224.143.37,0.0,1.0,100.0
+1074,cat__ip_address_2.81.64.202,0.0,1.0,100.0
+1075,cat__ip_address_20.128.117.131,0.0,1.0,100.0
+1076,cat__ip_address_20.147.96.31,0.0,1.0,100.0
+1077,cat__ip_address_20.186.186.26,0.0,1.0,100.0
+1078,cat__ip_address_20.61.89.252,0.0,1.0,100.0
+1079,cat__ip_address_200.118.145.191,0.0,1.0,100.0
+1080,cat__ip_address_200.224.69.188,0.0,1.0,100.0
+984,cat__ip_address_172.89.207.139,0.0,1.0,100.0
+1082,cat__ip_address_200.241.177.7,0.0,1.0,100.0
+1083,cat__ip_address_200.68.213.134,0.0,1.0,100.0
+1084,cat__ip_address_201.122.233.241,0.0,1.0,100.0
+1085,cat__ip_address_201.180.244.42,0.0,1.0,100.0
+1086,cat__ip_address_201.211.185.67,0.0,1.0,100.0
+1087,cat__ip_address_201.76.53.193,0.0,1.0,100.0
+1088,cat__ip_address_201.85.145.251,0.0,1.0,100.0
+1089,cat__ip_address_202.130.41.107,0.0,1.0,100.0
+1081,cat__ip_address_200.236.234.46,0.0,1.0,100.0
+1057,cat__ip_address_196.234.47.243,0.0,1.0,100.0
+1058,cat__ip_address_196.41.126.202,0.0,1.0,100.0
+1059,cat__ip_address_197.175.3.122,0.0,1.0,100.0
+1060,cat__ip_address_197.47.160.169,0.0,1.0,100.0
+1061,cat__ip_address_197.60.233.220,0.0,1.0,100.0
+1062,cat__ip_address_197.98.90.151,0.0,1.0,100.0
+1063,cat__ip_address_198.137.160.13,0.0,1.0,100.0
+1073,cat__ip_address_2.242.79.114,0.0,1.0,100.0
+1065,cat__ip_address_198.248.146.9,0.0,1.0,100.0
+1066,cat__ip_address_199.181.102.189,0.0,1.0,100.0
+1067,cat__ip_address_199.209.193.224,0.0,1.0,100.0
+1068,cat__ip_address_199.210.45.164,0.0,1.0,100.0
+1069,cat__ip_address_199.217.188.24,0.0,1.0,100.0
+1070,cat__ip_address_199.55.222.176,0.0,1.0,100.0
+1071,cat__ip_address_2.136.189.13,0.0,1.0,100.0
+1072,cat__ip_address_2.182.191.203,0.0,1.0,100.0
+1064,cat__ip_address_198.197.127.141,0.0,1.0,100.0
+1109,cat__ip_address_209.173.181.205,0.0,1.0,100.0
+1110,cat__ip_address_209.45.224.11,0.0,1.0,100.0
+1111,cat__ip_address_21.118.114.206,0.0,1.0,100.0
+1112,cat__ip_address_210.223.89.125,0.0,1.0,100.0
+1113,cat__ip_address_211.105.190.125,0.0,1.0,100.0
+1114,cat__ip_address_211.15.132.203,0.0,1.0,100.0
+1115,cat__ip_address_211.38.121.238,0.0,1.0,100.0
+1090,cat__ip_address_202.222.148.167,0.0,1.0,100.0
+1117,cat__ip_address_212.24.203.155,0.0,1.0,100.0
+2221,cat__device_id_iPhone_9804,0.0,1.0,100.0
+1119,cat__ip_address_212.83.69.187,0.0,1.0,100.0
+1120,cat__ip_address_213.144.235.150,0.0,1.0,100.0
+1121,cat__ip_address_213.200.252.57,0.0,1.0,100.0
+1122,cat__ip_address_213.64.195.216,0.0,1.0,100.0
+1123,cat__ip_address_214.167.175.165,0.0,1.0,100.0
+1124,cat__ip_address_214.218.100.174,0.0,1.0,100.0
+1116,cat__ip_address_211.73.243.22,0.0,1.0,100.0
+1091,cat__ip_address_202.250.176.81,0.0,1.0,100.0
+1092,cat__ip_address_202.87.206.141,0.0,1.0,100.0
+1093,cat__ip_address_203.124.228.155,0.0,1.0,100.0
+1094,cat__ip_address_203.93.100.121,0.0,1.0,100.0
+1095,cat__ip_address_204.105.173.128,0.0,1.0,100.0
+1096,cat__ip_address_204.205.179.74,0.0,1.0,100.0
+1097,cat__ip_address_204.222.187.166,0.0,1.0,100.0
+1098,cat__ip_address_205.218.140.76,0.0,1.0,100.0
+1108,cat__ip_address_208.85.32.11,0.0,1.0,100.0
+1100,cat__ip_address_206.217.223.83,0.0,1.0,100.0
+1101,cat__ip_address_206.221.85.113,0.0,1.0,100.0
+1102,cat__ip_address_207.40.138.84,0.0,1.0,100.0
+1103,cat__ip_address_208.104.5.59,0.0,1.0,100.0
+1104,cat__ip_address_208.154.104.170,0.0,1.0,100.0
+1105,cat__ip_address_208.182.30.6,0.0,1.0,100.0
+1106,cat__ip_address_208.226.249.127,0.0,1.0,100.0
+1107,cat__ip_address_208.248.157.57,0.0,1.0,100.0
+1099,cat__ip_address_206.101.180.213,0.0,1.0,100.0
+1003,cat__ip_address_178.163.126.248,0.0,1.0,100.0
+1004,cat__ip_address_178.171.13.238,0.0,1.0,100.0
+1005,cat__ip_address_178.236.166.239,0.0,1.0,100.0
+1006,cat__ip_address_179.136.110.59,0.0,1.0,100.0
+1007,cat__ip_address_179.155.11.56,0.0,1.0,100.0
+1008,cat__ip_address_179.171.25.22,0.0,1.0,100.0
+1009,cat__ip_address_179.176.26.249,0.0,1.0,100.0
+1056,cat__ip_address_195.199.44.148,0.0,1.0,100.0
+1011,cat__ip_address_18.210.218.204,0.0,1.0,100.0
+1012,cat__ip_address_18.225.120.222,0.0,1.0,100.0
+1013,cat__ip_address_180.230.96.118,0.0,1.0,100.0
+1014,cat__ip_address_180.3.42.128,0.0,1.0,100.0
+1015,cat__ip_address_181.180.91.243,0.0,1.0,100.0
+1016,cat__ip_address_181.55.53.72,0.0,1.0,100.0
+1017,cat__ip_address_181.75.75.147,0.0,1.0,100.0
+1018,cat__ip_address_182.255.147.209,0.0,1.0,100.0
+1010,cat__ip_address_179.88.210.31,0.0,1.0,100.0
+985,cat__ip_address_172.92.130.77,0.0,1.0,100.0
+986,cat__ip_address_173.123.123.54,0.0,1.0,100.0
+987,cat__ip_address_173.190.144.222,0.0,1.0,100.0
+988,cat__ip_address_173.192.229.216,0.0,1.0,100.0
+989,cat__ip_address_174.101.126.37,0.0,1.0,100.0
+990,cat__ip_address_174.134.212.160,0.0,1.0,100.0
+991,cat__ip_address_174.167.111.134,0.0,1.0,100.0
+992,cat__ip_address_174.2.161.188,0.0,1.0,100.0
+1002,cat__ip_address_178.149.45.188,0.0,1.0,100.0
+994,cat__ip_address_174.228.235.248,0.0,1.0,100.0
+995,cat__ip_address_174.77.67.210,0.0,1.0,100.0
+996,cat__ip_address_175.112.52.211,0.0,1.0,100.0
+997,cat__ip_address_175.196.13.12,0.0,1.0,100.0
+998,cat__ip_address_176.28.124.17,0.0,1.0,100.0
+999,cat__ip_address_176.88.237.117,0.0,1.0,100.0
+1000,cat__ip_address_177.239.124.85,0.0,1.0,100.0
+1001,cat__ip_address_178.114.248.97,0.0,1.0,100.0
+993,cat__ip_address_174.205.43.239,0.0,1.0,100.0
+1038,cat__ip_address_19.129.76.88,0.0,1.0,100.0
+1039,cat__ip_address_190.168.108.58,0.0,1.0,100.0
+1040,cat__ip_address_191.185.105.28,0.0,1.0,100.0
+1041,cat__ip_address_191.224.79.108,0.0,1.0,100.0
+1043,cat__ip_address_192.141.64.25,0.0,1.0,100.0
+1044,cat__ip_address_192.176.40.7,0.0,1.0,100.0
+1045,cat__ip_address_192.190.232.186,0.0,1.0,100.0
+1019,cat__ip_address_182.30.195.91,0.0,1.0,100.0
+1048,cat__ip_address_193.181.208.204,0.0,1.0,100.0
+1049,cat__ip_address_193.211.183.211,0.0,1.0,100.0
+1050,cat__ip_address_194.107.12.238,0.0,1.0,100.0
+1051,cat__ip_address_194.132.36.115,0.0,1.0,100.0
+1052,cat__ip_address_194.87.247.199,0.0,1.0,100.0
+1053,cat__ip_address_195.125.60.17,0.0,1.0,100.0
+1054,cat__ip_address_195.169.97.218,0.0,1.0,100.0
+1055,cat__ip_address_195.176.58.42,0.0,1.0,100.0
+1047,cat__ip_address_193.126.83.62,0.0,1.0,100.0
+1020,cat__ip_address_182.82.135.57,0.0,1.0,100.0
+1021,cat__ip_address_183.167.203.10,0.0,1.0,100.0
+1022,cat__ip_address_183.19.22.69,0.0,1.0,100.0
+1023,cat__ip_address_183.250.148.161,0.0,1.0,100.0
+1024,cat__ip_address_184.47.200.21,0.0,1.0,100.0
+1025,cat__ip_address_185.1.13.99,0.0,1.0,100.0
+1026,cat__ip_address_185.82.70.212,0.0,1.0,100.0
+1027,cat__ip_address_186.102.128.8,0.0,1.0,100.0
+1037,cat__ip_address_189.84.82.116,0.0,1.0,100.0
+1029,cat__ip_address_187.245.217.62,0.0,1.0,100.0
+1030,cat__ip_address_187.250.229.34,0.0,1.0,100.0
+1031,cat__ip_address_187.64.124.89,0.0,1.0,100.0
+1032,cat__ip_address_188.24.96.209,0.0,1.0,100.0
+1033,cat__ip_address_188.249.118.163,0.0,1.0,100.0
+1034,cat__ip_address_189.132.31.97,0.0,1.0,100.0
+1035,cat__ip_address_189.181.18.236,0.0,1.0,100.0
+1036,cat__ip_address_189.187.79.27,0.0,1.0,100.0
+1028,cat__ip_address_186.145.58.251,0.0,1.0,100.0
+653,"cat__shipping_address_881 State St, Houston",0.0,1.0,100.0
+654,"cat__shipping_address_882 Main St, New York",0.0,1.0,100.0
+655,"cat__shipping_address_883 Broadway, Phoenix",0.0,1.0,100.0
+656,"cat__shipping_address_885 Main St, New York",0.0,1.0,100.0
+657,"cat__shipping_address_886 Main St, Chicago",0.0,1.0,100.0
+658,"cat__shipping_address_888 Market St, Los Angeles",0.0,1.0,100.0
+659,"cat__shipping_address_891 Broadway, Chicago",0.0,1.0,100.0
+845,cat__ip_address_128.164.153.19,0.0,1.0,100.0
+661,"cat__shipping_address_891 Market St, Houston",0.0,1.0,100.0
+662,"cat__shipping_address_892 Broadway, Chicago",0.0,1.0,100.0
+663,"cat__shipping_address_892 Market St, Phoenix",0.0,1.0,100.0
+664,"cat__shipping_address_892 Park Ave, New York",0.0,1.0,100.0
+665,"cat__shipping_address_894 Broadway, New York",0.0,1.0,100.0
+666,"cat__shipping_address_894 State St, Houston",0.0,1.0,100.0
+667,"cat__shipping_address_899 Broadway, Los Angeles",0.0,1.0,100.0
+668,"cat__shipping_address_9 State St, New York",0.0,1.0,100.0
+660,"cat__shipping_address_891 Main St, Houston",0.0,1.0,100.0
+636,"cat__shipping_address_866 Broadway, Los Angeles",0.0,1.0,100.0
+637,"cat__shipping_address_866 State St, Chicago",0.0,1.0,100.0
+638,"cat__shipping_address_867 Main St, Chicago",0.0,1.0,100.0
+639,"cat__shipping_address_868 Broadway, New York",0.0,1.0,100.0
+640,"cat__shipping_address_868 Main St, Chicago",0.0,1.0,100.0
+641,"cat__shipping_address_868 Main St, Houston",0.0,1.0,100.0
+642,"cat__shipping_address_872 Main St, Chicago",0.0,1.0,100.0
+652,"cat__shipping_address_88 Park Ave, New York",0.0,1.0,100.0
+644,"cat__shipping_address_872 Park Ave, New York",0.0,1.0,100.0
+645,"cat__shipping_address_872 State St, Houston",0.0,1.0,100.0
+646,"cat__shipping_address_873 Broadway, Phoenix",0.0,1.0,100.0
+647,"cat__shipping_address_874 Main St, Houston",0.0,1.0,100.0
+648,"cat__shipping_address_874 State St, Los Angeles",0.0,1.0,100.0
+649,"cat__shipping_address_876 Broadway, New York",0.0,1.0,100.0
+650,"cat__shipping_address_878 State St, Houston",0.0,1.0,100.0
+651,"cat__shipping_address_879 Park Ave, Houston",0.0,1.0,100.0
+643,"cat__shipping_address_872 Park Ave, Los Angeles",0.0,1.0,100.0
+688,"cat__shipping_address_928 Main St, New York",0.0,1.0,100.0
+689,"cat__shipping_address_93 Broadway, Chicago",0.0,1.0,100.0
+690,"cat__shipping_address_93 Market St, New York",0.0,1.0,100.0
+691,"cat__shipping_address_930 Main St, Phoenix",0.0,1.0,100.0
+692,"cat__shipping_address_932 Broadway, Houston",0.0,1.0,100.0
+693,"cat__shipping_address_933 State St, Houston",0.0,1.0,100.0
+694,"cat__shipping_address_937 Main St, Phoenix",0.0,1.0,100.0
+669,"cat__shipping_address_901 Broadway, Houston",0.0,1.0,100.0
+696,"cat__shipping_address_939 Broadway, Los Angeles",0.0,1.0,100.0
+697,"cat__shipping_address_94 Park Ave, Phoenix",0.0,1.0,100.0
+698,"cat__shipping_address_940 Broadway, Houston",0.0,1.0,100.0
+699,"cat__shipping_address_940 Main St, Houston",0.0,1.0,100.0
+700,"cat__shipping_address_940 State St, New York",0.0,1.0,100.0
+701,"cat__shipping_address_944 Broadway, Chicago",0.0,1.0,100.0
+702,"cat__shipping_address_944 State St, Phoenix",0.0,1.0,100.0
+703,"cat__shipping_address_947 State St, Chicago",0.0,1.0,100.0
+695,"cat__shipping_address_937 Park Ave, Chicago",0.0,1.0,100.0
+670,"cat__shipping_address_901 Park Ave, Chicago",0.0,1.0,100.0
+671,"cat__shipping_address_901 Park Ave, Houston",0.0,1.0,100.0
+672,"cat__shipping_address_902 Market St, New York",0.0,1.0,100.0
+673,"cat__shipping_address_904 Park Ave, New York",0.0,1.0,100.0
+674,"cat__shipping_address_906 Market St, Los Angeles",0.0,1.0,100.0
+675,"cat__shipping_address_911 Market St, Chicago",0.0,1.0,100.0
+676,"cat__shipping_address_911 Market St, Houston",0.0,1.0,100.0
+677,"cat__shipping_address_917 Market St, Chicago",0.0,1.0,100.0
+687,"cat__shipping_address_928 Broadway, Chicago",0.0,1.0,100.0
+679,"cat__shipping_address_920 Park Ave, Houston",0.0,1.0,100.0
+680,"cat__shipping_address_920 State St, Houston",0.0,1.0,100.0
+681,"cat__shipping_address_921 Main St, Chicago",0.0,1.0,100.0
+682,"cat__shipping_address_921 Market St, Chicago",0.0,1.0,100.0
+683,"cat__shipping_address_922 State St, Houston",0.0,1.0,100.0
+684,"cat__shipping_address_924 Broadway, New York",0.0,1.0,100.0
+685,"cat__shipping_address_925 Main St, Los Angeles",0.0,1.0,100.0
+686,"cat__shipping_address_927 State St, New York",0.0,1.0,100.0
+678,"cat__shipping_address_919 Park Ave, Houston",0.0,1.0,100.0
+584,"cat__shipping_address_788 Broadway, New York",0.0,1.0,100.0
+585,"cat__shipping_address_788 Park Ave, Houston",0.0,1.0,100.0
+586,"cat__shipping_address_790 Park Ave, Chicago",0.0,1.0,100.0
+587,"cat__shipping_address_80 Broadway, New York",0.0,1.0,100.0
+588,"cat__shipping_address_802 Main St, Chicago",0.0,1.0,100.0
+589,"cat__shipping_address_802 Market St, Los Angeles",0.0,1.0,100.0
+590,"cat__shipping_address_804 Market St, Houston",0.0,1.0,100.0
+635,"cat__shipping_address_862 State St, Phoenix",0.0,1.0,100.0
+592,"cat__shipping_address_807 State St, Los Angeles",0.0,1.0,100.0
+593,"cat__shipping_address_808 Main St, Chicago",0.0,1.0,100.0
+594,"cat__shipping_address_808 Market St, New York",0.0,1.0,100.0
+595,"cat__shipping_address_81 Market St, Phoenix",0.0,1.0,100.0
+596,"cat__shipping_address_81 State St, Chicago",0.0,1.0,100.0
+597,"cat__shipping_address_810 Market St, New York",0.0,1.0,100.0
+598,"cat__shipping_address_811 Park Ave, Los Angeles",0.0,1.0,100.0
+599,"cat__shipping_address_811 Park Ave, New York",0.0,1.0,100.0
+591,"cat__shipping_address_806 Broadway, Los Angeles",0.0,1.0,100.0
+566,"cat__shipping_address_765 Market St, Los Angeles",0.0,1.0,100.0
+567,"cat__shipping_address_765 Park Ave, New York",0.0,1.0,100.0
+568,"cat__shipping_address_765 State St, Los Angeles",0.0,1.0,100.0
+569,"cat__shipping_address_766 Broadway, New York",0.0,1.0,100.0
+570,"cat__shipping_address_766 Market St, Los Angeles",0.0,1.0,100.0
+571,"cat__shipping_address_769 Market St, Phoenix",0.0,1.0,100.0
+572,"cat__shipping_address_77 Park Ave, New York",0.0,1.0,100.0
+573,"cat__shipping_address_773 Main St, Los Angeles",0.0,1.0,100.0
+583,"cat__shipping_address_785 Main St, Los Angeles",0.0,1.0,100.0
+575,"cat__shipping_address_773 State St, Phoenix",0.0,1.0,100.0
+576,"cat__shipping_address_774 Main St, New York",0.0,1.0,100.0
+577,"cat__shipping_address_774 Park Ave, Chicago",0.0,1.0,100.0
+578,"cat__shipping_address_779 Main St, Los Angeles",0.0,1.0,100.0
+579,"cat__shipping_address_782 Market St, Houston",0.0,1.0,100.0
+580,"cat__shipping_address_782 Park Ave, Houston",0.0,1.0,100.0
+581,"cat__shipping_address_782 State St, Houston",0.0,1.0,100.0
+582,"cat__shipping_address_783 Main St, Houston",0.0,1.0,100.0
+574,"cat__shipping_address_773 Park Ave, Houston",0.0,1.0,100.0
+619,"cat__shipping_address_846 State St, Phoenix",0.0,1.0,100.0
+620,"cat__shipping_address_847 Park Ave, New York",0.0,1.0,100.0
+621,"cat__shipping_address_850 Market St, Chicago",0.0,1.0,100.0
+622,"cat__shipping_address_850 State St, Chicago",0.0,1.0,100.0
+623,"cat__shipping_address_851 Market St, New York",0.0,1.0,100.0
+624,"cat__shipping_address_851 State St, Houston",0.0,1.0,100.0
+625,"cat__shipping_address_852 State St, Los Angeles",0.0,1.0,100.0
+600,"cat__shipping_address_812 Main St, New York",0.0,1.0,100.0
+627,"cat__shipping_address_855 Main St, Houston",0.0,1.0,100.0
+628,"cat__shipping_address_855 Main St, New York",0.0,1.0,100.0
+629,"cat__shipping_address_855 Market St, Houston",0.0,1.0,100.0
+630,"cat__shipping_address_857 Market St, Houston",0.0,1.0,100.0
+631,"cat__shipping_address_86 Park Ave, Chicago",0.0,1.0,100.0
+632,"cat__shipping_address_861 Broadway, Phoenix",0.0,1.0,100.0
+633,"cat__shipping_address_861 Market St, Los Angeles",0.0,1.0,100.0
+634,"cat__shipping_address_862 Main St, Houston",0.0,1.0,100.0
+626,"cat__shipping_address_853 Park Ave, Chicago",0.0,1.0,100.0
+601,"cat__shipping_address_812 Park Ave, Los Angeles",0.0,1.0,100.0
+602,"cat__shipping_address_813 Broadway, Phoenix",0.0,1.0,100.0
+603,"cat__shipping_address_82 Broadway, Chicago",0.0,1.0,100.0
+604,"cat__shipping_address_820 Park Ave, Houston",0.0,1.0,100.0
+605,"cat__shipping_address_821 State St, Houston",0.0,1.0,100.0
+606,"cat__shipping_address_821 State St, Los Angeles",0.0,1.0,100.0
+607,"cat__shipping_address_822 Park Ave, Los Angeles",0.0,1.0,100.0
+608,"cat__shipping_address_828 State St, Houston",0.0,1.0,100.0
+618,"cat__shipping_address_845 Main St, Phoenix",0.0,1.0,100.0
+610,"cat__shipping_address_83 State St, Los Angeles",0.0,1.0,100.0
+611,"cat__shipping_address_83 State St, New York",0.0,1.0,100.0
+612,"cat__shipping_address_833 Market St, Los Angeles",0.0,1.0,100.0
+613,"cat__shipping_address_833 Park Ave, Phoenix",0.0,1.0,100.0
+614,"cat__shipping_address_834 Broadway, Phoenix",0.0,1.0,100.0
+615,"cat__shipping_address_835 State St, Houston",0.0,1.0,100.0
+616,"cat__shipping_address_836 State St, Chicago",0.0,1.0,100.0
+617,"cat__shipping_address_841 Main St, Chicago",0.0,1.0,100.0
+609,"cat__shipping_address_828 State St, New York",0.0,1.0,100.0
+794,cat__ip_address_108.251.156.235,0.0,1.0,100.0
+795,cat__ip_address_108.95.224.12,0.0,1.0,100.0
+796,cat__ip_address_109.203.97.19,0.0,1.0,100.0
+797,cat__ip_address_109.207.4.134,0.0,1.0,100.0
+798,cat__ip_address_109.214.27.53,0.0,1.0,100.0
+799,cat__ip_address_109.27.189.213,0.0,1.0,100.0
+800,cat__ip_address_109.35.66.123,0.0,1.0,100.0
+704,"cat__shipping_address_948 Park Ave, Los Angeles",0.0,1.0,100.0
+802,cat__ip_address_11.110.72.143,0.0,1.0,100.0
+803,cat__ip_address_11.252.167.83,0.0,1.0,100.0
+804,cat__ip_address_110.167.150.65,0.0,1.0,100.0
+805,cat__ip_address_111.102.8.189,0.0,1.0,100.0
+806,cat__ip_address_111.242.168.43,0.0,1.0,100.0
+807,cat__ip_address_111.48.175.150,0.0,1.0,100.0
+808,cat__ip_address_112.30.117.157,0.0,1.0,100.0
+809,cat__ip_address_112.71.108.77,0.0,1.0,100.0
+801,cat__ip_address_11.109.21.253,0.0,1.0,100.0
+776,cat__ip_address_101.94.30.239,0.0,1.0,100.0
+777,cat__ip_address_102.150.27.2,0.0,1.0,100.0
+778,cat__ip_address_102.211.170.8,0.0,1.0,100.0
+779,cat__ip_address_102.232.219.183,0.0,1.0,100.0
+780,cat__ip_address_102.238.20.77,0.0,1.0,100.0
+781,cat__ip_address_102.247.88.249,0.0,1.0,100.0
+782,cat__ip_address_102.249.199.84,0.0,1.0,100.0
+783,cat__ip_address_103.247.117.70,0.0,1.0,100.0
+793,cat__ip_address_108.213.231.27,0.0,1.0,100.0
+785,cat__ip_address_105.31.138.92,0.0,1.0,100.0
+786,cat__ip_address_105.93.28.40,0.0,1.0,100.0
+787,cat__ip_address_106.249.194.151,0.0,1.0,100.0
+788,cat__ip_address_107.155.166.23,0.0,1.0,100.0
+789,cat__ip_address_107.236.247.22,0.0,1.0,100.0
+790,cat__ip_address_107.39.38.146,0.0,1.0,100.0
+791,cat__ip_address_107.97.116.20,0.0,1.0,100.0
+792,cat__ip_address_108.140.10.203,0.0,1.0,100.0
+784,cat__ip_address_104.219.116.143,0.0,1.0,100.0
+829,cat__ip_address_121.126.230.170,0.0,1.0,100.0
+830,cat__ip_address_121.136.92.197,0.0,1.0,100.0
+831,cat__ip_address_122.41.137.57,0.0,1.0,100.0
+832,cat__ip_address_123.1.85.235,0.0,1.0,100.0
+833,cat__ip_address_123.140.201.125,0.0,1.0,100.0
+834,cat__ip_address_123.52.25.7,0.0,1.0,100.0
+835,cat__ip_address_124.201.20.93,0.0,1.0,100.0
+810,cat__ip_address_113.140.56.254,0.0,1.0,100.0
+837,cat__ip_address_124.236.125.29,0.0,1.0,100.0
+838,cat__ip_address_124.90.122.25,0.0,1.0,100.0
+839,cat__ip_address_125.244.85.92,0.0,1.0,100.0
+840,cat__ip_address_125.35.50.209,0.0,1.0,100.0
+841,cat__ip_address_126.40.14.93,0.0,1.0,100.0
+842,cat__ip_address_126.92.193.49,0.0,1.0,100.0
+843,cat__ip_address_127.113.3.52,0.0,1.0,100.0
+844,cat__ip_address_127.38.17.43,0.0,1.0,100.0
+836,cat__ip_address_124.206.146.174,0.0,1.0,100.0
+811,cat__ip_address_113.222.255.31,0.0,1.0,100.0
+812,cat__ip_address_113.43.59.20,0.0,1.0,100.0
+813,cat__ip_address_113.47.157.98,0.0,1.0,100.0
+814,cat__ip_address_114.126.43.22,0.0,1.0,100.0
+815,cat__ip_address_114.213.58.234,0.0,1.0,100.0
+816,cat__ip_address_115.125.12.76,0.0,1.0,100.0
+817,cat__ip_address_115.143.143.132,0.0,1.0,100.0
+818,cat__ip_address_115.254.154.123,0.0,1.0,100.0
+828,cat__ip_address_120.182.240.40,0.0,1.0,100.0
+820,cat__ip_address_117.254.251.76,0.0,1.0,100.0
+821,cat__ip_address_118.169.151.245,0.0,1.0,100.0
+822,cat__ip_address_118.5.32.238,0.0,1.0,100.0
+823,cat__ip_address_119.166.141.19,0.0,1.0,100.0
+824,cat__ip_address_119.27.206.204,0.0,1.0,100.0
+825,cat__ip_address_12.220.221.4,0.0,1.0,100.0
+826,cat__ip_address_12.237.20.176,0.0,1.0,100.0
+827,cat__ip_address_12.68.113.120,0.0,1.0,100.0
+819,cat__ip_address_116.27.158.223,0.0,1.0,100.0
+723,"cat__shipping_address_970 Park Ave, Houston",0.0,1.0,100.0
+724,"cat__shipping_address_971 Park Ave, Houston",0.0,1.0,100.0
+725,"cat__shipping_address_971 Park Ave, Los Angeles",0.0,1.0,100.0
+726,"cat__shipping_address_971 Park Ave, New York",0.0,1.0,100.0
+727,"cat__shipping_address_971 State St, Chicago",0.0,1.0,100.0
+728,"cat__shipping_address_972 Broadway, Chicago",0.0,1.0,100.0
+729,"cat__shipping_address_973 Market St, Phoenix",0.0,1.0,100.0
+775,cat__ip_address_101.151.163.196,0.0,1.0,100.0
+731,"cat__shipping_address_975 Market St, Houston",0.0,1.0,100.0
+732,"cat__shipping_address_977 Park Ave, Houston",0.0,1.0,100.0
+733,"cat__shipping_address_977 State St, New York",0.0,1.0,100.0
+734,"cat__shipping_address_977 State St, Phoenix",0.0,1.0,100.0
+735,"cat__shipping_address_978 Main St, Houston",0.0,1.0,100.0
+736,"cat__shipping_address_978 Park Ave, Chicago",0.0,1.0,100.0
+737,"cat__shipping_address_980 Main St, Los Angeles",0.0,1.0,100.0
+738,"cat__shipping_address_980 State St, Phoenix",0.0,1.0,100.0
+730,"cat__shipping_address_975 Broadway, Los Angeles",0.0,1.0,100.0
+705,"cat__shipping_address_948 State St, Los Angeles",0.0,1.0,100.0
+706,"cat__shipping_address_950 Broadway, Houston",0.0,1.0,100.0
+707,"cat__shipping_address_954 Main St, Chicago",0.0,1.0,100.0
+708,"cat__shipping_address_955 Main St, Los Angeles",0.0,1.0,100.0
+709,"cat__shipping_address_956 State St, Chicago",0.0,1.0,100.0
+710,"cat__shipping_address_957 Market St, New York",0.0,1.0,100.0
+711,"cat__shipping_address_957 State St, Chicago",0.0,1.0,100.0
+712,"cat__shipping_address_958 Park Ave, Chicago",0.0,1.0,100.0
+722,"cat__shipping_address_970 Main St, New York",0.0,1.0,100.0
+714,"cat__shipping_address_96 Park Ave, Chicago",0.0,1.0,100.0
+715,"cat__shipping_address_964 Market St, New York",0.0,1.0,100.0
+716,"cat__shipping_address_965 Park Ave, New York",0.0,1.0,100.0
+717,"cat__shipping_address_965 State St, Los Angeles",0.0,1.0,100.0
+718,"cat__shipping_address_966 Broadway, Phoenix",0.0,1.0,100.0
+719,"cat__shipping_address_968 Park Ave, Phoenix",0.0,1.0,100.0
+720,"cat__shipping_address_969 Main St, Chicago",0.0,1.0,100.0
+721,"cat__shipping_address_970 Main St, Los Angeles",0.0,1.0,100.0
+713,"cat__shipping_address_96 Market St, Phoenix",0.0,1.0,100.0
+759,"cat__shipping_address_998 State St, Phoenix",0.0,1.0,100.0
+760,"cat__shipping_address_999 Market St, Los Angeles",0.0,1.0,100.0
+761,cat__shipping_address_nan,0.0,1.0,100.0
+762,cat__ip_address_1.110.23.76,0.0,1.0,100.0
+763,cat__ip_address_1.254.246.110,0.0,1.0,100.0
+764,cat__ip_address_1.55.123.20,0.0,1.0,100.0
+765,cat__ip_address_1.88.91.213,0.0,1.0,100.0
+739,"cat__shipping_address_981 Broadway, New York",0.0,1.0,100.0
+767,cat__ip_address_10.143.141.1,0.0,1.0,100.0
+768,cat__ip_address_10.24.15.60,0.0,1.0,100.0
+769,cat__ip_address_100.143.102.142,0.0,1.0,100.0
+770,cat__ip_address_100.189.10.150,0.0,1.0,100.0
+771,cat__ip_address_100.200.22.186,0.0,1.0,100.0
+772,cat__ip_address_100.210.134.108,0.0,1.0,100.0
+773,cat__ip_address_100.48.95.227,0.0,1.0,100.0
+774,cat__ip_address_101.147.141.216,0.0,1.0,100.0
+766,cat__ip_address_10.102.228.226,0.0,1.0,100.0
+740,"cat__shipping_address_981 Park Ave, Chicago",0.0,1.0,100.0
+741,"cat__shipping_address_987 Main St, Los Angeles",0.0,1.0,100.0
+742,"cat__shipping_address_988 Broadway, New York",0.0,1.0,100.0
+743,"cat__shipping_address_988 Main St, Los Angeles",0.0,1.0,100.0
+744,"cat__shipping_address_988 Park Ave, Phoenix",0.0,1.0,100.0
+745,"cat__shipping_address_988 State St, Los Angeles",0.0,1.0,100.0
+746,"cat__shipping_address_989 Broadway, Phoenix",0.0,1.0,100.0
+747,"cat__shipping_address_989 Main St, Chicago",0.0,1.0,100.0
+758,"cat__shipping_address_998 Park Ave, Houston",0.0,1.0,100.0
+749,"cat__shipping_address_990 Broadway, Los Angeles",0.0,1.0,100.0
+750,"cat__shipping_address_990 Park Ave, Los Angeles",0.0,1.0,100.0
+751,"cat__shipping_address_991 State St, Chicago",0.0,1.0,100.0
+753,"cat__shipping_address_993 Main St, Houston",0.0,1.0,100.0
+754,"cat__shipping_address_993 Market St, Phoenix",0.0,1.0,100.0
+755,"cat__shipping_address_995 Main St, New York",0.0,1.0,100.0
+756,"cat__shipping_address_996 Broadway, Houston",0.0,1.0,100.0
+757,"cat__shipping_address_998 Main St, Phoenix",0.0,1.0,100.0
+748,"cat__shipping_address_989 Market St, Los Angeles",0.0,1.0,100.0
