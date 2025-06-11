@@ -1,0 +1,26 @@
+# Configuration for Fraud Detection System
+
+data:
+  raw_data_path: "./data/sample_transactions.csv"
+  processed_data_path: "./data/processed_transactions.csv"
+
+model:
+  model_dir: "./models"
+  xgb_params:
+    n_estimators: 100
+    max_depth: 6
+    learning_rate: 0.1
+    subsample: 0.8
+    colsample_bytree: 0.8
+    random_state: 42
+  lgb_params:
+    n_estimators: 100
+    max_depth: 6
+    learning_rate: 0.1
+    subsample: 0.8
+    colsample_bytree: 0.8
+    random_state: 42
+
+output:
+  plots_dir: "./plots"
+  logs_dir: "./logs"
