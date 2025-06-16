@@ -78,7 +78,38 @@ def generate_transaction_data(n_samples=1000, fraud_rate=0.05):
     df['timestamp'] = pd.to_datetime(df['timestamp'])
     df['prev_timestamp'] = df.groupby('customer_id')['timestamp'].shift(1)
     df['time_since_last_transaction'] = (df['timestamp'] - df['prev_timestamp']).dt.total_seconds().fillna(-1)
-    df['transactions_past_1hr'] = df.groupby('customer_id')['timestamp'].rolling('1h', on='timestamp').count().reset_index(level=0, drop=True) - 1
+    
+    df['timestamp'] = pd.to_datetime(df['timestamp'])
+    df = df.sort_values(['customer_id', 'timestamp'])
+
+    # Compute rolling count and subtract 1 to exclude the current transaction
+    rolling_count = (
+    df.groupby('customer_id')
+      .rolling('1h', on='timestamp')
+      .count()
+      .reset_index()
+    )
+
+    # Extract just the count of timestamps
+    rolling_count = rolling_count[['customer_id', 'level_1', 'timestamp']]  # 'timestamp' here is count
+    rolling_count = rolling_count.rename(columns={'timestamp': 'transactions_past_1hr'})
+
+    # Subtract 1 to exclude the current transaction
+    rolling_count['transactions_past_1hr'] -= 1
+
+    # Merge back into original df
+    df = df.reset_index().merge(
+    rolling_count,
+    left_on=['customer_id', 'index'],
+    right_on=['customer_id', 'level_1'],
+    how='left'
+    ).drop(columns=['level_1'])
+
+    # Clean up
+    df = df.drop(columns=['index'])
+
+    
+    
     df['transactions_past_1hr'] = df['transactions_past_1hr'].fillna(0)
 
     return df
