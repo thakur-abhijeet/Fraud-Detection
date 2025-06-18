@@ -1,0 +1,15 @@
+2025-06-18 13:46:32,756 [INFO] Generated sample data saved to ./data/sample_transactions.csv
+2025-06-18 13:46:32,756 [INFO] Total transactions: 1000
+2025-06-18 13:46:32,756 [INFO] Fraudulent transactions: 50 (5.0%)
+2025-06-18 13:46:32,758 [INFO] Amount statistics:
+count    1000.000000
+mean       66.282512
+std        69.533473
+min        10.000000
+25%        36.791066
+50%        53.282749
+75%        76.798544
+max      1122.631877
+Name: amount, dtype: float64
+2025-06-18 13:46:32,758 [INFO] Payment method distribution:
+Series([], Name: proportion, dtype: float64)
